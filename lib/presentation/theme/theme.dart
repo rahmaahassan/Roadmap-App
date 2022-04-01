@@ -6,7 +6,7 @@ import 'fonts.dart';
 
 class ApplicationTheme {
 
-  static ThemeData get darkTheme {
+  static ThemeData get lightTheme {
     return ThemeData(
         primaryColor: ApplicationColor.primaryColor,
         colorScheme: ThemeData().colorScheme.copyWith(

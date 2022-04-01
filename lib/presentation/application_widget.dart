@@ -18,7 +18,7 @@ class ApplicationWidget extends StatelessWidget {
       splitScreenMode: true,
       builder: () => MaterialApp(
         title: ApplicationTextValue.APP_NAME,
-        theme: ApplicationTheme.darkTheme,
+        theme: ApplicationTheme.lightTheme,
         initialRoute: AppRouter.initialRoute,
         routes: AppRouter.routes,
         useInheritedMediaQuery: true,
@@ -29,9 +29,9 @@ class ApplicationWidget extends StatelessWidget {
           GlobalWidgetsLocalizations.delegate,
         ],
         supportedLocales: const [
-          Locale("ar"),
+          Locale("en"),
         ],
-        locale: const Locale("ar"),
+        locale: const Locale("en"),
       ),
     );
   }

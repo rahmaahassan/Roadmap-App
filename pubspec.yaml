@@ -35,11 +35,19 @@ flutter:
 
   assets:
     - assets/
+    - assets/images/
+    - assets/icons/
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: font/EXTRABOLD.ttf
+          weight: 800
+        - asset: font/BOLD.ttf
+          weight: 700
+        - asset: font/SEMIBOLD.ttf
+          weight: 600
+        - asset: font/REGULAR.ttf
+          weight: 400
+        - asset: font/LIGHT.ttf
+          weight: 300
