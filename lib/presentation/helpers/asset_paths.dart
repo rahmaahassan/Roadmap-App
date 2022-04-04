@@ -7,10 +7,11 @@ class PresentationAssetPath{
   /// ////////////////////////////////////////
 
   /// ///////        photos           ///////
-  /// Start page
-  // static const String VIRUS_IMAGE = "assets/images/virus_image.png";
+  /// onBoarding page
+  static const String ON_BOARDING_PAGE1 = "assets/images/on_boarding_page1.svg";
+  static const String ON_BOARDING_PAGE2 = "assets/images/on_boarding_page2.svg";
+  static const String ON_BOARDING_PAGE3 = "assets/images/on_boarding_page3.svg";
 
   /// ///////        icons           ///////
-
 
 }

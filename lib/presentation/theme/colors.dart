@@ -13,6 +13,9 @@ class ApplicationColor{
   static const Color authIconColor = Color(0xffBFAB88);
   static const Color backArrowColor = Color(0xff134147);
 
+  static const Color onBoardingActiveDotColor = Color(0xffEBF6EB);
+  static const Color onBoardingDotColor = Color(0xff7B8B7A);
+
   // static const Color appbarElevationColor = Color(0xff242B38);
   //
   static const Color scaffoldBackgroundColor = Color(0xff195860);

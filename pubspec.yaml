@@ -18,6 +18,7 @@ dependencies:
   shared_preferences:
   flutter_svg:
   flutter_screenutil:
+  smooth_page_indicator:
 
   cupertino_icons: ^1.0.2
 
