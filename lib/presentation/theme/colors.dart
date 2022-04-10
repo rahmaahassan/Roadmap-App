@@ -22,6 +22,7 @@ class ApplicationColor{
   static const Color authScaffoldBackgroundColor = Color(0xff134147);
 
 
-//   static const Color buttonBorderColor  = Color(0x0000001F);
+  static const Color buttonBorderColor  = Color(0xff417278);
+  static const Color navDisActiveBottom  = Color(0xffAEC4C7);
 
 }

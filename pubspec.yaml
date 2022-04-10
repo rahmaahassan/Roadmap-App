@@ -19,6 +19,10 @@ dependencies:
   flutter_svg:
   flutter_screenutil:
   smooth_page_indicator:
+  cubit:
+  bloc:
+  flutter_bloc:
+  dio:
 
   cupertino_icons: ^1.0.2
 

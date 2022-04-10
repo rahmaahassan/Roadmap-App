@@ -10,7 +10,7 @@ class OnBoardingScreen extends StatelessWidget {
 
   const OnBoardingScreen({Key? key}) : super(key: key);
 
-  void submit() {}
+  void submit() {} /// TODO
 
   @override
   Widget build(BuildContext context) {

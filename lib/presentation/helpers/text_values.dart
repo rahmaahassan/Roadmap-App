@@ -13,6 +13,10 @@ class ApplicationTextValue{
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
   /// ///////    Home Page    //////////////
+  static const String NAVIGATION_BAR_HOME_LABEL = 'Home';
+  static const String NAVIGATION_BAR_SEARCH_LABEL = 'Search';
+  static const String NAVIGATION_BAR_NOTIFICATION_LABEL = 'Notification';
+  static const String NAVIGATION_BAR_PROFILE_LABEL = 'Profile';
 
 
 
