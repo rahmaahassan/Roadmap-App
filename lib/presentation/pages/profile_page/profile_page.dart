@@ -62,7 +62,7 @@ class ProfilePage extends StatelessWidget {
               padding: EdgeInsets.only(left: 28.h),
               child: Row(
                 children: [
-                  Icon(Icons.emoji_people_outlined, color: ApplicationColor.textSubTitleColor,),
+                  const Icon(Icons.emoji_people_outlined, color: ApplicationColor.textSubTitleColor,),
                   SizedBox(width: 21.5.w),
                   TextButton(
                     child: Text(
@@ -85,7 +85,7 @@ class ProfilePage extends StatelessWidget {
               padding: EdgeInsets.only(left: 28.h),
               child: Row(
                 children: [
-                  Icon(Icons.app_settings_alt, color: ApplicationColor.textSubTitleColor,),
+                  const Icon(Icons.app_settings_alt, color: ApplicationColor.textSubTitleColor,),
                   SizedBox(width: 21.5.w),
                   TextButton(
                     child: Text(
@@ -108,7 +108,7 @@ class ProfilePage extends StatelessWidget {
               padding: EdgeInsets.only(left: 28.h),
               child: Row(
                 children: [
-                  Icon(Icons.person, color: ApplicationColor.textSubTitleColor,),
+                 const Icon(Icons.person, color: ApplicationColor.textSubTitleColor,),
                   SizedBox(width: 21.5.w),
                   TextButton(
                     child: Text(
