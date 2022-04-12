@@ -12,7 +12,10 @@ class HomePageBody extends StatelessWidget {
         shadowColor: Colors.white54,
         elevation: 5,
       ),
-      body: Container(),
+      body: Column(
+        children: const [
+        ],
+      ),
     );
   }
 }

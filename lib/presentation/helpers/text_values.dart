@@ -12,12 +12,24 @@ class ApplicationTextValue{
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
-  /// ///////    Home Page    //////////////
+  /// ///////    NavigationBar    //////////////
   static const String NAVIGATION_BAR_HOME_LABEL = 'Home';
   static const String NAVIGATION_BAR_SEARCH_LABEL = 'Search';
   static const String NAVIGATION_BAR_NOTIFICATION_LABEL = 'Notification';
   static const String NAVIGATION_BAR_PROFILE_LABEL = 'Profile';
 
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Home Page    //////////////
+  static const String HEADER_LANGUAGES_TITLE= 'Language';
+  static const String HEADER_WEB_TITLE= 'Web';
 
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Profile Page    //////////////
+  static const String USER_NAME = 'Your Name';
+  static const String ABOUT_STUDENTS = 'About Students';
+  static const String ABOUT_APP = 'About App';
+  static const String LOGIN = 'Login';
 
 }
