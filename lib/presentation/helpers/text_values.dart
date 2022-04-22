@@ -32,4 +32,21 @@ class ApplicationTextValue{
   static const String ABOUT_APP = 'About App';
   static const String LOGIN = 'Login';
 
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Log In Page    //////////////
+  static const String LOGIN_TAB = 'LOG IN';
+  static const String SIGNUP_TAB = 'SIGN UP';
+  static const String LOGIN_HEADER = 'Log In to Account';
+  static const String LOGIN_WITH_GOOGLE = 'Log In with Google';
+  static const String LOGIN_WITH_FACEBOOK = 'Log In with Facebook';
+  static const String FOGOT_PASSWORD = 'Forgot Password?';
+
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Sign Up Page    //////////////
+  static const String SIGNUP_HEADER = 'Create Account';
+  static const String SIGNUP_WITH_GOOGLE = 'Sign Up with Google';
+  static const String SIGNUP_WITH_FACEBOOK = 'Sign Up with Facebook';
+
 }

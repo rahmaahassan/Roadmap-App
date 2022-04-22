@@ -16,7 +16,7 @@ class ApplicationWidget extends StatelessWidget {
       designSize: ApplicationScreenSize.viewPortSize,
       minTextAdapt: true,
       splitScreenMode: true,
-      builder: () => MaterialApp(
+      builder: (BuildContext c) => MaterialApp(
         title: ApplicationTextValue.APP_NAME,
         theme: ApplicationTheme.lightTheme,
         initialRoute: AppRouter.initialRoute,

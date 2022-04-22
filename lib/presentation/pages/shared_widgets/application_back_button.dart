@@ -4,17 +4,18 @@ class ApplicationBackButton extends StatelessWidget {
   final Color boxColor;
   final Color arrowColor;
   final bool showAuthIcon;
+  final Function? onTap;
   const ApplicationBackButton(
       {Key? key,
       required this.boxColor,
       required this.arrowColor,
-      this.showAuthIcon = false})
+      this.showAuthIcon = false, this.onTap})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.pop(context),
+      onTap: () => showAuthIcon ? onTap :  Navigator.pop(context),
       child: Container(
         width: showAuthIcon? 84.w:41.52.w,
         height: showAuthIcon? 84.h:41.52.h,
@@ -24,9 +25,9 @@ class ApplicationBackButton extends StatelessWidget {
         ),
         child: Center(
             child: Icon(
-              Icons.arrow_back_rounded,
+              showAuthIcon ? Icons.arrow_forward_rounded : Icons.arrow_back_rounded ,
               color: arrowColor,
-              size: showAuthIcon ? 25.r : 50.r,
+              size: showAuthIcon ? 35.r : 50.r,
             )
         )
       ),

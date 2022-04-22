@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.road_map_project">
    <application
-        android:label="road_map_project"
+        android:label="roadmap"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
