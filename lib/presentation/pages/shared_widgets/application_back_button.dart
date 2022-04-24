@@ -27,7 +27,7 @@ class ApplicationBackButton extends StatelessWidget {
             child: Icon(
               showAuthIcon ? Icons.arrow_forward_rounded : Icons.arrow_back_rounded ,
               color: arrowColor,
-              size: showAuthIcon ? 35.r : 50.r,
+              size: showAuthIcon ? 35.r : 40.r,
             )
         )
       ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:road_map_project/presentation/pages/authentication/login_page/widgets/widgets.dart';
 import 'package:road_map_project/presentation/pages/authentication/sign_up_page/sign_up_page.dart';
+import 'package:road_map_project/presentation/theme/colors.dart';
 
 import '../../../helpers/presentation_helpers.dart';
 
@@ -17,12 +18,9 @@ class LoginPage extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           elevation: 0,
-          bottom: TabBar(
-            padding: EdgeInsets.all(27.r),
-            indicatorColor: Colors.white,
-            indicatorSize: TabBarIndicatorSize.tab,
-            labelPadding: EdgeInsets.only(right: 46.06.w),
-            tabs: const [
+          bottom: const TabBar(
+            padding: EdgeInsets.only( bottom: 30),
+            tabs: [
               Tab(text: ApplicationTextValue.LOGIN_TAB,),
               Tab(text: ApplicationTextValue.SIGNUP_TAB,)
             ],

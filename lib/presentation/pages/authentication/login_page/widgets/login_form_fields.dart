@@ -68,7 +68,7 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
                         width: 342.w,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(4.r),
-                            color: ApplicationColor.borderSignupColor),
+                            color: ApplicationColor.borderLoginColor),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -97,7 +97,7 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
                         width: 342.w,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(4.r),
-                            color: ApplicationColor.borderSignupColor),
+                            color: ApplicationColor.borderLoginColor),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [

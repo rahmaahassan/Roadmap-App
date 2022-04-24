@@ -68,7 +68,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         width: 342.w,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(4.r),
-                            color: ApplicationColor.primaryColor),
+                            color: ApplicationColor.borderSignupColor),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -97,7 +97,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         width: 342.w,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(4.r),
-                            color: ApplicationColor.primaryColor),
+                            color: ApplicationColor.borderSignupColor),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [

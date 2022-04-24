@@ -18,7 +18,7 @@ class _LoginPageBodyState extends State<LoginPageBody> {
                 Icon(
                   Icons.person_outlined,
                   color: ApplicationColor.authIconColor,
-                  size: 42.r,
+                  size: 44.r,
                 ),
                 SizedBox(
                   height: 18.h,

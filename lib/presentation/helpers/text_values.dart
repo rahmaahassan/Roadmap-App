@@ -49,4 +49,9 @@ class ApplicationTextValue{
   static const String SIGNUP_WITH_GOOGLE = 'Sign Up with Google';
   static const String SIGNUP_WITH_FACEBOOK = 'Sign Up with Facebook';
 
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Notification Page    //////////////
+  static const String NOTIFICATION_TITLE = 'No Notification !!';
+
 }
