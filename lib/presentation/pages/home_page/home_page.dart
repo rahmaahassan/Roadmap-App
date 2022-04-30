@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../notification_page/notification_page.dart';
 import '../profile_page/profile_page.dart';
 import '../search_page/search_page.dart';
 import '../shared_widgets/navigation_bar_bottom/widgets.dart';
@@ -21,7 +20,6 @@ class _HomePageState extends State<HomePage> {
   List<Widget> screens = const [
     HomePageBody(),
     SearchPage(),
-    NotificationPage(),
     ProfilePage(),
   ];
 

@@ -10,8 +10,10 @@ Widget defaultFormField({
   bool isPassword = false,
   required String label,
   IconData? suffix,
+  IconData? prefix,
   suffixPressed,
   bool isClickable = true,
+  bool isSearch = false,
 }) =>
     TextFormField(
       controller: controller,
@@ -27,7 +29,7 @@ Widget defaultFormField({
         labelText: label,
         labelStyle: const TextStyle(color: ApplicationColor.white),
         focusedBorder: const OutlineInputBorder(
-          borderSide:  BorderSide(
+          borderSide: BorderSide(
             color: Colors.white54,
           ),
         ),
@@ -36,13 +38,20 @@ Widget defaultFormField({
             color: ApplicationColor.white,
           ),
         ),
+        prefixIcon: prefix != null
+            ? IconButton(
+                icon: Icon(prefix),
+                onPressed: () {},
+                color: ApplicationColor.white,
+              )
+            : null,
         suffixIcon: suffix != null
             ? IconButton(
                 onPressed: suffixPressed,
                 icon: Icon(
                   suffix,
                 ),
-          color: ApplicationColor.white,
+                color: ApplicationColor.white,
               )
             : null,
       ),

@@ -54,4 +54,9 @@ class ApplicationTextValue{
   /// ///////    Notification Page    //////////////
   static const String NOTIFICATION_TITLE = 'No Notification !!';
 
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Search Page    //////////////
+  static const String SEARCH_ITEM = 'Embedded system';
+
 }

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "805321170970",
+    "project_id": "roadmap-2587f",
+    "storage_bucket": "roadmap-2587f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805321170970:android:e4eb6911482adfc07ef1a3",
+        "android_client_info": {
+          "package_name": "com.example.road_map_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805321170970-jfvn9a5r87qdicvq9knm7ql6a33j3vt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.road_map_project",
+            "certificate_hash": "b9e57cc6244592d9537b4205555c990a9a01a4b3"
+          }
+        },
+        {
+          "client_id": "805321170970-proqvq3pe2q25n09vtbpe62e9uisnc2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1hIB6PYPEin2GbHbHz8BSWQ2YYBZvtH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805321170970-proqvq3pe2q25n09vtbpe62e9uisnc2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -24,6 +24,7 @@ class ApplicationColor{
 
   static const Color buttonBorderColor  = Color(0xff417278);
   static const Color navDisActiveBottom  = Color(0xffb1b8b9);
+  static const Color searchBorderColor  = Color(0xff719195);
 
   static const Color borderLoginColor  = Color(0xff256168);
   static const Color borderSignupColor  = Color(0xff1f4b51);
