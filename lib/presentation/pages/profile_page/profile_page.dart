@@ -4,10 +4,13 @@ import 'package:road_map_project/presentation/theme/colors.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
 
 import '../../helpers/presentation_helpers.dart';
-import '../shared_widgets/shared_widgets.dart';
+import '../../helpers/shared_widgets.dart';
+import '../about_application_page/about_application_page.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
+
+  final bool _notificationsEnabled = false;
 
   @override
   Widget build(BuildContext context) {
@@ -16,13 +19,6 @@ class ProfilePage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: ApplicationColor.navDisActiveBottom,
           elevation: 0,
-          leading: Padding(
-            padding: EdgeInsets.only(left: 7.24.w),
-            child: const ApplicationBackButton(
-              boxColor: ApplicationColor.scaffoldBackgroundColor,
-              arrowColor: ApplicationColor.textSubTitleColor,
-            ),
-          ),
         ),
         body: Column(
           children: [
@@ -39,13 +35,17 @@ class ProfilePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    SizedBox(width: 44.w,),
+                    SizedBox(
+                      width: 44.w,
+                    ),
                     ApplicationSVG.icon(
                       icon: PresentationAssetPath.PROFILE_AVATAR,
                       height: 70.h,
                       width: 74.w,
                     ),
-                    SizedBox(width: 12.w,),
+                    SizedBox(
+                      width: 12.w,
+                    ),
                     Text(
                       ApplicationTextValue.USER_NAME,
                       style: TextStyle(
@@ -57,71 +57,77 @@ class ProfilePage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 123.h,),
+            SizedBox(
+              height: 123.h,
+            ),
             Padding(
-              padding: EdgeInsets.only(left: 28.h),
-              child: Row(
-                children: [
-                  const Icon(Icons.emoji_people_outlined, color: ApplicationColor.textSubTitleColor,),
-                  SizedBox(width: 21.5.w),
-                  TextButton(
-                    child: Text(
-                      ApplicationTextValue.ABOUT_STUDENTS,
-                      style: TextStyle(
-                          color: ApplicationColor.textSubTitleColor,
-                          fontSize: 26.sp,
-                          fontWeight: ApplicationFont.bold
-                      ),
-                    ),
-                    onPressed: (){
-                      /// TODO
-                    },
-                  )
-                ],
+              padding: EdgeInsets.only(left: 13.h),
+              child: SwitchListTile(
+                title: Text(
+                  ApplicationTextValue.RECEVIED_NOTIFICATION,
+                  style: TextStyle(
+                      color: ApplicationColor.textSubTitleColor,
+                      fontSize: 24.sp,
+                      fontWeight: ApplicationFont.regular),
+                ),
+                value: _notificationsEnabled,
+                onChanged: (bool value) {
+                  // setState(() {
+                  //   _notificationsEnabled = value;
+                  // });
+                },
+                activeColor: ApplicationColor.authIconColor,
+                secondary: const Icon(Icons.notifications_active_rounded,
+                  color: ApplicationColor.textSubTitleColor,
+                ),
               ),
             ),
-            SizedBox(height: 10.h,),
+            SizedBox(
+              height: 10.h,
+            ),
             Padding(
               padding: EdgeInsets.only(left: 28.h),
               child: Row(
                 children: [
-                  const Icon(Icons.app_settings_alt, color: ApplicationColor.textSubTitleColor,),
-                  SizedBox(width: 21.5.w),
+                  const Icon(
+                    Icons.perm_device_information,
+                    color: ApplicationColor.textSubTitleColor,
+                  ),
+                  SizedBox(width: 25.w),
                   TextButton(
                     child: Text(
                       ApplicationTextValue.ABOUT_APP,
                       style: TextStyle(
                           color: ApplicationColor.textSubTitleColor,
-                          fontSize: 26.sp,
-                          fontWeight: ApplicationFont.bold
-                      ),
+                          fontSize: 24.sp,
+                          fontWeight: ApplicationFont.regular),
                     ),
-                    onPressed: (){
-                      /// TODO
-                    },
+                    onPressed: () => onTappedAboutAppBottom(context),
                   )
                 ],
               ),
             ),
-            SizedBox(height: 10.h,),
+            SizedBox(
+              height: 10.h,
+            ),
             Padding(
               padding: EdgeInsets.only(left: 28.h),
               child: Row(
                 children: [
-                 const Icon(Icons.person, color: ApplicationColor.textSubTitleColor,),
-                  SizedBox(width: 21.5.w),
+                  const Icon(
+                    Icons.person,
+                    color: ApplicationColor.textSubTitleColor,
+                  ),
+                  SizedBox(width: 25.w),
                   TextButton(
                     child: Text(
                       ApplicationTextValue.LOGIN,
                       style: TextStyle(
                           color: ApplicationColor.textSubTitleColor,
-                          fontSize: 26.sp,
-                          fontWeight: ApplicationFont.bold
-                      ),
+                          fontSize: 24.sp,
+                          fontWeight: ApplicationFont.regular),
                     ),
-                    onPressed: (){
-                      /// TODO
-                    },
+                    onPressed: onTappedLoginBottom,
                   )
                 ],
               ),
@@ -130,5 +136,13 @@ class ProfilePage extends StatelessWidget {
         ),
       ),
     );
+  }
+
+   void onTappedAboutAppBottom(BuildContext context) {
+     navigateTo(context, const AboutApplicationPage());
+  }
+
+  void onTappedLoginBottom() {
+    /// TODO
   }
 }

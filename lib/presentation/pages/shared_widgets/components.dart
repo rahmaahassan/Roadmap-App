@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of 'shared_widgets.dart';
 
 void navigateTo(context, widget) => Navigator.push(
   context,

@@ -15,7 +15,7 @@ class ApplicationTextValue{
   /// ///////    NavigationBar    //////////////
   static const String NAVIGATION_BAR_HOME_LABEL = 'Home';
   static const String NAVIGATION_BAR_SEARCH_LABEL = 'Search';
-  static const String NAVIGATION_BAR_NOTIFICATION_LABEL = 'Notification';
+  static const String NAVIGATION_BAR_NEWS_LABEL = 'News';
   static const String NAVIGATION_BAR_PROFILE_LABEL = 'Profile';
 
   /// //////////////////////////////////////////
@@ -28,7 +28,7 @@ class ApplicationTextValue{
   /// ////////////////////////////////////////
   /// ///////    Profile Page    //////////////
   static const String USER_NAME = 'Your Name';
-  static const String ABOUT_STUDENTS = 'About Students';
+  static const String RECEVIED_NOTIFICATION = 'Received Notification';
   static const String ABOUT_APP = 'About App';
   static const String LOGIN = 'Login';
 
@@ -58,5 +58,16 @@ class ApplicationTextValue{
   /// ////////////////////////////////////////
   /// ///////    Search Page    //////////////
   static const String SEARCH_ITEM = 'Embedded system';
+
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    News Page    //////////////
+  static const String NEWS_TITLE = 'News';
+
+  /// //////////////////////////////////////////
+  /// /////////////////////////////////////////
+  /// ///    About Application Page    ///////
+  static const String ABOUT_APPLICATION_APPBAR_TITLE = 'About App';
+  static const String ABOUT_APPLICATION_DESCRIPTION = "The system aims to determine the best path and ways to access and provide resources instead of searching for them.\n\n The application will contain a general description of the course, including its advantages and disadvantages, and the labor market's need for it, thus helping the user to make the appropriate decision.\n\n Contracting with accredited and trusted academies and announcing them at the time of launching the courses.\n";
 
 }

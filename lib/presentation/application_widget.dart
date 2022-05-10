@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../application/auth/login/cubit/cubit.dart';
 import 'helpers/presentation_helpers.dart';
 import 'routes/router.dart';
 import 'theme/theme.dart';
@@ -12,26 +14,33 @@ class ApplicationWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ScreenUtilInit(
-      designSize: ApplicationScreenSize.viewPortSize,
-      minTextAdapt: true,
-      splitScreenMode: true,
-      builder: (BuildContext c) => MaterialApp(
-        title: ApplicationTextValue.APP_NAME,
-        theme: ApplicationTheme.lightTheme,
-        initialRoute: AppRouter.initialRoute,
-        routes: AppRouter.routes,
-        useInheritedMediaQuery: true,
-        debugShowCheckedModeBanner: false,
-        localizationsDelegates: const [
-          GlobalCupertinoLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-        ],
-        supportedLocales: const [
-          Locale("en"),
-        ],
-        locale: const Locale("en"),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+          create: (_) => AppLoginCubit(),
+        ),
+      ],
+      child: ScreenUtilInit(
+        designSize: ApplicationScreenSize.viewPortSize,
+        minTextAdapt: true,
+        splitScreenMode: true,
+        builder: (_) => MaterialApp(
+          title: ApplicationTextValue.APP_NAME,
+          theme: ApplicationTheme.lightTheme,
+          initialRoute: AppRouter.initialRoute,
+          routes: AppRouter.routes,
+          useInheritedMediaQuery: true,
+          debugShowCheckedModeBanner: false,
+          localizationsDelegates: const [
+            GlobalCupertinoLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
+          supportedLocales: const [
+            Locale("en"),
+          ],
+          locale: const Locale("en"),
+        ),
       ),
     );
   }

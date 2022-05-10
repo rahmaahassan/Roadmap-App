@@ -1,6 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../infrastructure/dio_helper.dart';
 import 'states.dart';
 
 class SearchCubit extends Cubit<SearchStates> {

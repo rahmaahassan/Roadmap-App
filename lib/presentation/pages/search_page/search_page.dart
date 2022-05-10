@@ -22,14 +22,7 @@ class _SearchPageState extends State<SearchPage> {
     return Scaffold(
         appBar: AppBar(
           elevation: 0,
-          leading: Padding(
-            padding: EdgeInsets.only(left: 8.5.w),
-            child: const ApplicationBackButton(
-              boxColor: ApplicationColor.navDisActiveBottom,
-              arrowColor: ApplicationColor.primaryColor,
-            ),
-          ),
-          actions: const [SearchTextField()],
+          title: const SearchTextField(),
         ),
         body: ListView.builder(
             itemBuilder: (context, index) => Padding(
@@ -38,7 +31,7 @@ class _SearchPageState extends State<SearchPage> {
                       width: 369.w,
                       height: 64.h,
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(30.r),
+                          borderRadius: BorderRadius.circular(25.r),
                           border: Border.all(
                               color: ApplicationColor.navDisActiveBottom)),
                       child: Row(

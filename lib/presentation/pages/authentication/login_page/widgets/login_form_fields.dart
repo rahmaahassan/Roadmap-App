@@ -18,7 +18,7 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (BuildContext context) => AppLoginCubit(),
-      child: BlocConsumer<AppLoginCubit, AppLoginState>(
+      child: BlocConsumer<AppLoginCubit, AppLoginStates>(
           listener: (context, state) {},
           builder: (context, state) {
             return Form(
@@ -80,34 +80,7 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
                               width: 14.h,
                             ),
                             const Text(
-                              ApplicationTextValue.SIGNUP_WITH_GOOGLE,
-                              style: TextStyle(color: ApplicationColor.white),
-                            )
-                          ],
-                        ),
-                      ),
-                    ),
-                    SizedBox(
-                      height: 12.h,
-                    ),
-                    InkWell(
-                      onTap: onTappedLoginWithFacebook,
-                      child: Container(
-                        height: 66.h,
-                        width: 342.w,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(4.r),
-                            color: ApplicationColor.borderLoginColor),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            const FaIcon(FontAwesomeIcons.facebookF,
-                                color: ApplicationColor.white),
-                            SizedBox(
-                              width: 14.h,
-                            ),
-                            const Text(
-                              ApplicationTextValue.SIGNUP_WITH_FACEBOOK,
+                              ApplicationTextValue.LOGIN_WITH_GOOGLE,
                               style: TextStyle(color: ApplicationColor.white),
                             )
                           ],
@@ -123,10 +96,6 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
   }
 
   void onTappedLoginWithGoogle() {
-    /// TODO
-  }
-
-  void onTappedLoginWithFacebook() {
     /// TODO
   }
 }

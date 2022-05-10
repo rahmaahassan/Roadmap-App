@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'states.dart';
 
-class AppSignUpCubit extends Cubit<AppSignUpState> {
+class AppSignUpCubit extends Cubit<AppSignUpStates> {
   AppSignUpCubit() : super(AppSignUpInitialState());
 
   static AppSignUpCubit get(context) => BlocProvider.of(context);

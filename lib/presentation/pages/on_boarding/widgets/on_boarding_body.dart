@@ -25,6 +25,21 @@ class _OnBoardingBodyState extends State<OnBoardingBody> {
 
   bool isLast = false;
 
+  void submit() {
+    // SharedPreferenceUtils.getString(
+    //   'onBoarding',
+    //   true,
+    // ).then((value)
+    // {
+    //   if (value) {
+    //     // navigateAndFinish(
+    //     //   context,
+    //     //   ShopLoginScreen(),
+    //     // );
+    //   }
+    // });
+  } /// TODO
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -51,19 +66,45 @@ class _OnBoardingBodyState extends State<OnBoardingBody> {
               itemCount: boarding.length,
             ),
           ),
-          SmoothPageIndicator(
-            controller: boardController,
-            effect: ExpandingDotsEffect(
-              dotColor: ApplicationColor.onBoardingDotColor,
-              activeDotColor: ApplicationColor.onBoardingActiveDotColor,
-              dotHeight: 25.h,
-              expansionFactor: 1.01.r,
-              dotWidth: 25.w,
-              spacing: 17.w,
-            ),
-            count: boarding.length,
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SmoothPageIndicator(
+                controller: boardController,
+                effect: ExpandingDotsEffect(
+                  dotColor: ApplicationColor.onBoardingDotColor,
+                  activeDotColor: ApplicationColor.onBoardingActiveDotColor,
+                  dotHeight: 15.h,
+                  expansionFactor: 1.01.r,
+                  dotWidth: 15.w,
+                  spacing: 17.w,
+                ),
+                count: boarding.length,
+              ),
+              SizedBox(width: 123.w,),
+              FloatingActionButton(
+                onPressed: () {
+                  if (isLast)
+                  {
+                    submit();
+                  } else {
+                    boardController.nextPage(
+                      duration: const Duration(
+                        milliseconds: 750,
+                      ),
+                      curve: Curves.fastLinearToSlowEaseIn,
+                    );
+                  }
+                },
+                child: const Icon(
+                  Icons.arrow_forward_ios,
+                  color: ApplicationColor.onBoardingActiveDotColor,
+                ),
+                backgroundColor: ApplicationColor.onBoardingDotColor,
+              ),
+            ],
           ),
-          SizedBox(height: 123.h,)
         ],
       ),
     );

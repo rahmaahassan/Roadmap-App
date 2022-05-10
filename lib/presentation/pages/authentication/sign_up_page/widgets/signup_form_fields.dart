@@ -11,6 +11,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
   var formKey = GlobalKey<FormState>();
 
   var emailController = TextEditingController();
+  var nameController = TextEditingController();
 
   var passwordController = TextEditingController();
 
@@ -18,7 +19,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (BuildContext context) => AppSignUpCubit(),
-      child: BlocConsumer<AppSignUpCubit, AppSignUpState>(
+      child: BlocConsumer<AppSignUpCubit, AppSignUpStates>(
           listener: (context, state) {},
           builder: (context, state) {
             return Form(
@@ -28,6 +29,20 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    defaultFormField(
+                      controller: nameController,
+                      type: TextInputType.emailAddress,
+                      validate: (value) {
+                        if (value.isEmpty) {
+                          return 'please enter your name';
+                        }
+                        return null;
+                      },
+                      label: 'Name',
+                    ),
+                    SizedBox(
+                      height: 26.h,
+                    ),
                     defaultFormField(
                       controller: emailController,
                       type: TextInputType.emailAddress,
@@ -87,33 +102,6 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 12.h,
-                    ),
-                    InkWell(
-                      onTap: onTappedSignUpWithFacebook,
-                      child: Container(
-                        height: 66.h,
-                        width: 342.w,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(4.r),
-                            color: ApplicationColor.borderSignupColor),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            const FaIcon(FontAwesomeIcons.facebookF,
-                                color: ApplicationColor.white),
-                            SizedBox(
-                              width: 14.h,
-                            ),
-                            const Text(
-                              ApplicationTextValue.SIGNUP_WITH_FACEBOOK,
-                              style: TextStyle(color: ApplicationColor.white),
-                            )
-                          ],
-                        ),
-                      ),
-                    ),
                   ],
                 ),
               ),
@@ -126,7 +114,4 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
     /// TODO
   }
 
-  void onTappedSignUpWithFacebook() {
-    /// TODO
-  }
 }

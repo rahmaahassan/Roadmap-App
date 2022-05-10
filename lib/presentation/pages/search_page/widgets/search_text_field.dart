@@ -6,14 +6,12 @@ class SearchTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(
-        right: 10.w,
-      ),
+      padding: const EdgeInsets.all(8.0),
       child: Container(
-        width: 340.w,
+        width: 369.w,
         height: 57.h,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(30.r),
+            borderRadius: BorderRadius.circular(25.r),
             color: ApplicationColor.searchBorderColor),
         child: TextField(
           cursorColor: ApplicationColor.white,
