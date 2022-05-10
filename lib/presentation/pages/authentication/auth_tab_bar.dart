@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:road_map_project/presentation/pages/authentication/login_page/widgets/widgets.dart';
 import 'package:road_map_project/presentation/pages/authentication/sign_up_page/sign_up_page.dart';
+import 'package:road_map_project/presentation/theme/colors.dart';
 
 import '../../helpers/presentation_helpers.dart';
 
@@ -19,12 +20,6 @@ class AuthTabBar extends StatelessWidget {
     return DefaultTabController(
       length: myTabs.length,
       child: Scaffold(
-    //     if(myTabs.length){
-    //       backgroundColor: ApplicationColor.scaffoldBackgroundColor,
-    // } else{
-    // backgroundColor: ApplicationColor.authScaffoldBackgroundColor,
-    //
-    // }
         appBar: AppBar(
           elevation: 0,
           bottom: TabBar(

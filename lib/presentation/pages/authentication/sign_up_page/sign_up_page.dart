@@ -54,7 +54,7 @@ class SignUpPage extends StatelessWidget {
                         padding: EdgeInsets.only(top: 42.h),
                         child: Container(
                           padding: EdgeInsets.only(left: 44.w),
-                          height: 170.h,
+                          height: 130.h,
                           width: double.infinity,
                           color: ApplicationColor.primaryColor,
                         ),

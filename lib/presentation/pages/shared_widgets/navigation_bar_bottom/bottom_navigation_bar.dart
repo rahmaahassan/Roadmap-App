@@ -16,26 +16,28 @@ class AppBottomNavigationBar extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(25.r),
-        child: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          backgroundColor: ApplicationColor.buttonBorderColor,
-          onTap: (idx) {
-            onSelect(idx);
-          }, // new
-          currentIndex: index, // new
-          selectedItemColor: ApplicationColor.textSubTitleColor,
-          unselectedItemColor: ApplicationColor.navDisActiveBottom,
-          items: const [
-            BottomNavigationBarItem(
-                icon: Icon(Icons.home_outlined),
-                label: ApplicationTextValue.NAVIGATION_BAR_HOME_LABEL),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.newspaper),
-                label: ApplicationTextValue.NAVIGATION_BAR_NEWS_LABEL),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.account_circle_sharp),
-                label: ApplicationTextValue.NAVIGATION_BAR_PROFILE_LABEL),
-          ],
+        child: SingleChildScrollView(
+          child: BottomNavigationBar(
+            type: BottomNavigationBarType.fixed,
+            backgroundColor: ApplicationColor.buttonBorderColor,
+            onTap: (idx) {
+              onSelect(idx);
+            }, // new
+            currentIndex: index, // new
+            selectedItemColor: ApplicationColor.textSubTitleColor,
+            unselectedItemColor: ApplicationColor.navDisActiveBottom,
+            items: const [
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.home_outlined),
+                  label: ApplicationTextValue.NAVIGATION_BAR_HOME_LABEL),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.newspaper),
+                  label: ApplicationTextValue.NAVIGATION_BAR_NEWS_LABEL),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.account_circle_sharp),
+                  label: ApplicationTextValue.NAVIGATION_BAR_PROFILE_LABEL),
+            ],
+          ),
         ),
       ),
     );

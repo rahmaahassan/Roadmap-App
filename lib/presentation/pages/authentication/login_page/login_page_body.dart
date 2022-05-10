@@ -42,13 +42,13 @@ class LoginPageBody extends StatelessWidget {
                     padding: EdgeInsets.only(top: 42.h),
                     child: Container(
                       padding: EdgeInsets.only(left: 44.w),
-                      height: 170.h,
+                      height: 130.h,
                       width: double.infinity,
                       color: ApplicationColor.authScaffoldBackgroundColor,
                       child: Padding(
                         padding: EdgeInsets.only(top: 21.h),
                         child: InkWell(
-                          onTap: onTappedForgotBottom,
+                          onTap: () => onTappedForgotBottom(context),
                           child: Text(
                             ApplicationTextValue.FOGOT_PASSWORD,
                             style: TextStyle(
@@ -81,8 +81,8 @@ class LoginPageBody extends StatelessWidget {
     );
   }
 
-  void onTappedForgotBottom() {
-    /// TODO
+  void onTappedForgotBottom(BuildContext context) {
+    navigateTo(context, const ResetPasswordPage());
   }
 
   void onTappedLoginBottom() {
