@@ -15,10 +15,10 @@ class NewsModel {
   }
 
   factory NewsModel.fromJson(Map<String, dynamic> data) {
-    final String title = data['title'] as String;
-    final String image = data['urlToImage'] as String;
-    final String publishedAt = data['publishedAt'] as String;
-    final String url = data['url'] as String;
+    final String title = data['title'] ?? "";
+    final String image = data['urlToImage'] ?? "";
+    final String publishedAt = data['publishedAt'] ?? "";
+    final String url = data['url'] ?? "";
 
     return NewsModel(
       title: title,

@@ -139,7 +139,7 @@ class ProfilePage extends StatelessWidget {
   }
 
    void onTappedAboutAppBottom(BuildContext context) {
-     navigateTo(context, const AboutApplicationPage());
+     Navigator.pushNamed(context, AboutApplicationPage.routeName);
   }
 
   void onTappedLoginBottom() {

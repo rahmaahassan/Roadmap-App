@@ -4,6 +4,7 @@ import 'package:road_map_project/presentation/theme/colors.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
 
 import '../../../helpers/presentation_helpers.dart';
+import '../../course_description_page/course_description_page.dart';
 import '../../shared_widgets/shared_widgets.dart';
 
 part '../home_page.dart';

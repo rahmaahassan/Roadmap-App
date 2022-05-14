@@ -12,17 +12,20 @@ class NewsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<NewsCubit, NewsStates>(
-      listener: (context, state) {},
-      builder: (context, state) {
-        var list = NewsCubit.get(context).news;
-
-        return Scaffold(
-            appBar: const ApplicationAppBar(
-              title: ApplicationTextValue.NEWS_TITLE,
-            ),
-            body: articleBuilder(list, context));
-      },
-    );
+    return Scaffold(
+        appBar: const ApplicationAppBar(
+          title: ApplicationTextValue.NEWS_TITLE,
+        ),
+        body: BlocConsumer<NewsCubit, NewsStates>(
+            listener: (context, state) {},
+            builder: (context, state) {
+              if (state is NewsSuccessState) {
+                return articleBuilder(state.news, context);
+              } else if(state is NewsErrorState) {
+                return Center(child: Text(state.error),);
+              } else {
+                return const Center(child: CircularProgressIndicator(),);
+              }
+            }));
   }
 }
