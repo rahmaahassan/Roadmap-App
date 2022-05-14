@@ -9,10 +9,10 @@ class HomePage extends StatelessWidget {
       appBar: const ApplicationAppBar(
         title: ApplicationTextValue.APP_NAME,
       ),
-      body: Column(
-        children: const [
-        ],
-      ),
+      body: ListView.separated(
+          itemBuilder: (context, index) => buildCategory(),
+          separatorBuilder: (context, index) => myDivider(),
+          itemCount: 4),
     );
   }
 }

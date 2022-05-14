@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../application/auth/login/cubit/cubit.dart';
+import '../application/news/cubit/cubit.dart';
 import 'helpers/presentation_helpers.dart';
 import 'routes/router.dart';
 import 'theme/theme.dart';
@@ -18,6 +19,9 @@ class ApplicationWidget extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (_) => AppLoginCubit(),
+        ),
+        BlocProvider(
+          create: (context) => NewsCubit()..getNews(),
         ),
       ],
       child: ScreenUtilInit(

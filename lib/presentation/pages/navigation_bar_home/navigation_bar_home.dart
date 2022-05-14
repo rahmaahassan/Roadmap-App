@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:road_map_project/presentation/pages/news_page/news_layout.dart';
+import 'package:road_map_project/presentation/pages/news_page/news_page.dart';
 
 import '../profile_page/profile_page.dart';
 import '../shared_widgets/navigation_bar_bottom/widgets.dart';
