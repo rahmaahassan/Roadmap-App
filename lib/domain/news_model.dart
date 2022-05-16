@@ -1,15 +1,18 @@
 class NewsModel {
-  final String title, image, publishedAt, url;
+  final String title, image, publishedAt, articleDetails;
 
   NewsModel(
-      {required this.title, required this.image, required this.publishedAt, required this.url});
+      {required this.title,
+      required this.image,
+      required this.publishedAt,
+      required this.articleDetails});
 
   Map<String, dynamic> toJson() {
     Map<String, dynamic> data = {
       "title": title,
       "urlToImage": image,
+      "description": articleDetails,
       "publishedAt": publishedAt,
-      "url": url,
     };
     return data;
   }
@@ -18,14 +21,13 @@ class NewsModel {
     final String title = data['title'] ?? "";
     final String image = data['urlToImage'] ?? "";
     final String publishedAt = data['publishedAt'] ?? "";
-    final String url = data['url'] ?? "";
+    final String articleDetails = data['description'] ?? "";
 
     return NewsModel(
       title: title,
       image: image,
       publishedAt: publishedAt,
-      url: url,
+      articleDetails: articleDetails,
     );
   }
-
 }

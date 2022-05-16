@@ -14,31 +14,36 @@ class AboutApplicationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ApplicationAppBar(
+      appBar: ApplicationAppBar(
         title: ApplicationTextValue.ABOUT_APPLICATION_APPBAR_TITLE,
-      ),
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: EdgeInsets.only(right: 16.w, left: 17.w, top: 17.h),
-          child: Column(
-            children: [
-              Text(
-                ApplicationTextValue.ABOUT_APPLICATION_DESCRIPTION,
-                style: TextStyle(
-                    fontSize: 19.sp,
-                    fontWeight: ApplicationFont.regular,
-                    color: ApplicationColor.textSubTitleColor,
-                    height: 1.6),
-              ),
-              SizedBox(
-                height: 90.h,
-              ),
-              Center(
-                child: Image.asset(PresentationAssetPath.LOGO_IMAGE,
-                    width: 250.w, height: 150.h),
-              ),
-            ],
+        widget: Padding(
+          padding: EdgeInsets.only(left: 13.w),
+          child: const ApplicationBackButton(
+            boxColor: ApplicationColor.navDisActiveBottom,
+            arrowColor: ApplicationColor.primaryColor,
           ),
+        ),
+      ),
+      body: Padding(
+        padding: EdgeInsets.all(16.r),
+        child: Column(
+          children: [
+            Text(
+              ApplicationTextValue.ABOUT_APPLICATION_DESCRIPTION,
+              style: TextStyle(
+                  fontSize: 19.sp,
+                  fontWeight: ApplicationFont.regular,
+                  color: ApplicationColor.textSubTitleColor,
+                  height: 1.6),
+            ),
+            SizedBox(
+              height: 90.h,
+            ),
+            Center(
+              child: Image.asset(PresentationAssetPath.LOGO_IMAGE,
+                  width: 250.w, height: 150.h),
+            ),
+          ],
         ),
       ),
     );

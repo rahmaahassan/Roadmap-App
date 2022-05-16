@@ -2,7 +2,8 @@ part of 'shared_widgets.dart';
 
 class ApplicationAppBar extends StatelessWidget implements PreferredSizeWidget{
   final String title;
-  const ApplicationAppBar({Key? key, required this.title}) : super(key: key);
+  final Widget? widget;
+  const ApplicationAppBar({Key? key, required this.title, this.widget}) : super(key: key);
 
   @override
   Size get preferredSize => Size.fromHeight(53.h);
@@ -14,6 +15,7 @@ class ApplicationAppBar extends StatelessWidget implements PreferredSizeWidget{
       centerTitle: false,
       shadowColor: Colors.white54,
       elevation: 5,
+      leading: widget,
     );
   }
 }

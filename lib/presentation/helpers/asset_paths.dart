@@ -12,6 +12,7 @@ class PresentationAssetPath{
   static const String ON_BOARDING_PAGE3 = "assets/images/on_boarding_page3.svg";
   static const String NOTIFICATION_IMAGE = "assets/images/notification_image.svg";
   static const String LOGO_IMAGE = "assets/images/splash.png";
+  static const String ARTICLE_DEFAULT = "assets/images/article.jpg";
 
   /// ///////        icons           ///////
   static const String BACK_ICON = "assets/icons/back.svg";

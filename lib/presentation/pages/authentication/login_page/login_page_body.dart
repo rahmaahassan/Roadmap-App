@@ -82,8 +82,7 @@ class LoginPageBody extends StatelessWidget {
   }
 
   void onTappedForgotBottom(BuildContext context) {
-    navigateTo(context, const ResetPasswordPage());
-  }
+    Navigator.pushNamed(context, ResetPasswordPage.routeName);  }
 
   void onTappedLoginBottom() {
     /// TODO

@@ -4,7 +4,6 @@ import 'package:road_map_project/presentation/theme/colors.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
 
 import '../../helpers/presentation_helpers.dart';
-import '../../helpers/shared_widgets.dart';
 import '../about_application_page/about_application_page.dart';
 
 class ProfilePage extends StatelessWidget {

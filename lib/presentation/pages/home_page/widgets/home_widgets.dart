@@ -2,7 +2,7 @@ part of 'widgets.dart';
 
 Widget buildCategory() {
   return Padding(
-    padding: EdgeInsets.all(20.r),
+    padding: EdgeInsets.only(left: 14.w, top: 20.h),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -19,7 +19,7 @@ Widget buildCategory() {
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) => InkWell(
-              onTap: () => navigateTo(context, const CourseDescriptionPage()),
+              onTap: () => Navigator.pushNamed(context, CourseDescriptionPage.routeName),
               child: Column(
                 children: [
                   Padding(
@@ -65,6 +65,6 @@ Widget buildCategory() {
 Widget myDivider() => Divider(
       thickness: 2,
       color: Colors.grey,
-      indent: 20.w,
-      endIndent: 20.w,
+      indent: 14.w,
+      endIndent: 14.w,
     );

@@ -8,6 +8,8 @@ import '../../shared_widgets/shared_widgets.dart';
 import 'widgets/widgets.dart';
 
 class ResetPasswordPage extends StatelessWidget {
+  static const routeName = '/reset-password';
+
   const ResetPasswordPage({Key? key}) : super(key: key);
 
   @override

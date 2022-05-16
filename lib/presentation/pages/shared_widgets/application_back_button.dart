@@ -17,8 +17,8 @@ class ApplicationBackButton extends StatelessWidget {
     return GestureDetector(
       onTap: () => showAuthIcon ? onTap :  Navigator.pop(context),
       child: Container(
-        width: showAuthIcon? 84.w:41.52.w,
-        height: showAuthIcon? 84.h:41.52.h,
+        width: showAuthIcon? 84.w:30.w,
+        height: showAuthIcon? 84.h: 30.h,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           color: boxColor,
