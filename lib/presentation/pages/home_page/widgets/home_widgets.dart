@@ -6,7 +6,7 @@ Widget buildCategory() {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(ApplicationTextValue.HEADER_LANGUAGES_TITLE,
+        Text(ApplicationTextValue.CATEGORY_NAME,
             style: TextStyle(
                 color: ApplicationColor.textSubTitleColor,
                 fontWeight: ApplicationFont.bold,
@@ -28,13 +28,7 @@ Widget buildCategory() {
                       children: [
                         CircleAvatar(
                           maxRadius: 35.r,
-                          child: const Text(
-                            ApplicationTextValue.COURSE_NAME,
-                            style: TextStyle(
-                                color: ApplicationColor.textSubTitleColor,
-                                fontWeight: ApplicationFont.bold),
-                          ),
-                          backgroundColor: ApplicationColor.searchBorderColor,
+                          backgroundImage: const AssetImage(PresentationAssetPath.FLUTTER_IMAGE),
                         )
                       ],
                     ),

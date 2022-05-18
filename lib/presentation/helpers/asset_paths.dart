@@ -13,6 +13,7 @@ class PresentationAssetPath{
   static const String NOTIFICATION_IMAGE = "assets/images/notification_image.svg";
   static const String LOGO_IMAGE = "assets/images/splash.png";
   static const String ARTICLE_DEFAULT = "assets/images/article.jpg";
+  static const String FLUTTER_IMAGE= "assets/images/flutter.png";
 
   /// ///////        icons           ///////
   static const String BACK_ICON = "assets/icons/back.svg";

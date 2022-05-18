@@ -1,0 +1,27 @@
+[
+  {
+    "id": "",
+    "title": "",
+    "image": "",
+    "categoryId": "",
+    "description": "",
+    "steps": [
+      {
+        "id": "",
+        "name": "",
+        "courses": [
+          {
+            "title": "",
+            "url": ""
+          }
+        ],
+        "books": [
+          {
+            "title": "",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  }
+]

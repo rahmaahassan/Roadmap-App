@@ -21,8 +21,20 @@ class ApplicationTextValue{
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
   /// ///////    Home Page    //////////////
-  static const String HEADER_LANGUAGES_TITLE= 'Programming languages';
-  static const String COURSE_NAME= 'Java';
+  static const String CATEGORY_NAME= 'Programming languages';
+  static const String COURSE_NAME= 'Flutter';
+
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Description Page    //////////////
+  static const String HEADER_TEXT= 'Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.';
+  static const String STEP_TITLE= 'Introduction to Dart';
+  static const String COURSES_BOK= 'Courses';
+  static const String BOOKS_BOK= 'Books';
+  static const String PLAYLISTS_BOK= 'Playlists';
+  static const String COURSE_LINK= 'Tutorials Point - Introduction to Dart Programming';
+  static const String PLAYLIST_LINK= 'Dart Programming Language (Arabic)';
+  static const String BOOKS_LINK= 'Dart Apprentice';
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////

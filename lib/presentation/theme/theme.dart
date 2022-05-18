@@ -9,6 +9,7 @@ class ApplicationTheme {
 
   static ThemeData get lightTheme {
     return ThemeData(
+        dividerColor: Colors.transparent,
         primaryColor: ApplicationColor.primaryColor,
         colorScheme: ThemeData().colorScheme.copyWith(
           primary: ApplicationColor.primaryColor,
