@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class WebView extends StatelessWidget {
   final String url;
 
-  WebView(this.url);
+  const WebView(this.url, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

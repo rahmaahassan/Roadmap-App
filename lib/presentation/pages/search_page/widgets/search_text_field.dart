@@ -1,14 +1,16 @@
 part of 'widgets.dart';
 
 class SearchTextField extends StatefulWidget {
-  const SearchTextField({Key? key}) : super(key: key);
+
+  final Function(String) onChanged;
+
+   const SearchTextField({super.key, required this.onChanged});
+
   @override
   State<SearchTextField> createState() => _SearchTextFieldState();
 }
 
 class _SearchTextFieldState extends State<SearchTextField> {
-
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -20,9 +22,7 @@ class _SearchTextFieldState extends State<SearchTextField> {
             borderRadius: BorderRadius.circular(25.r),
             color: ApplicationColor.searchBorderColor),
         child: TextField(
-          onChanged: (val){
-
-          },
+          onChanged: widget.onChanged,
           cursorColor: ApplicationColor.white,
           textDirection: TextDirection.ltr,
           style: TextStyle(fontSize: 20.sp, color: ApplicationColor.white),

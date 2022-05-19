@@ -26,7 +26,10 @@ class _NavigationBarHomeState extends State<NavigationBarHome> {
   ];
 
   @override
-  initState() => currentIndex = 0;
+  void initState() {
+    currentIndex = 0;
+    super.initState();
+  }
 
   void changeBottomNav(int index) {
     setState(() {
