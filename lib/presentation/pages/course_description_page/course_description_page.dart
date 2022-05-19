@@ -1,23 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:road_map_project/domain/course_model.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
-import 'package:timeline_tile/timeline_tile.dart';
 
-import '../../helpers/presentation_helpers.dart';
 import '../../theme/colors.dart';
 import '../shared_widgets/shared_widgets.dart';
 import 'widgets/widgets.dart';
 
-class CourseDescriptionPage extends StatelessWidget {
+class CourseDescriptionPage extends StatefulWidget {
   static const routeName = '/course-description-page';
 
   const CourseDescriptionPage({Key? key}) : super(key: key);
 
   @override
+  State<CourseDescriptionPage> createState() => _CourseDescriptionPageState();
+}
+
+class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
+  late CourseModel course;
+
+  @override
   Widget build(BuildContext context) {
+    initializeArguments();
     return Scaffold(
       appBar: ApplicationAppBar(
-        title: ApplicationTextValue.COURSE_NAME,
+        title: course.title,
         widget: Padding(
           padding: EdgeInsets.only(left: 13.w),
           child: const ApplicationBackButton(
@@ -33,7 +40,7 @@ class CourseDescriptionPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                ApplicationTextValue.HEADER_TEXT,
+                course.description,
                 style: TextStyle(
                   fontSize: 16.sp,
                   fontWeight: ApplicationFont.regular,
@@ -43,11 +50,16 @@ class CourseDescriptionPage extends StatelessWidget {
               SizedBox(
                 height: 10.h,
               ),
-              TileList()
+              TileList(steps: course.steps)
             ],
           ),
         ),
       ),
     );
+  }
+
+  void initializeArguments(){
+    final arguments = ModalRoute.of(context)!.settings.arguments as CourseModel;
+    course = arguments;
   }
 }

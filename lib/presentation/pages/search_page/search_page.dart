@@ -16,6 +16,10 @@ class SearchPage extends StatefulWidget {
 
 class _SearchPageState extends State<SearchPage> {
   List<dynamic> list = [];
+  late String searchString;
+
+  @override
+  initState() => searchString;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +30,7 @@ class _SearchPageState extends State<SearchPage> {
         ),
         body: ListView.builder(
             itemBuilder: (context, index) => Padding(
-                  padding: EdgeInsets.all(15.r),
+                  padding: EdgeInsets.only(top: 20.r, right: 20.w, left: 20.w),
                   child: Container(
                       width: 369.w,
                       height: 64.h,
@@ -58,5 +62,9 @@ class _SearchPageState extends State<SearchPage> {
                       )),
                 ),
             itemCount: 4));
+  }
+
+  void onChanged(value) {
+    setState(() => searchString = value);
   }
 }

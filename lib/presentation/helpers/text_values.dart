@@ -85,6 +85,6 @@ class ApplicationTextValue{
   /// /////////////////////////////////////////
   /// ///    About Application Page    ///////
   static const String ABOUT_APPLICATION_APPBAR_TITLE = 'About App';
-  static const String ABOUT_APPLICATION_DESCRIPTION = "The system aims to determine the best path and ways to access and provide resources instead of searching for them.\n\nThe application will contain a general description of the course, including its advantages and disadvantages, and the labor market's need for it, thus helping the user to make the appropriate decision.\n\nContracting with accredited and trusted academies and announcing them at the time of launching the courses.\n";
+  static const String ABOUT_APPLICATION_DESCRIPTION = "The system aims to determine the best path and ways to access and provide resources instead of searching for them.\n\nThe application will contain a general description of the course, including its advantages and disadvantages, and the labor market's need for it, thus helping the user to make the appropriate decision.\n\nContracting with accredited and trusted academies and announcing them at the time of launching the caegories.\n";
 
 }

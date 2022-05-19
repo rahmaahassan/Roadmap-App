@@ -6,14 +6,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: const ApplicationAppBar(
+    return const Scaffold(
+      appBar: ApplicationAppBar(
         title: ApplicationTextValue.APP_NAME,
       ),
-      body: ListView.separated(
-          itemBuilder: (context, index) => buildCategory(),
-          separatorBuilder: (context, index) => myDivider(),
-          itemCount: 4),
+      body: HomeList()
     );
   }
 }

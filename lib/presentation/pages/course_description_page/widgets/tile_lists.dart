@@ -1,60 +1,9 @@
 part of 'widgets.dart';
 
 class TileList extends StatelessWidget {
+  const TileList({Key? key, required this.steps}) : super(key: key);
 
-  final CourseModel course = CourseModel(
-      id: "1",
-      title: ApplicationTextValue.STEP_TITLE,
-      image: PresentationAssetPath.FLUTTER_IMAGE,
-      categoryId: ApplicationTextValue.CATEGORY_NAME,
-      description: ApplicationTextValue.HEADER_TEXT,
-      steps: [
-        StepModel(
-          name: ApplicationTextValue.STEP_TITLE,
-          id: "y",
-          books: [LinkModel(
-            title: ApplicationTextValue.BOOKS_LINK,
-            url: "https://www.raywenderlich.com/books/dart-apprentice/v1.1",
-          ),
-          ],
-          courses: [LinkModel(
-            title: ApplicationTextValue.COURSE_LINK,
-            url: "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm",
-          ),
-          ],
-        ),
-        StepModel(
-          name: ApplicationTextValue.STEP_TITLE,
-          id: "y",
-          books: [LinkModel(
-            title: ApplicationTextValue.BOOKS_LINK,
-            url: "https://www.raywenderlich.com/books/dart-apprentice/v1.1",
-          ),
-          ],
-          courses: [LinkModel(
-            title: ApplicationTextValue.COURSE_LINK,
-            url: "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm",
-          ),
-          ],
-        ),
-        StepModel(
-          name: ApplicationTextValue.STEP_TITLE,
-          id: "y",
-          books: [LinkModel(
-            title: ApplicationTextValue.BOOKS_LINK,
-            url: "https://www.raywenderlich.com/books/dart-apprentice/v1.1",
-          ),
-          ],
-          courses: [LinkModel(
-            title: ApplicationTextValue.COURSE_LINK,
-            url: "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm",
-          ),
-          ],
-        ),
-      ]
-  );
-
-  TileList({Key? key}) : super(key: key);
+  final List<StepModel> steps;
 
   @override
   Widget build(BuildContext context) {
@@ -65,11 +14,11 @@ class TileList extends StatelessWidget {
       itemBuilder: (context, index) =>
           TimelineTile(
             isFirst: index == 0,
-            isLast: index == course.steps.length - 1,
+            isLast: index == steps.length - 1,
             indicatorStyle: IndicatorStyle(
               height: 50.h,
               width: 50.w,
-              indicatorXY: 0.45,
+              indicatorXY: 0.45.r,
               indicator: Container(
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
@@ -87,7 +36,7 @@ class TileList extends StatelessWidget {
             endChild: ExpansionTile(
               trailing: const SizedBox(),
               title: Text(
-                course.steps[index].name,
+                steps[index].name,
                 style: TextStyle(
                   fontSize: 22.sp,
                   fontWeight: ApplicationFont.bold,
@@ -121,7 +70,7 @@ class TileList extends StatelessWidget {
                               ),
                               Expanded(
                                 child: Column(
-                                          children: course.steps![index].courses.map<Widget>((stepCourse) => InkWell(
+                                          children: steps[index].courses.map<Widget>((stepCourse) => InkWell(
                                             onTap: onCourseTapped,
                                             child: Text(
                                               stepCourse.title,
@@ -169,7 +118,7 @@ class TileList extends StatelessWidget {
                               ),
                               Expanded(
                                 child: Column(
-                                  children: course.steps[index].books.map<Widget>((stepCourse) => InkWell(
+                                  children: steps[index].books.map<Widget>((stepCourse) => InkWell(
                                     onTap: onCourseTapped,
                                     child: Text(
                                       stepCourse.title,
@@ -197,7 +146,7 @@ class TileList extends StatelessWidget {
               ],
             ),
           ),
-      itemCount: course.steps.length,
+      itemCount: steps.length,
     );
   }
 

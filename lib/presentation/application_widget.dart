@@ -3,9 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:road_map_project/application/categories/categories_cubit.dart';
 
 import '../application/auth/login/cubit/cubit.dart';
 import '../application/news/cubit/cubit.dart';
+import '../infrastructure/remote/caegories/firebase_category_facade.dart';
 import 'helpers/presentation_helpers.dart';
 import 'routes/router.dart';
 import 'theme/theme.dart';
@@ -22,6 +24,9 @@ class ApplicationWidget extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => NewsCubit()..getNews(),
+        ),
+        BlocProvider(
+          create: (context) => CategoriesCubit(FirebaseCategoriesFacade())..getCategories(),
         ),
       ],
       child: ScreenUtilInit(
