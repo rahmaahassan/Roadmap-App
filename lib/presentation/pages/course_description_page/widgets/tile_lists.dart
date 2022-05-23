@@ -71,17 +71,26 @@ class TileList extends StatelessWidget {
                               Expanded(
                                 child: Column(
                                           children: steps[index].courses.map<Widget>((stepCourse) => InkWell(
-                                            onTap: onCourseTapped,
-                                            child: Text(
-                                              stepCourse.title,
-                                              style: TextStyle(
-                                                fontSize: 12.sp,
-                                                fontWeight: ApplicationFont
-                                                    .regular,
-                                                decoration: TextDecoration
-                                                    .underline,
-                                                color: ApplicationColor
-                                                    .textSubTitleColor,
+                                            onTap: () async {
+                                              if (!await launchUrl(Uri.parse(steps[index].courses[index].url))) {
+                                                throw 'Could not launch book link';
+                                              }
+                                            },
+                                            child: Align(
+                                              alignment: Alignment.bottomLeft,
+                                              child: Text(
+                                                "- " + stepCourse.title,
+                                                textAlign: TextAlign.left,
+                                                style: TextStyle(
+                                                  fontSize: 12.sp,
+                                                  fontWeight: ApplicationFont
+                                                      .regular,
+                                                  decoration: TextDecoration
+                                                      .underline,
+                                                  color: ApplicationColor
+                                                      .textSubTitleColor,
+                                                  height: 2
+                                                ),
                                               ),
                                             ),
                                           )).toList(),
@@ -119,9 +128,13 @@ class TileList extends StatelessWidget {
                               Expanded(
                                 child: Column(
                                   children: steps[index].books.map<Widget>((stepCourse) => InkWell(
-                                    onTap: onCourseTapped,
+                                    onTap: () async {
+                                      if (!await launchUrl(Uri.parse(steps[index].books[index].url))) {
+                                        throw 'Could not launch book link';
+                                      }
+                                    },
                                     child: Text(
-                                      stepCourse.title,
+                                      "- " + stepCourse.title,
                                       style: TextStyle(
                                         fontSize: 12.sp,
                                         fontWeight: ApplicationFont
@@ -150,20 +163,9 @@ class TileList extends StatelessWidget {
     );
   }
 
-  void onCourseTapped() {
-    // return launch(
-    //    "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-    //  );
-  }
+void onBookTapped() {}
 
   /// TODO
 
-  void onBookTapped() {}
-
-  /// TODO
-
-  void onPlaylistTapped() {}
-
-/// TODO
 
 }

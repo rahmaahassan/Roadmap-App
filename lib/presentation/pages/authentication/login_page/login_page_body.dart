@@ -11,24 +11,7 @@ class LoginPageBody extends StatelessWidget {
           listener: (context, state) {},
           builder: (context, state) {
             return Column(children: [
-              SizedBox(
-                height: 20.5.h,
-              ),
-              Icon(
-                Icons.person_outlined,
-                color: ApplicationColor.authIconColor,
-                size: 44.r,
-              ),
-              SizedBox(
-                height: 18.h,
-              ),
-              Text(
-                ApplicationTextValue.LOGIN_HEADER,
-                style: TextStyle(
-                    fontSize: 28.sp,
-                    color: ApplicationColor.white,
-                    fontWeight: ApplicationFont.bold),
-              ),
+              const LoginHeader(),
               SizedBox(
                 height: 30.h,
               ),

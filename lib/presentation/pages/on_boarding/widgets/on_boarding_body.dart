@@ -20,25 +20,10 @@ class _OnBoardingBodyState extends State<OnBoardingBody> {
         title: ApplicationTextValue.ONBOARDING_PAGE2_TITLE,
         body: ApplicationTextValue.ONBOARDING_PAGE2_BODY),
     BoardingModel(
-        image: PresentationAssetPath.ON_BOARDING_PAGE3, title: '', body: ''),
+        image: PresentationAssetPath.ON_BOARDING_PAGE3, title: ApplicationTextValue.ONBOARDING_PAGE3_BODY, body: ''),
   ];
 
   bool isLast = false;
-
-  void submit() {
-    // SharedPreferenceUtils.getString(
-    //   'onBoarding',
-    //   true,
-    // ).then((value)
-    // {
-    //   if (value) {
-    //     // navigateAndFinish(
-    //     //   context,
-    //     //   ShopLoginScreen(),
-    //     // );
-    //   }
-    // });
-  } /// TODO
 
   @override
   Widget build(BuildContext context) {
@@ -143,4 +128,8 @@ class _OnBoardingBodyState extends State<OnBoardingBody> {
        ),
      ],
    );
+
+  void submit() {
+    Navigator.pushNamed(context, NavigationBarHome.routeName);
+  }
 }

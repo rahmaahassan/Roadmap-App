@@ -1,43 +1,35 @@
 [
   {
     "id": "1",
-    "title": "Mobil Development",
+    "title": "Programming Languages",
     "courses": [
       {
         "id": "1",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "title": "Python",
+        "image": "",
+        "description": "Python is a general-purpose coding language — which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development.",
         "steps": [
           {
             "id": "1",
-            "name": "Introduction to Dart",
+            "name": "Beginner in Python",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "380+ Exercises - Python Programming Mega Pack - Built-in",
+                "url": "https://www.udemy.com/course/python-programming-modules-packages/"
+              },
+              {
+                "title": "Python for Everybody Specialization",
+                "url": "https://www.coursera.org/specializations/python"
+              },
+              {
+                "title": "Python for Beginners - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6"
               }
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "Python for Beginners",
+                "url": "https://www.ubuy.com.eg/en/product/3NONM4S2G-python-for-beginners-a-crash-course-to-learn-python-programming-in-1-week?gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_L-s4CwI1VMSthiTjXlAXi1rRiNaxAVP4sYB7SpXiXVJ67MJXI5KRwaApqPEALw_wcB"
               }
             ]
           }
@@ -45,39 +37,70 @@
       },
       {
         "id": "2",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "title": "Java",
+        "image": "",
+        "description": "Java is a widely used object-oriented programming language and software platform\n that runs on billions of devices, including notebook computers, mobile devices,\n gaming consoles, medical devices and many others. The rules and syntax of Java are based\n on the C and C++ languages",
         "steps": [
           {
             "id": "1",
-            "name": "Introduction to Dart",
+            "name": "Beginner in Java",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "java  for Beginners - Youtube",
+                "url": " https://www.youtube.com/playlist?list=PLHIfW1KZRIfn9BnepQuzWiM_ZPIwUDawL"
+              },
+              {
+                "title": "Java for Complete Beginners: Become Junior Java Developer - udemy",
+                "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjZ5__2pe73AhXB4ncKHXvlCCEYABACGgJlZg&ohost=www.google.com&cid=CAESbeD2EIEprQH_ue92qkpp8kL7vSXcvzvsWZInTxQFQSNPCqyZhoYcsBkBAsuzrJVtgKiKM6Ouu0dMA-IHef-oeJAmfQR2oR5VFUpU3uW5AQykH8eCdHWeDfbckvN7CTo21AP1QbAqFWs776dh5oc&sig=AOD64_0qK67WUrdpC2vJWK0-xDhNLXu8oQ&q&adurl&ved=2ahUKEwj-pvj2pe73AhU5i_0HHfWwDZgQ0Qx6BAgCEAE"
               }
+
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "Java for Beginners",
+                "url": "https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"
               }
             ]
           },
           {
             "id": "2",
-            "name": "Introduction to Dart",
+            "name": "Intermediate  in Java",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "java  for Intermediate  - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PL27BCE863B6A864E3"
+              },
+              {
+                "title": "Intermediate & Advanced Java Programming - udemy",
+                "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjzms_Wpu73AhWK13cKHRN0BAwYABAAGgJlZg&ohost=www.google.com&cid=CAESbeD2VPEGALdgRt3NkixKvGclF_X0VR1jogR4pK-sHyb_JYNB7WMq40DnKzrynoy-svVXDkxvNGNdsORHCEQjD3hqxCMfXfGqgWjJMRZGVQCLsvuJXI9IrgUUkPob_lun_RmGEkN0avmFo3OX-jo&sig=AOD64_026B0qziVBa-ruUiJ9NEzCvgwtwg&q&adurl&ved=2ahUKEwjo08fWpu73AhUE7rsIHacHAG0Q0Qx6BAgCEAE"
               }
+
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "Java for Intermediate",
+                "url": "https://web.stanford.edu/class/archive/cs/cs108/cs108.1092/handouts/02IntermediateJava.pdf"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "name": "Advanced in Java",
+            "courses": [
+              {
+                "title": "java  for Advanced - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLMYF6NkLrdN85yXTEQzDcHbmZHCyuCDnK"
+              },
+              {
+                "title": "Advanced Java Programming - udemy",
+                "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjb8KL7pu73AhUChtUKHeqIAK8YABAAGgJ3cw&ohost=www.google.com&cid=CAESbeD2u_RjtnpLj4gr6CLeUa6F9uiBk8msp0rALXu64vJBxcPfV9oM6PkNieO0p0ugipk66g2bzFo_-9P1Mj-jaDw9pghJZZRZwWQveh4LoMXTWW6Q6xLxXz2b27b_tJ89l_tqD__3q9sjE3IN_n8&sig=AOD64_1k5zqnxC8yCFSAYvF3fsU7-AO4-g&q&adurl&ved=2ahUKEwjxupv7pu73AhUzRuUKHS9xDEcQ0Qx6BAgCEAE"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "Java for Advanced",
+                "url": "https://enos.itcollege.ee/~jpoial/allalaadimised/reading/Advanced-java.pdf"
               }
             ]
           }
@@ -85,39 +108,67 @@
       },
       {
         "id": "3",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "title": "C#",
+        "image": "",
+        "description": "C# is a simple, modern, object-oriented, and type-safe programming language.\n Its roots in the C family of languages makes C# immediately familiar to C, C++, Java, and JavaScript programmers.",
         "steps": [
           {
             "id": "1",
-            "name": "Introduction to Dart",
+            "name": "Beginner in c#",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "C# Course Level 1 (Basics) - youtube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwQLsXXXxx_mX3WvUEgGM0iA"
+              },
+              {
+                "title": "Introduction to Basic C# - udemy",
+                "url": "https://www.udemy.com/course/introduction-to-basic-c-sharp/"
               }
+
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title":  " c# for Beginners",
+                "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
               }
             ]
           },
           {
             "id": "2",
-            "name": "Introduction to Dart",
+            "name": "Intermediate  in c#",
             "courses": [
+
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "C# Intermediate: Classes, Interfaces and OOP- udemy",
+                "url": "https://www.udemy.com/course/csharp-intermediate-classes-interfaces-and-oop/"
               }
+
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title":  " c# -Intermediate ",
+                "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "name": "advanced in c#",
+            "courses": [
+              {
+                "title": "Advanced C#- youtube",
+                "url": "https://www.youtube.com/playlist?list=PL4LFuHwItvKaOi-bN1E2WUVyZbuRhVokL"
+              },
+              {
+                "title": "C# Advanced Topics: Prepare for Technical Interviews- udemy",
+                "url": "https://www.udemy.com/course/csharp-advanced/ "
+              }
+
+            ],
+            "books": [
+              {
+                "title":  " c# for Beginners",
+                "url": "https://cs.wmich.edu/~alfuqaha/summer13/cs5950/lectures/CSAdvanced-rev3.pdf"
               }
             ]
           }
@@ -125,513 +176,881 @@
       },
       {
         "id": "4",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "title": "C",
+        "image": "",
+        "description": "C is a general-purpose programming language that is extremely popular, simple, and flexible to use. It is a structured programming language that is machine-independent and extensively used to write various applications, Operating Systems like Windows, and many other complex programs like Oracle database, Git, Python interpreter, and more.\n",
         "steps": [
           {
             "id": "1",
-            "name": "Introduction to Dart",
+            "name": "Beginner in c",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "C Programming - youtube",
+                "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR"
+              },
+              {
+                "title": "C Programming For Beginners - Master the C Language - udemy",
+                "url": "https://www.udemy.com/course/c-programming-for-beginners-/ "
               }
+
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title":  " c for Beginners",
+                "url": "https://www.unf.edu/~wkloster/2220/ppts/cprogramming_tutorial.pdf"
               }
             ]
           },
           {
             "id": "2",
-            "name": "Introduction to Dart",
+            "name": "advanced in c",
             "courses": [
+
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "Advanced C Programming Course- udemy",
+                "url": "https://www.udemy.com/course/advanced-c-programming-course/ "
+              },
+              {
+                "title": "Advanced C Programming- youtube",
+                "url": "https://www.youtube.com/playlist?list=PL7CZ_Xc0qgmJFqNWEt4LIhAPTlT0sCW4C"
               }
+
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title":  " c - advanced ",
+                "url": "http://englishonlineclub.com/pdf/Advanced%20C%20[EnglishOnlineClub.com].pdf"
+              }
+            ]
+          }
+
+        ]
+      },
+      {
+        "id": "5",
+        "title": "c++",
+        "image": "",
+        "description": "Java is a widely used object-oriented programming language and software platform\nthat runs on billions of devices, including notebook computers, mobile devices,\ngaming consoles, medical devices and many others. The rules and syntax of Java are based\non the C and C++ languages.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Beginner in C++",
+            "courses": [
+              {
+                "title": "C++ for Beginners - Youtube",
+                "url": " https://www.youtube.com/playlist?list=PL1DUmTEdeA6IUD9Gt5rZlQfbZyAWXd-oD"
+              },
+              {
+                "title": "C++ For Programmers - udemy",
+
+                "url": "https://www.udacity.com/course/c-for-programmers--ud210"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "C++ for Beginners",
+                "url": "https://www.cplusplus.com/files/tutorial.pdf"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Intermediate  in C++",
+            "courses": [
+
+              {
+                "title": "Become a C++ Developer - udemy",
+                "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjB2OuKqO73AhUQz3cKHQLQDIkYABABGgJlZg&ohost=www.google.com&cid=CAESbeD2Bepc4ZrNRmRpnm2I2700ZlsMDJzU325nrnvIl9m5M9BDFYRlfNMaixLWkaUUQWOPLPrU_sfopNBStcucrLBeEohsy60B_VLUlRRFEAtEb86vJST6CT_IJqjb4eZ7cVoPlUJvQiDcDn92hKE&sig=AOD64_3yW7aSapAq4Fh57ZC6HlcEIDxWmg&q&adurl&ved=2ahUKEwjMjOWKqO73AhWYs6QKHcoxCdQQ0Qx6BAgDEAE"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "C++ for Intermediate",
+                "url": "https://faculty.ksu.edu.sa/sites/default/files/ObjectOrientedProgramminginC4thEdition.pdf"
               }
             ]
           },
           {
             "id": "3",
-            "name": "Introduction to Dart",
+            "name": "Advanced in c++",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "c++ for Advanced - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLE28375D4AC946CC3"
+              }
+
+
+            ],
+            "books": [
+              {
+                "title": "c++ for Advanced",
+                "url": "https://faculty.ksu.edu.sa/sites/default/files/ObjectOrientedProgramminginC4thEdition.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Dart",
+        "image": "",
+        "description": "Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.\nLanguages are defined by their technical envelope — the choices made during development that shape the capabilities and strengths of a language. Dart is designed for a technical envelope that is particularly suited to client development, prioritizing both development (sub-second stateful hot reload) and high-quality production experiences across a wide variety of compilation targets (web, mobile, and desktop).\nDart also forms the foundation of Flutter. Dart provides the language and runtimes that power Flutter apps, but Dart also supports many core developer tasks like formatting, analyzing, and testing code.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Dart",
+            "courses": [
+              {
+                "title": "Dart Tutorial for Beginners: Basics and Fundamentals for Flutter - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q"
               }
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "Dart Programming Tutorial",
+                "url": "https://www.tutorialspoint.com/dart_programming/dart_programming_tutorial.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Scripting Languages",
+    "courses": [
+      {
+        "id": "1",
+        "title": "HTML",
+        "image": "",
+        "description": "HTML stands for Hyper Text Markup Language\n        HTML is the standard markup language for creating Web pages\n        HTML describes the structure of a Web page\n        HTML consists of a series of elements\n        HTML elements tell the browser how to display the content\n        .",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Beginner in HTML",
+            "courses": [
+              {
+                "title": "Intro to HTML and CSS - udemy",
+                "url": "https://www.udacity.com/course/intro-to-html-and-css--ud001"
+              },
+              {
+                "title": "HTML course - youtube",
+                "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji "
+              }
+
+            ],
+            "books": [
+              {
+                "title": "HTML for Beginners",
+                "url": "https://books.goalkicker.com/HTML5Book/HTML5NotesForProfessionals.pdf"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "advanced in HTML",
+            "courses": [
+
+              {
+                "title": "The Advanced HTML 5 Course - udemy",
+                "url": "https://www.udemy.com/course/advanced-css-3-practical-course-2020/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_597440503813_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_9112404_._pd__._&matchtype=&gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_IJTOsTYSMpZ1x6qYaH_MZ6m0F8D-ccN6AhfLDmwenSrdXTs2_EIjcaAjQiEALw_wcB"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "Advanced HTML5 ",
+                "url": "https://www.ciwcertified.com/resources/documents/sample-chapter/CCT02CDHTCSCK1405.PDF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "css",
+        "image": "",
+        "description": "CSS stands for Cascading Style Sheets\n        CSS describes how HTML elements are to be displayed on screen, paper, or in other media\n        CSS saves a lot of work. It can control the layout of multiple web pages all at once\n        External stylesheets are stored in CSS files\n        .",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Beginner in css",
+            "courses": [
+              {
+                "title": "Intro  CSS - youtube",
+                "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe"
+              },
+              {
+                "title": "css course - udemy",
+                "url": "https://www.udemy.com/course/refactoru-intro-to-css/"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "css for Beginners",
+                "url": "https://matfuvit.github.io/UVIT/predavanja/literatura/TutorialsPoint%20CSS.pdf"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "advanced in css",
+            "courses": [
+
+              {
+                "title": "The Advanced css Course - udemy",
+                "url": "https://www.udemy.com/course/refactoru-advanced-css-development/ "
+              }
+
+            ],
+            "books": [
+              {
+                "title": "Advanced css",
+                "url": "https://www.ciwcertified.com/resources/documents/sample-chapter/CCT02CDHTCSCK1405.PDF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "php",
+        "image": "",
+        "description": "PHP (recursive acronym for PHP: Hypertext Preprocessor)\n        is a widely-used open source general-purpose scripting language that is\n        especially suited for web development and can be embedded into HTML.\n",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Beginner in php",
+            "courses": [
+              {
+                "title": "Intro  php - youtube",
+                "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM"
+              },
+              {
+                "title": "php course - udemy",
+                "url": "https://www.udemy.com/course/learn-php-programming-for-beginners/"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "php for Beginners",
+                "url": "https://books.goalkicker.com/PHPBook/PHPNotesForProfessionals.pdf"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "intermediate in php",
+            "courses": [
+
+              {
+                "title": "The intermediate php Course - coursera",
+                "url": "https://www.coursera.org/learn/web-applications-php"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "intermediate php book",
+                "url": "https://assets.ctfassets.net/nkydfjx48olf/5qFMF3mvitLMahX67i7iOb/028229996c13cbc27a0538f055a41b46/php_cookbook.pdf"
+              }
+
+            ]
+          },
+          {
+            "id": "3",
+            "name": "advanced in php",
+            "courses": [
+              {
+                "title": "php course - udemy",
+                "url": "https://www.udemy.com/course/learn-advanced-php-programming/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282061_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_9112404_._pd__._&matchtype=&gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_Ik642W4_fEqI1fQMADUI7Ts3crF9iZQG5MPTZHr3QJO0_Holk3DckaAq0_EALw_wcB"
+              }
+
+            ],
+            "books": [
+              {
+                "title": "advanced php book",
+                "url": "https://ptgmedia.pearsoncmg.com/images/9780672325618/samplepages/0672325616.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "3",
+    "title": "Mobile Development",
+    "courses": [
+      {
+        "id": "1",
+        "title": "Android Development",
+        "image": "",
+        "description" : "Android is an operating system and programming platform developed by Google \nfor mobile phones and other mobile devices, such as tablets. It can run on many different \ndevices from many different manufacturers. Android includes a software development kit \n(SDK) that helps you write original code and assemble software modules to create apps\n for Android users. Android also provides a marketplace to distribute apps. All together, \nAndroid represents an ecosystem for mobile apps.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Beginner in Android",
+            "courses": [
+              {
+                "title": "Android User Interface: Android Basics | Udacity Free Courses",
+                "url": "https://www.udacity.com/course/android-basics-user-interface--ud834"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Intermediate in Android",
+            "courses": [
+              {
+                "title": "Android App Development | Udacity Free Courses",
+                "url": "https://www.udacity.com/course/new-android-fundamentals--ud851 "
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "name": "Advanced in Android",
+            "courses": [
+              {
+                "title": "Advanced Android App Development | Udacity Free Courses",
+                "url": "https://www.udacity.com/course/advanced-android-app-development--ud855"
               }
             ]
           },
           {
             "id": "4",
-            "name": "Introduction to Dart",
+            "name": "Kotlin",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "(272) Kotlin Course for Beginners and Java Devs - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLrnPJCHvNZuAIbejjZA1kGfLeA8ZpICB2"
               }
             ]
           },
           {
             "id": "5",
-            "name": "Introduction to Dart",
+            "name": "UI",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
+                "title": "Material UI Tutorial - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gjxLvV4VEkZ6H6H4yWuS58"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Flutter",
+        "image": "",
+        "description": "Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Flutter",
+            "courses": [
+              {
+                "title": "Mobile android and ios Development Tutorials by Flutter - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwQSrjaK2zpggw2uhf4VrLtI"
+              },
+              {
+                "title": "Mobile android and ios Development Tutorials by Flutter - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwTL7odos9XfqRPDCKc0q3t3"
               }
             ],
             "books": [
               {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "Modern App Development with Dart and Flutter 2: A Comprehensive Introduction to Flutter.pdf - Google Drive",
+                "url": "https://drive.google.com/file/d/1p3Wd4qXBzFs3YXcTdx0CJIkHT242Nc77/view"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Backend",
+    "courses": [
+      {
+        "id": "1",
+        "title": "Backend",
+        "image": "",
+        "description": "Web development activities that are done at the back end of programs are referred to\n as back end development. Back-end development covers server-side web application\n logic and integration and activities, like writing APIs, creating libraries,\n and working with system components instead of frontend development, \nwhich focuses on customer-facing services and programs.\n Backend developers build code that allows a database and an application\n to communicate with one another. Backend developers take care and maintain the back-end \nof a website, Including databases, servers, and apps, and they control what you don't see.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "basics of Data Structures & Algorithm",
+            "courses": [
+              {
+                "title": "(272) Data Structures Full Course In Arabic - Youtube",
+                "url": "https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp"
+              },
+              {
+                "title": "Data structure tutorial",
+                "url": "https://www.w3schools.blog/data-structure-tutorial "
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Basics of Databases",
+            "courses": [
+              {
+                "title": "(272) Database 1 - المقرر النظرى - Fundamentals of Database Systems - YouTube",
+                "url": "youtube.com/playlist?list=PL37D52B7714788190"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "name": "Beginner",
+            "courses": [
+              {
+                "title": "Introduction to Backend Development | Udacity Free Courses",
+                "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK2IHUue73AhUY_7sIHcDlBiUQFnoECAsQAQ&url=https%3A%2F%2Fwww.udacity.com%2Fcourse%2Fintro-to-backend--ud171&usg=AOvVaw2hurB13Yn_LL18xCQ_bdUW"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "name": "Advanced",
+            "courses": [
+              {
+                "title": "Free Web Development Tutorial - Advanced Backend Web Development | Udemy",
+                "url": "https://www.udemy.com/course/refactoru-adv-backend-dev/ "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Frontend",
+    "courses": [
+      {
+        "id": "1",
+        "title": "Frontend",
+        "image": "",
+        "description": "What is Front End Development?\nEverything you see on a website, like buttons, links, animations, and more, \nwere created by a front end web developer. It is the front end developer's job \nto take the vision and design concept from the client and implement it through code.\nEverything on the page from the logo to the search bar, buttons, overall layout and how\n the user interacts with the page was created by a front end developer. Front end developers \nare in charge of the look and feel of the website.\n\nFront end developers also have to make sure the website looks good on\n all devices (phones, tablets, and computer screens).\n",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Beginner",
+            "courses": [
+              {
+                "title": "Introduction to Frontend Web Development For  Beginners | Udemy",
+                "url": "https://www.udemy.com/course/programming-for-web-development-from-scratch/"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Advanced",
+            "courses": [
+              {
+                "title": "Become a Front End Web Developer",
+                "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001 "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Network",
+    "courses": [
+      {
+        "id": "1",
+        "title": "N+",
+        "image": "",
+        "description": "A certification by CompTIA, Network+, or N+, helps demonstrate a person's knowledge in TCP/IP, \nmanaging a network, network operating systems, and installing and upgrading networks.\n It's often recommended that users with little or no network experience complete a Network+\n certification before moving onto their MCSE or CNE certification.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "N+",
+            "courses": [
+              {
+                "title": "(272) CompTIA N10-008 Network+ Training Course - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G"
+              }
+            ],
+            "books": [
+              {
+                "title": "CompTIA Network+ N10-007 Cert Guide",
+                "url": "https://www.rcboe.org/cms/lib/GA01903614/Centricity/Domain/4399/Network%20n10-007.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "CCNA",
+        "image": "",
+        "description": "The CCNA—which stands for Cisco Certified Network Associate—is\n an entry-level information technology (IT) certification issued by networking hardware company Cisco.\n The CCNA is designed to validate your knowledge on fundamental networking concepts often\n requested in networking roles in IT positions.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "CCNA",
+            "courses": [
+              {
+                "title": "(272) Free CCNA 200-301 | Complete Course 2022 - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ"
+              }
+            ],
+            "books": [
+              {
+                "title": "CCNA Cisco Certified Network Associate Study Guide, (Includes CD-ROM)",
+                "url": "http://www.innos.in/downloads/CISCO%20-%20640-802-ccna.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "CCNP",
+        "image": "",
+        "description": "Cisco Certified Network Professional (CCNP) Routing and Switching certification validates\n that you have the ability to plan, implement, verify and troubleshoot local and wide area enterprise\n networks and that you can work collaboratively with specialists on advanced security, voice, wireless \nand video solutions.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "CCNP",
+            "courses": [
+              {
+                "title": "(272) Free CCNP 350-401 ENCOR Complete Course - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKPM3poHlHLpw-b6cigthng2"
+              }
+            ],
+            "books": [
+              {
+                "title": "CCNP Routing and Switching SWITCH 300-115 Official Cert Guide",
+                "url": "https://arjang.ac.ir/downloads/Landings/hamedbanifatemi/CCNP_Routing_and_Switching_SWITCH.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "MCSA",
+        "image": "",
+        "description": "MCSA (Microsoft Certified Solutions Associate) is a certification program intended for people who seek \nentry-level jobs in an information technology (IT) environment. This certification, which is being retired on Jan.\n 31, 2021, is a prerequisite for more advanced Microsoft certifications. The MCSA credential currently \nsupplants the defunct Microsoft Certified Systems Administrator certification.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "MCSA",
+            "courses": [
+              {
+                "title": "(272) MCSA 2016 Course By Eng.Mahdi Hussein Yasin | Arabic - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLYLBa8L8nMEX-61XoNed5iQvGmY6SPFZV"
+              }
+            ],
+            "books": [
+              {
+                "title": "MCSA Windows Server 2016 Study Guide: Exam 70-740",
+                "url": "https://bmansoori.ir/book/MCSA%20windows%20server%202016-bmansoori.ir.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Machine Learning",
+    "courses": [
+      {
+        "id": "1",
+        "title": "Python",
+        "image": "",
+        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Python Machine Learning",
+            "courses": [
+              {
+                "title": "(272) دورة تعلم بايثون من الصفر كاملة للمبتدئين - Master Python from Beginner to Advanced in Arabic - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ"
+              },
+              {
+                "title": "(272) Python Programming Course Level 1 Basic By Arabic كورس لغه برمجه بايثون المستوي الاول الاساسيات بالعربي - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwR1X4imwck6n1Pc0uXpToDn"
+              },
+              {
+                "title": "(272) Python Programming Course Level 2 Function and Object Oriented Programming By Arabic كورس لغه برمجه بايثون المستوي الثاني البرمجه الكائنيه بالعربي - YouTube",
+                "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwQvoI1O-2_e5UcGux1oN6Mh"
+              },
+              {
+                "title": "(272) Python Programming Course Level 3 Connect Database and Python By Arabic كورس لغه برمجه بايثون المستوي الثالث ربط الداتابيز بالبايثون بالعربي - YouTube",
+                "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwTpy2iVUmTe9oXokzJfgBxe"
+              },
+              {
+                "title": "(272) Python Programming Course Level 4 Graphic User Interface By Arabic كورس لغه برمجه بايثون المستوي الرابع الوجهات الرسوميه بالعربي - YouTube - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwRTfD0_fpfx0VC4VvIN1vGi"
+              }
+            ],
+            "books": [
+              {
+                "title": "Python Machine Learning - Sebastian Raschka - كتب Google",
+                "url": "https://books.google.com.eg/books?id=GOVOCwAAQBAJ&lpg=PP1&ots=NdcxObQSXK&dq=python%20machine%20learning&lr&hl=ar&pg=PP1#v=onepage&q=python%20machine%20learning&f=false"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Python for data analysis",
+            "'courses":[
+              {
+                "title": "(272) Python for Data Analysis - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLiC1doDIe9rCYWmH9wIEYEXXaJ4KAi3jc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Linux",
+        "image": "",
+        "description": "Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Linux",
+            "courses": [
+              {
+                "title": "(272) Linux Commands for Beginners - YouTube",
+                "url": "https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Sql Server",
+        "image": "",
+        "description": "SQL Server is a relational database management system (RDBMS) developed and marketed by Microsoft. As a database server, the primary function of the SQL Server is to store and retrieve data used by other applications\n",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Sql Server",
+            "courses": [
+              {
+                "title": "(272) Sql Server Course شرح بالعربي - YouTube",
+                "url": "https://youtube.com/playlist?list=PLv3VqjyehAoTPEc-D3RsgjuemwfZeX3uf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Machine Learning",
+        "image": "",
+        "description": "Machine learning is a method of data analysis that automates   \n         analytical model building. It is a branch of artificial intelligence based\n         on the idea that systems can learn from data, identify patterns and \n         make decisions with minimal human intervention.\n",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Machine Learning",
+            "courses": [
+              {
+                "title": "(272) Machine Learning — Andrew Ng, Stanford University [FULL COURSE] - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+              },
+              {
+                "title": "(272) Machine Learning | بالعربي - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLH2enzYTUDTuWsXCqwBzfDC3sLn39QxEN"
+              }
+            ],
+            "books": [
+              {
+                "title": "understanding-machine-learning-theory-algorithms.pdf",
+                "url": "https://www.cs.huji.ac.il/w~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Deep learning",
+        "image": "",
+        "description": "Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Deep Learning",
+            "courses": [
+              {
+                "title": "(272) Deep Learning Fundamentals - Intro to Neural Networks - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU"
+              }
+            ],
+            "books": [
+              {
+                "title": "978-3-319-94463-0.pdf",
+                "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-94463-0.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Tensorflow ",
+        "image": "",
+        "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Deep Learning",
+            "courses": [
+              {
+                "title": "(272) TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - YouTube",
+                "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "3d Modeling",
+    "courses": [
+      {
+        "id": "1",
+        "title": "3d Modeling",
+        "image": "",
+        "description": "3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object (inanimate or living) in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.\n\nThree-dimensional (3D) models represent a physical body using a collection of points in 3D space, connected by various geometric entities such as triangles, lines, curved surfaces, etc.[4] Being a collection of data (points and other information), 3D models can be created manually, algorithmically (procedural modeling), or by scanning.Their surfaces may be further defined with texture mapping.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "3d Modeling",
+            "courses": [
+              {
+                "title": "Free Blender Tutorial - Free Blender Crash Course! | Udemy",
+                "url": "https://www.udemy.com/course/blender-crash-course/"
+              }
+            ],
+            "books": [
+              {
+                "title": "(PDF) Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion eBook Available Full Color Inside BOOKS FOR PROFESSIONALS BY PROFESSIONALS Beginning Blender: Open Source 3D Modeling, Animation, and Game Design | Sam Bossa - Academia.edu",
+                "url": "https://www.academia.edu/7984869/Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design_Companion_eBook_Available_Full_Color_Inside_BOOKS_FOR_PROFESSIONALS_BY_PROFESSIONALS_Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design"
+              },
+              {
+                "title": "3D Modeling For Beginners - Danan Thilakanathan.pdf - PDFCOFFEE.COM",
+                "url": "https://pdfcoffee.com/3d-modeling-for-beginners-danan-thilakanathanpdf-pdf-free.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Embedded System",
+    "courses": [
+      {
+        "id": "1",
+        "title": "C Programming",
+        "image": "",
+        "steps": [
+          {
+            "id": "1",
+            "name": "C course",
+            "courses": [
+              {
+                "title": "(272) C Programming Course - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLN1y0ZkXPS1XNM1d-T22zNNQWvEpLd6eb"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "AVR",
+            "courses": [
+              {
+                "title": "(272) Embedded system course in Arabic - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa-inO_qYtlG2RkZV7itreUX"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "name": "Embedded c",
+            "courses": [
+              {
+                "title": "(272) Embedded C ----Arabic --- - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa_CwleWM46EIgiR25EySpxC"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "name": "Advanced c",
+            "courses": [
+              {
+                "title": "(272) Embedded Software Hardware interaction(Arabic) - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa-fLyGoPdcp6sQtxEdgl0hQ"
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "name": "RTOS ",
+            "courses": [
+              {
+                "title": "(272) introduction to Embedded Real Time Operating systems - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa8WCBqlQbp8VQ6OblW3DvCo"
               }
             ]
           },
           {
             "id": "6",
-            "name": "Introduction to Dart",
+            "name": " Boot Loader with ARM",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "(272) Embedded Boot-Loader Design Course - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLl3yF2kjT6AzLxhOuCEBY-8RzOIB1sfnN"
               }
             ]
           },
           {
             "id": "7",
-            "name": "Introduction to Dart",
+            "name": " Boot Loader with AVR ",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "(272) Embedded Systems - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLL6dsDYnNwt4KX8X_bXlFjejWGEb56oXv"
               }
             ]
           },
           {
             "id": "8",
-            "name": "Introduction to Dart",
+            "name": "ARM Microcontroller",
             "courses": [
               {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Web Development",
-    "courses": [
-      {
-        "id": "1",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Web Development",
-    "courses": [
-      {
-        "id": "1",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Web Development",
-    "courses": [
-      {
-        "id": "1",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "title": "Flutter",
-        "image": "https://drive.google.com/uc?export=view&id=1uMWYp6eo1zdRaL4bODNyu6Aml5BjNtKj",
-        "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "Introduction to Dart",
-            "courses": [
-              {
-                "title": "Tutorials Point - Introduction to Dart Programming",
-                "url": "https://www.raywenderlich.com/books/dart-apprentice/v1.1"
-              }
-            ],
-            "books": [
-              {
-                "title": "Dart Apprentice",
-                "url": "https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm"
+                "title": "(272) سلسلة تعلم برمجة الأنظمة المدمجة والمتحكم الدقيق STM32 المعتمد على نواة ARM Cortex-M4 - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLPFp2zIiTnxXjxS-tC0u6m5zuSSJ1NLFw"
               }
             ]
           }

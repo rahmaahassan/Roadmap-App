@@ -1,17 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../../../application/auth/sign_up/cubit/cubit.dart';
 import '../../../../application/auth/sign_up/cubit/states.dart';
 import '../../../helpers/presentation_helpers.dart';
 import '../../../theme/colors.dart';
-import '../../../theme/fonts.dart';
 import '../../shared_widgets/shared_widgets.dart';
+import '../widgets/widgets.dart';
 import 'widgets/widgets.dart';
 
-class SignUpPage extends StatelessWidget {
+class SignUpPage extends StatefulWidget {
   const SignUpPage({Key? key}) : super(key: key);
+
+  @override
+  State<SignUpPage> createState() => _SignUpPageState();
+}
+
+class _SignUpPageState extends State<SignUpPage> {
+  var formKey = GlobalKey<FormState>();
+
+  var nameController = TextEditingController();
+
+  var emailController = TextEditingController();
+
+  var passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -23,28 +37,97 @@ class SignUpPage extends StatelessWidget {
               return ColoredBox(
                 color: ApplicationColor.authScaffoldBackgroundColor,
                 child: Column(children: [
-                  SizedBox(
-                    height: 20.5.h,
-                  ),
-                  ApplicationSVG.icon(
-                      color: ApplicationColor.authIconColor,
-                      width: 42.w,
-                      height: 42.h,
-                      icon: PresentationAssetPath.ADD_PERSON_ICON),
-                  SizedBox(
-                    height: 18.h,
-                  ),
-                  Text(
-                    ApplicationTextValue.SIGNUP_HEADER,
-                    style: TextStyle(
-                        fontSize: 28.sp,
-                        color: ApplicationColor.white,
-                        fontWeight: ApplicationFont.bold),
-                  ),
+                  const SignUpHeader(),
                   SizedBox(
                     height: 30.h,
                   ),
-                  const SignupFormFields(),
+                  Form(
+                    key: formKey,
+                    child: Padding(
+                      padding: EdgeInsets.all(36.r),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          defaultFormField(
+                              controller: nameController,
+                              type: TextInputType.emailAddress,
+                              validate: (value) {
+                                if (value.isEmpty) {
+                                  return 'please enter your name';
+                                }
+                                return null;
+                              },
+                              label: 'Name',
+                              prefix: Icons.person_outline),
+                          SizedBox(
+                            height: 26.h,
+                          ),
+                          defaultFormField(
+                              controller: emailController,
+                              type: TextInputType.emailAddress,
+                              validate: (value) {
+                                if (value.isEmpty) {
+                                  return 'please enter your email address';
+                                }
+                                return null;
+                              },
+                              label: 'Email',
+                              prefix: Icons.email_outlined),
+                          SizedBox(
+                            height: 26.h,
+                          ),
+                          defaultFormField(
+                              controller: passwordController,
+                              type: TextInputType.visiblePassword,
+                              suffix: AppSignUpCubit.get(context).suffix,
+                              isPassword:
+                                  AppSignUpCubit.get(context).isPassword,
+                              suffixPressed: () {
+                                AppSignUpCubit.get(context)
+                                    .changePasswordVisibility();
+                              },
+                              validate: (value) {
+                                if (value.isEmpty) {
+                                  return 'please enter your password';
+                                }
+                                return null;
+                              },
+                              label: 'Password',
+                              prefix: Icons.lock_outline),
+                          SizedBox(
+                            height: 20.h,
+                          ),
+                          InkWell(
+                            onTap: onTappedSignUpWithGoogle,
+                            child: Container(
+                              height: 66.h,
+                              width: 342.w,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(4.r),
+                                  color: ApplicationColor.borderSignupColor),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  const FaIcon(
+                                    FontAwesomeIcons.google,
+                                    color: ApplicationColor.white,
+                                  ),
+                                  SizedBox(
+                                    width: 14.h,
+                                  ),
+                                  const Text(
+                                    ApplicationTextValue.SIGNUP_WITH_GOOGLE,
+                                    style: TextStyle(
+                                        color: ApplicationColor.white),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                   SizedBox(
                     height: 8.h,
                   ),
@@ -63,14 +146,15 @@ class SignUpPage extends StatelessWidget {
                         alignment: Alignment.topRight,
                         child: Padding(
                           padding: EdgeInsets.only(bottom: 42.h, right: 26.w),
-                          child: InkWell(
-                            onTap: onTappedSignUpBottom,
+                          child: state is! AppSignUpLoadingState ? InkWell(
+                            onTap:
+                              onTappedSignUpBottom,
                             child: const ApplicationBackButton(
                               boxColor: ApplicationColor.authIconColor,
                               arrowColor: ApplicationColor.primaryColor,
                               showAuthIcon: true,
                             ),
-                          ),
+                          ) : const Center(child: CircularProgressIndicator(),),
                         ),
                       ),
                     ],
@@ -81,6 +165,16 @@ class SignUpPage extends StatelessWidget {
   }
 
   void onTappedSignUpBottom() {
+    if (formKey.currentState!.validate()) {
+      AppSignUpCubit.get(context).userSignUp(
+        name: nameController.text,
+        email: emailController.text,
+        password: passwordController.text,
+      );
+    }
+  }
+
+  void onTappedSignUpWithGoogle() {
     /// TODO
   }
 }

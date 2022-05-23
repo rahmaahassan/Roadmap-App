@@ -10,9 +10,8 @@ class SignupFormFields extends StatefulWidget {
 class _AuthFormFieldsState extends State<SignupFormFields> {
   var formKey = GlobalKey<FormState>();
 
-  var emailController = TextEditingController();
   var nameController = TextEditingController();
-
+  var emailController = TextEditingController();
   var passwordController = TextEditingController();
 
   @override
@@ -39,6 +38,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         return null;
                       },
                       label: 'Name',
+                      prefix: Icons.person_outline
                     ),
                     SizedBox(
                       height: 26.h,
@@ -53,6 +53,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         return null;
                       },
                       label: 'Email',
+                      prefix: Icons.email_outlined
                     ),
                     SizedBox(
                       height: 26.h,
@@ -72,6 +73,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         return null;
                       },
                       label: 'Password',
+                      prefix: Icons.lock_outline
                     ),
                     SizedBox(
                       height: 20.h,

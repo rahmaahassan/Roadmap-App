@@ -38,6 +38,7 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
                         return null;
                       },
                       label: 'Email',
+                      prefix: Icons.email_outlined
                     ),
                     SizedBox(
                       height: 26.h,
@@ -57,6 +58,7 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
                         return null;
                       },
                       label: 'Password',
+                      prefix: Icons.lock_outline_rounded
                     ),
                     SizedBox(
                       height: 20.h,

@@ -11,4 +11,4 @@ import '../../course_description_page/course_description_page.dart';
 import '../../shared_widgets/shared_widgets.dart';
 
 part '../home_page.dart';
-part 'home_widgets.dart';
+part 'home_list.dart';

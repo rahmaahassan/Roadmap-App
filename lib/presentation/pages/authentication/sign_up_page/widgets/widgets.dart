@@ -7,6 +7,8 @@ import 'package:road_map_project/presentation/helpers/presentation_helpers.dart'
 import '../../../../../application/auth/sign_up/cubit/cubit.dart';
 import '../../../../../application/auth/sign_up/cubit/states.dart';
 import '../../../../theme/colors.dart';
+import '../../../../theme/fonts.dart';
 import '../../widgets/widgets.dart';
 
 part 'signup_form_fields.dart';
+part 'sign_up_header.dart';

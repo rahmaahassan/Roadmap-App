@@ -20,6 +20,7 @@ class AuthTabBar extends StatelessWidget {
       length: myTabs.length,
       child: Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading:false,
           elevation: 0,
           bottom: TabBar(
             padding: EdgeInsets.only(bottom: 30.h),

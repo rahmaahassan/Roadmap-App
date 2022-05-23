@@ -7,7 +7,7 @@ import '../shared_widgets/navigation_bar_bottom/widgets.dart';
 import '../home_page/widgets/widgets.dart';
 
 class NavigationBarHome extends StatefulWidget {
-  static const routeName = '/home-page';
+  static const routeName = '/navigation-bar';
   const NavigationBarHome({Key? key}) : super(key: key);
 
   @override

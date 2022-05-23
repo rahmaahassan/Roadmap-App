@@ -11,7 +11,7 @@ import '../pages/navigation_bar_home/navigation_bar_home.dart';
 
 class AppRouter {
   /// Here we type the initial page that appear after the splash screen.
-  static const String initialRoute = NavigationBarHome.routeName; // TODO
+  static const String initialRoute = OnBoardingScreen.routeName; // TODO
 
   static Map<String, WidgetBuilder> routes = {
     OnBoardingScreen.routeName: (context) => const OnBoardingScreen(),
