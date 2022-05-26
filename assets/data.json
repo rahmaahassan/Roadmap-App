@@ -6,7 +6,7 @@
       {
         "id": "1",
         "title": "Python",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1HQ5Pe-REX3YZ8Fjy-4fN47LHQTjOrFqE",
         "description": "Python is a general-purpose coding language — which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development.",
         "steps": [
           {
@@ -38,7 +38,7 @@
       {
         "id": "2",
         "title": "Java",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1XhDkA3dnHUzmlUbWxsIbtfF5t53WXE7d",
         "description": "Java is a widely used object-oriented programming language and software platform\n that runs on billions of devices, including notebook computers, mobile devices,\n gaming consoles, medical devices and many others. The rules and syntax of Java are based\n on the C and C++ languages",
         "steps": [
           {
@@ -109,7 +109,7 @@
       {
         "id": "3",
         "title": "C#",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1wgSAkSoAhodpCHH564LeOMzce01KeGAf",
         "description": "C# is a simple, modern, object-oriented, and type-safe programming language.\n Its roots in the C family of languages makes C# immediately familiar to C, C++, Java, and JavaScript programmers.",
         "steps": [
           {
@@ -128,7 +128,7 @@
             ],
             "books": [
               {
-                "title":  " c# for Beginners",
+                "title":  "c# for Beginners",
                 "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
               }
             ]
@@ -146,7 +146,7 @@
             ],
             "books": [
               {
-                "title":  " c# -Intermediate ",
+                "title":  "c# -Intermediate ",
                 "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
               }
             ]
@@ -295,7 +295,7 @@
       {
         "id": "6",
         "title": "Dart",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1TtJnFr_4-v4wDG71NUx93wVhiBND0D8V",
         "description": "Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.\nLanguages are defined by their technical envelope — the choices made during development that shape the capabilities and strengths of a language. Dart is designed for a technical envelope that is particularly suited to client development, prioritizing both development (sub-second stateful hot reload) and high-quality production experiences across a wide variety of compilation targets (web, mobile, and desktop).\nDart also forms the foundation of Flutter. Dart provides the language and runtimes that power Flutter apps, but Dart also supports many core developer tasks like formatting, analyzing, and testing code.",
         "steps": [
           {
@@ -325,7 +325,7 @@
       {
         "id": "1",
         "title": "HTML",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1jWrvyq5akA1oLkByC78TasTVH8mfleon",
         "description": "HTML stands for Hyper Text Markup Language\n        HTML is the standard markup language for creating Web pages\n        HTML describes the structure of a Web page\n        HTML consists of a series of elements\n        HTML elements tell the browser how to display the content\n        .",
         "steps": [
           {
@@ -372,7 +372,7 @@
       {
         "id": "2",
         "title": "css",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1l6NCZ00lcgsoAbUqPE8Z2YKMGB3YRfvW\n",
         "description": "CSS stands for Cascading Style Sheets\n        CSS describes how HTML elements are to be displayed on screen, paper, or in other media\n        CSS saves a lot of work. It can control the layout of multiple web pages all at once\n        External stylesheets are stored in CSS files\n        .",
         "steps": [
           {
@@ -419,7 +419,7 @@
       {
         "id": "3",
         "title": "php",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1Qkr0g9uHMzPCjBgkPYuHslJxA2R63iYU",
         "description": "PHP (recursive acronym for PHP: Hypertext Preprocessor)\n        is a widely-used open source general-purpose scripting language that is\n        especially suited for web development and can be embedded into HTML.\n",
         "steps": [
           {
@@ -489,8 +489,8 @@
     "courses": [
       {
         "id": "1",
-        "title": "Android Development",
-        "image": "",
+        "title": "Android",
+        "image": "https://drive.google.com/uc?export=view&id=1h7o8Yepw75ZvmdZqUoZUwa_RBWgybCy7",
         "description" : "Android is an operating system and programming platform developed by Google \nfor mobile phones and other mobile devices, such as tablets. It can run on many different \ndevices from many different manufacturers. Android includes a software development kit \n(SDK) that helps you write original code and assemble software modules to create apps\n for Android users. Android also provides a marketplace to distribute apps. All together, \nAndroid represents an ecosystem for mobile apps.",
         "steps": [
           {
@@ -548,7 +548,7 @@
       {
         "id": "2",
         "title": "Flutter",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=14w4ayK-QvQiGGbfweEIwACZq7G5T7ipY",
         "description": "Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.",
         "steps": [
           {
@@ -582,7 +582,7 @@
       {
         "id": "1",
         "title": "Backend",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1bW6O4mJC_Du4GUdzMlbujNCnr6i8Vi1l",
         "description": "Web development activities that are done at the back end of programs are referred to\n as back end development. Back-end development covers server-side web application\n logic and integration and activities, like writing APIs, creating libraries,\n and working with system components instead of frontend development, \nwhich focuses on customer-facing services and programs.\n Backend developers build code that allows a database and an application\n to communicate with one another. Backend developers take care and maintain the back-end \nof a website, Including databases, servers, and apps, and they control what you don't see.",
         "steps": [
           {
@@ -640,7 +640,7 @@
       {
         "id": "1",
         "title": "Frontend",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1AtVdvexkiDmMjkV3lJuVpGt_Xrtbt4MQ",
         "description": "What is Front End Development?\nEverything you see on a website, like buttons, links, animations, and more, \nwere created by a front end web developer. It is the front end developer's job \nto take the vision and design concept from the client and implement it through code.\nEverything on the page from the logo to the search bar, buttons, overall layout and how\n the user interacts with the page was created by a front end developer. Front end developers \nare in charge of the look and feel of the website.\n\nFront end developers also have to make sure the website looks good on\n all devices (phones, tablets, and computer screens).\n",
         "steps": [
           {
@@ -788,25 +788,25 @@
                 "url": "https://www.youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ"
               },
               {
-                "title": "(272) Python Programming Course Level 1 Basic By Arabic كورس لغه برمجه بايثون المستوي الاول الاساسيات بالعربي - YouTube",
+                "title": "Python Programming Course Level 1 Basic By Arabic - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwR1X4imwck6n1Pc0uXpToDn"
               },
               {
-                "title": "(272) Python Programming Course Level 2 Function and Object Oriented Programming By Arabic كورس لغه برمجه بايثون المستوي الثاني البرمجه الكائنيه بالعربي - YouTube",
+                "title": "Python Programming Course Level 2 Function and Object Oriented Programming By Arabic - YouTube",
                 "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwQvoI1O-2_e5UcGux1oN6Mh"
               },
               {
-                "title": "(272) Python Programming Course Level 3 Connect Database and Python By Arabic كورس لغه برمجه بايثون المستوي الثالث ربط الداتابيز بالبايثون بالعربي - YouTube",
+                "title": "Python Programming Course Level 3 Connect Database and Python By Arabic - YouTube",
                 "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwTpy2iVUmTe9oXokzJfgBxe"
               },
               {
-                "title": "(272) Python Programming Course Level 4 Graphic User Interface By Arabic كورس لغه برمجه بايثون المستوي الرابع الوجهات الرسوميه بالعربي - YouTube - YouTube",
+                "title": "Python Programming Course Level 4 Graphic User Interface By Arabic - YouTube - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwRTfD0_fpfx0VC4VvIN1vGi"
               }
             ],
             "books": [
               {
-                "title": "Python Machine Learning - Sebastian Raschka - كتب Google",
+                "title": "Python Machine Learning - Sebastian Raschka - Google",
                 "url": "https://books.google.com.eg/books?id=GOVOCwAAQBAJ&lpg=PP1&ots=NdcxObQSXK&dq=python%20machine%20learning&lr&hl=ar&pg=PP1#v=onepage&q=python%20machine%20learning&f=false"
               }
             ]
@@ -816,7 +816,7 @@
             "name": "Python for data analysis",
             "'courses":[
               {
-                "title": "(272) Python for Data Analysis - YouTube",
+                "title": "Python for Data Analysis - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLiC1doDIe9rCYWmH9wIEYEXXaJ4KAi3jc"
               }
             ]
@@ -861,9 +861,9 @@
       },
       {
         "id": "4",
-        "title": "Machine Learning",
+        "title": "ML",
         "image": "",
-        "description": "Machine learning is a method of data analysis that automates   \n         analytical model building. It is a branch of artificial intelligence based\n         on the idea that systems can learn from data, identify patterns and \n         make decisions with minimal human intervention.\n",
+        "description": "Machine learning is a method of data analysis that automates\nanalytical model building. It is a branch of artificial intelligence based\non the idea that systems can learn from data, identify patterns and \nmake decisions with minimal human intervention.\n",
         "steps": [
           {
             "id": "1",
@@ -913,7 +913,7 @@
       },
       {
         "id": "6",
-        "title": "Tensorflow ",
+        "title": "Tensorflow",
         "image": "",
         "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
         "steps": [
@@ -964,98 +964,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "9",
-    "title": "Embedded System",
-    "courses": [
-      {
-        "id": "1",
-        "title": "C Programming",
-        "image": "",
-        "steps": [
-          {
-            "id": "1",
-            "name": "C course",
-            "courses": [
-              {
-                "title": "(272) C Programming Course - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLN1y0ZkXPS1XNM1d-T22zNNQWvEpLd6eb"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "AVR",
-            "courses": [
-              {
-                "title": "(272) Embedded system course in Arabic - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa-inO_qYtlG2RkZV7itreUX"
-              }
-            ]
-          },
-          {
-            "id": "3",
-            "name": "Embedded c",
-            "courses": [
-              {
-                "title": "(272) Embedded C ----Arabic --- - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa_CwleWM46EIgiR25EySpxC"
-              }
-            ]
-          },
-          {
-            "id": "4",
-            "name": "Advanced c",
-            "courses": [
-              {
-                "title": "(272) Embedded Software Hardware interaction(Arabic) - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa-fLyGoPdcp6sQtxEdgl0hQ"
-              }
-            ]
-          },
-          {
-            "id": "5",
-            "name": "RTOS ",
-            "courses": [
-              {
-                "title": "(272) introduction to Embedded Real Time Operating systems - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PL6XhtJWb6Qa8WCBqlQbp8VQ6OblW3DvCo"
-              }
-            ]
-          },
-          {
-            "id": "6",
-            "name": " Boot Loader with ARM",
-            "courses": [
-              {
-                "title": "(272) Embedded Boot-Loader Design Course - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLl3yF2kjT6AzLxhOuCEBY-8RzOIB1sfnN"
-              }
-            ]
-          },
-          {
-            "id": "7",
-            "name": " Boot Loader with AVR ",
-            "courses": [
-              {
-                "title": "(272) Embedded Systems - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLL6dsDYnNwt4KX8X_bXlFjejWGEb56oXv"
-              }
-            ]
-          },
-          {
-            "id": "8",
-            "name": "ARM Microcontroller",
-            "courses": [
-              {
-                "title": "(272) سلسلة تعلم برمجة الأنظمة المدمجة والمتحكم الدقيق STM32 المعتمد على نواة ARM Cortex-M4 - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLPFp2zIiTnxXjxS-tC0u6m5zuSSJ1NLFw"
-              }
-            ]
-          }
-        ]
-      }
-    ]
   }
+
 ]

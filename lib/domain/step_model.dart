@@ -17,14 +17,13 @@ class StepModel{
   }
 
   factory StepModel.fromJson(Map<String, dynamic> data) {
-    final String id = data['id'] as String;
-    final String name = data['name'] as String;
-    final List<LinkModel> courses = data['courses'].map<LinkModel>(
-            (course) => LinkModel.fromJson(course)
-    ).toList() as List<LinkModel>;
-    final List<LinkModel> books = data['books'].map<LinkModel>(
+    final String id = data['id'] ?? "";
+    final String name = data['name'] ?? "";
+    final List<LinkModel> courses = data['courses']?.map<LinkModel>(
+            (course) => LinkModel.fromJson(course)).toList() ?? [];
+    final List<LinkModel> books = data['books']?.map<LinkModel>(
             (book) => LinkModel.fromJson(book)
-    ).toList() as List<LinkModel>;
+    ).toList() ?? [];
 
     return StepModel(
       id: id,

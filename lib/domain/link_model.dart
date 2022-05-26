@@ -13,8 +13,8 @@ class LinkModel {
   }
 
   factory LinkModel.fromJson(Map<String, dynamic> data) {
-    final String title = data['title'] as String;
-    final String url = data['url'] as String;
+    final String title = data['title'] ?? "";
+    final String url = data['url'] ?? "";
 
     return LinkModel(
       title: title,

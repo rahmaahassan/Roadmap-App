@@ -7,8 +7,8 @@ import 'presentation/application_widget.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  FirebaseCategoriesFacade firebase = FirebaseCategoriesFacade();
-  firebase.uploadCategories();
+  // FirebaseCategoriesFacade firebase = FirebaseCategoriesFacade();
+  // firebase.uploadCategories();
   /// Here we initialize connection with our database
 
   runApp(const ApplicationWidget());
