@@ -128,26 +128,33 @@ class TileList extends StatelessWidget {
                                 ),
                               ),
                               Expanded(
-                                child: Column(
-                                  children: steps[index].books.map<Widget>((stepCourse) => InkWell(
-                                    onTap: () async {
-                                      if (!await launchUrl(Uri.parse(steps[index].books[index].url))) {
-                                        throw 'Could not launch book link';
-                                      }
-                                    },
-                                    child: Text(
-                                      "- " + stepCourse.title,
-                                      style: TextStyle(
-                                        fontSize: 12.sp,
-                                        fontWeight: ApplicationFont
-                                            .regular,
-                                        decoration: TextDecoration
-                                            .underline,
-                                        color: ApplicationColor
-                                            .textSubTitleColor,
+                                child: SingleChildScrollView(
+                                  child: Column(
+                                    children: steps[index].books.map<Widget>((stepCourse) => InkWell(
+                                      onTap: () async {
+                                        if (!await launchUrl(Uri.parse(steps[index].books[index].url))) {
+                                          throw 'Could not launch book link';
+                                        }
+                                      },
+                                      child: Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: Text(
+                                          "- " + stepCourse.title,
+                                          textAlign: TextAlign.left,
+                                          style: TextStyle(
+                                              fontSize: 12.sp,
+                                              fontWeight: ApplicationFont
+                                                  .regular,
+                                              decoration: TextDecoration
+                                                  .underline,
+                                              color: ApplicationColor
+                                                  .textSubTitleColor,
+                                              height: 2
+                                          ),
+                                        ),
                                       ),
-                                    ),
-                                  )).toList(),
+                                    )).toList(),
+                                  ),
                                 ),
 
                               )

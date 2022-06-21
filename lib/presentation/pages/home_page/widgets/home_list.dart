@@ -10,7 +10,7 @@ class HomeList extends StatelessWidget {
       if (state is CategoriesSuccessState) {
         return ListView.separated(
             itemBuilder: (context, categoryIndex) => Padding(
-                  padding: EdgeInsets.only(left: 14.w, top: 20.h),
+                  padding: EdgeInsets.only(left: 10.w, top: 20.h, right: 10.w),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -20,10 +20,10 @@ class HomeList extends StatelessWidget {
                               fontWeight: ApplicationFont.bold,
                               fontSize: 18.sp)),
                       SizedBox(
-                        height: 15.h,
+                        height: 10.h,
                       ),
                       SizedBox(
-                        height: 123.h,
+                        height: 120.h,
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, courseIndex) => InkWell(
@@ -31,98 +31,80 @@ class HomeList extends StatelessWidget {
                                 context, CourseDescriptionPage.routeName,
                                 arguments: state.categories[categoryIndex]
                                     .courses[courseIndex]),
-                            child: Column(
-                              children: [
-                                Padding(
-                                  padding: EdgeInsets.all(8.r),
-                                  child: Row(
-                                    children: [
-                                      CachedNetworkImage(
-                                        height: 70.h,
-                                        width: 70.w,
-                                        imageUrl: state
-                                            .categories[categoryIndex]
-                                            .courses[courseIndex]
-                                            .image,
-                                        imageBuilder:
-                                            (context, imageProvider) =>
-                                                Container(
-                                          decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            image: DecorationImage(
-                                              image: imageProvider,
-                                              //AssetImage(PresentationAssetPath.ACTIVITY_DEFAULT),
-                                              fit: BoxFit.fill,
-                                            ),
-                                          ),
+                            borderRadius: BorderRadius.circular(25.r),
+                            child: Padding(
+                              padding: EdgeInsets.all(8.r),
+                              child: Column(
+                                children: [
+                                  CachedNetworkImage(
+                                    height: 70.h,
+                                    width: 70.w,
+                                    imageUrl: state.categories[categoryIndex]
+                                        .courses[courseIndex].image,
+                                    imageBuilder: (context, imageProvider) =>
+                                        Container(
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        image: DecorationImage(
+                                          image: imageProvider,
+                                          //AssetImage(PresentationAssetPath.ACTIVITY_DEFAULT),
+                                          fit: BoxFit.fill,
                                         ),
-                                        placeholder: (context, url) =>
-                                            Container(
-                                          decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border: Border.all(
-                                                color: ApplicationColor.white
-                                            ),
-                                            color:
-                                                ApplicationColor.primaryColor,
-                                          ),
-                                          child: Center(
-                                              child: Padding(
-                                            padding: EdgeInsets.all(10.h),
-                                            child:
-                                                const CircularProgressIndicator(
-                                              strokeWidth: 3.0,
-                                            ),
-                                          )),
+                                      ),
+                                    ),
+                                    placeholder: (context, url) => Container(
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        border: Border.all(
+                                            color: ApplicationColor.white),
+                                        color: ApplicationColor.primaryColor,
+                                      ),
+                                      child: Center(
+                                          child: Padding(
+                                        padding: EdgeInsets.all(10.h),
+                                        child: const CircularProgressIndicator(
+                                          strokeWidth: 3.0,
                                         ),
-                                        errorWidget: (context, url, error) =>
-                                            Container(
-                                          decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border: Border.all(
-                                                color: ApplicationColor.white
-                                            ),
-                                            color: PresentationHelperFunctions
-                                                .generateRandomColor,
-                                          ),
-                                          child: Center(
-                                            child: FittedBox(
-                                              child: Text(
-                                                  state
-                                                      .categories[categoryIndex]
-                                                      .courses[courseIndex]
-                                                      .title,
-                                                  textAlign: TextAlign.center,
-                                                  style: TextStyle(
-                                                      color: ApplicationColor
-                                                          .white,
-                                                      fontWeight:
-                                                          ApplicationFont
-                                                              .regular,
-                                                      fontSize: 15.sp)),
-                                            ),
-                                          ),
+                                      )),
+                                    ),
+                                    errorWidget: (context, url, error) =>
+                                        Container(
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        border: Border.all(
+                                            color: ApplicationColor.white),
+                                        color: PresentationHelperFunctions
+                                            .generateRandomColor,
+                                      ),
+                                      child: Center(
+                                        child: FittedBox(
+                                          child: Text(
+                                              state.categories[categoryIndex]
+                                                  .courses[courseIndex].title,
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                  color: ApplicationColor.white,
+                                                  fontWeight:
+                                                      ApplicationFont.regular,
+                                                  fontSize: 15.sp)),
                                         ),
-                                      )
-                                    ],
+                                      ),
+                                    ),
                                   ),
-                                ),
-                                SizedBox(
-                                  height: 10.h,
-                                ),
-                                Row(
-                                  children: [
-                                    Text(
-                                        state.categories[categoryIndex]
-                                            .courses[courseIndex].title,
-                                        style: TextStyle(
-                                            color: ApplicationColor
-                                                .textSubTitleColor,
-                                            fontWeight: ApplicationFont.regular,
-                                            fontSize: 14.sp)),
-                                  ],
-                                ),
-                              ],
+                                  SizedBox(
+                                    height: 10.h,
+                                  ),
+                                  Text(
+                                      state.categories[categoryIndex]
+                                          .courses[courseIndex].title,
+                                      style: TextStyle(
+                                          color: ApplicationColor
+                                              .textSubTitleColor,
+                                          fontWeight: ApplicationFont.regular,
+                                          fontSize: 14.sp,
+                                          letterSpacing: 1)),
+                                ],
+                              ),
                             ),
                           ),
                           itemCount:
@@ -135,8 +117,8 @@ class HomeList extends StatelessWidget {
             separatorBuilder: (context, index) => Divider(
                   thickness: 2,
                   color: Colors.grey,
-                  indent: 14.w,
-                  endIndent: 14.w,
+                  indent: 20.w,
+                  endIndent: 20.w,
                 ),
             itemCount: state.categories.length);
       } else if (state is CategoriesFailureState) {

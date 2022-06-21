@@ -29,90 +29,96 @@ class _SearchPageState extends State<SearchPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          automaticallyImplyLeading:false,
-          elevation: 0,
-          title: SearchTextField(
-            onChanged: onChanged,
-          ),
-        ),
-        body: BlocBuilder<CategoriesCubit, CategoriesStates>(
-            builder: (context, state) {
-          if (state is CategoriesSuccessState) {
-            final List<CourseModel> courses = List.empty(growable: true);
-            for (CategoryModel category in state.categories) {
-              courses.addAll(category.courses);
-            }
-            return SingleChildScrollView(
-              child: Column(
-                  children: courses.map((course) {
-                return searchString.isNotEmpty && course.title
-                        .toLowerCase()
-                        .contains(searchString.toLowerCase())
-                    ? Padding(
-                        padding:
-                            EdgeInsets.only(top: 20.r, right: 20.w, left: 20.w),
-                        child: Container(
-                            width: 369.w,
-                            height: 64.h,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(25.r),
-                                border: Border.all(
-                                    color:
-                                        ApplicationColor.navDisActiveBottom)),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsets.only(left: 18.w),
-                                  child: Text(
-                                      course.title,
-                                      style: TextStyle(
-                                          color: ApplicationColor
-                                              .textSubTitleColor,
-                                          fontWeight: ApplicationFont.regular,
-                                          fontSize: 23.sp)),
-                                ),
-                                InkWell(
-                                  onTap: () => Navigator.pushNamed(context, CourseDescriptionPage.routeName, arguments: course),
-                                  child: Padding(
-                                    padding: EdgeInsets.all(14.r),
-                                    child:  Container(
-                                        width: 30.w,
-                                        height: 30.h,
-                                        decoration: const BoxDecoration(
-                                          shape: BoxShape.circle,
-                                          color: ApplicationColor.textSubTitleColor,
-                                        ),
-                                        child: Center(
-                                            child: Icon(
-                                              Icons.arrow_forward_rounded ,
-                                              color: ApplicationColor.primaryColor,
-                                              size: 30.r,
-                                            )
-                                        )
-                                    ),
+    return Scaffold(body: BlocBuilder<CategoriesCubit, CategoriesStates>(
+        builder: (context, state) {
+      if (state is CategoriesSuccessState) {
+        final List<CourseModel> courses = List.empty(growable: true);
+        for (CategoryModel category in state.categories) {
+          courses.addAll(category.courses);
+        }
+        return SingleChildScrollView(
+          child: Padding(
+            padding: EdgeInsets.only(top: 45.h,),
+            child: Column(
+              children: [
+                SearchTextField(onChanged: onChanged),
+                Column(
+                    children: courses.map((course) {
+                  return searchString.isNotEmpty &&
+                          course.title
+                              .toLowerCase()
+                              .contains(searchString.toLowerCase())
+                      ? Padding(
+                          padding: EdgeInsets.only(
+                              top: 20.r, right: 20.w, left: 20.w),
+                          child: Container(
+                              width: 369.w,
+                              height: 60.h,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(25.r),
+                                  border: Border.all(
+                                      color:
+                                          ApplicationColor.navDisActiveBottom)),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Padding(
+                                    padding: EdgeInsets.only(left: 18.w),
+                                    child: Text(course.title,
+                                        style: TextStyle(
+                                            color: ApplicationColor
+                                                .textSubTitleColor,
+                                            fontWeight: ApplicationFont.regular,
+                                            fontSize: 23.sp)),
                                   ),
-                                )
-                              ],
-                            )),
-                      )
-                    : Container();
-              }).toList()
-              ),
-            );
-          } else if(state is CategoriesFailureState) {
-            return Center(
-              child: Text(state.error),
-            );
-          } else {
-            return const Center(
-              child: CircularProgressIndicator(),
-            );
-          }
-        }));
+                                  InkWell(
+                                    onTap: () => Navigator.pushNamed(context,
+                                        CourseDescriptionPage.routeName,
+                                        arguments: course),
+                                    customBorder: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(25.r),
+                                    ),
+                                    child: Padding(
+                                      padding: EdgeInsets.all(14.r),
+                                      child: Container(
+                                          width: 30.w,
+                                          height: 30.h,
+                                          decoration: BoxDecoration(
+                                            borderRadius:
+                                                BorderRadius.circular(25.r),
+                                            color: ApplicationColor
+                                                .textSubTitleColor,
+                                          ),
+                                          child: Center(
+                                              child: Icon(
+                                            Icons.arrow_forward_rounded,
+                                            color:
+                                                ApplicationColor.primaryColor,
+                                            size: 30.r,
+                                          ))),
+                                    ),
+                                  )
+                                ],
+                              )),
+                        )
+                      : Container();
+                }).toList()),
+              ],
+            ),
+          ),
+        );
+      } else if (state is CategoriesFailureState) {
+        return Center(
+          child: Text(state.error),
+        );
+      } else {
+        return const Center(
+          child: CircularProgressIndicator(),
+        );
+      }
+    }));
   }
 
   void onChanged(String value) {

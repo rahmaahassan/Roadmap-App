@@ -964,6 +964,187 @@
         ]
       }
     ]
+  },
+  {
+    "id": "9",
+    "title": "Become a Data Analyst",
+    "courses": [
+      {
+        "id": "Statistics",
+        "title": "Statistics",
+        "image": "",
+        "description": "For every data professional, stats and maths are the must-haves. Because, without the knowledge of stats and probability, one cannot interpret the data effectively.\n",
+        "steps": [
+          {
+            "id": "1",
+            "name": "Top Certifications",
+            "courses": [
+              {
+                "title": "University of Michigan (Coursera) – Statistics with Python . This specialisation course will enable you to apply the stats knowledge using python which is crucial.\n",
+                "url": "https://www.coursera.org/specializations/statistics-with-python"
+              }
+            ],
+            "books": [
+              {
+                "title": "Practical stats for Data science and Naked Statistics.\n",
+                "url": "https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Excel",
+        "title": "Excel",
+        "image": "",
+        "description": "Excel is one of the widely used tools for data processing and analysis by data analysts. We may have many other tools to work with data, but to date, Excel has its importance.\n",
+        "steps": [
+          {
+            "id": "Top Certifications",
+            "name": "Top Certifications",
+            "courses": [
+              {
+                "title": "365 Data science – Introduction To excel. This is one of the underrated courses but it offers more than you need to learn about Excel for data analysis.\n",
+                "url": "https://365datascience.com/career-tracks/data-analyst/"
+              },
+              {
+                "title": "Rice university (Coursera) – Intro To Data Analytics using Excel. This course is a part of Business stats and analysis specialisation and teaches you all about excel from basics to advanced level.\n",
+                "url": "https://www.coursera.org/learn/excel-data-analysis"
+              }
+            ],
+            "books": [
+              {
+                "title": "Microsoft Excel 2019 Data Analysis and Business Modeling",
+                "url": "https://www.amazon.com/Microsoft-Analysis-Business-Modeling-Skills/dp/1509305882"
+              },
+              {
+                "title": "Excel 2019 Bible",
+                "url": "https://www.wiley.com/en-us/Excel+2019+Bible-p-9781119514763"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SQL",
+        "title": "SQL",
+        "image": "",
+        "description": "No one other than a working data analyst can tell us more about the importance of using SQL in the analysis. As an analyst, you should be also familiar with databases and their management. You have to perform the CRUD operations on the company’s database. For this purpose, there is no other tool as flexible and scalable as SQL.\n",
+        "steps": [
+          {
+            "id": "Top Certifications",
+            "name": "Top Certifications",
+            "courses": [
+              {
+                "title": "Duke university (Coursera) – Excel to MySQL: Analytic Techniques for Business Specialization. . This specialisation will help you to learn all the SQL concepts required for data ",
+                "url": "https://www.coursera.org/specializations/excel-mysql"
+              }
+            ],
+            "books": [
+              {
+                "title": "Learning SQL (Oreilly) 3rd edition.",
+                "url": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Business Intelligence Tools",
+        "title": "BI tools",
+        "image": "",
+        "description": "Business intelligence or BI tools are the most used tools for business analysts and data analysts. You can work on them using Python, R, and SQL as well.\n\nThe BI is mostly used for dashboarding, report making, and for data visualisation. Some of the top BI tools for you in 2022 are Tableau, PowerBL, and Looker.\n",
+        "steps": [
+          {
+            "id": "Top Certifications",
+            "name": "Top Certifications",
+            "courses": [
+              {
+                "title": "University of California (Coursera) – Data Visualisation with Tableau Specialisation. This course is more than enough for your tableau learning journey.",
+                "url": "https://www.coursera.org/specializations/data-visualization"
+              },
+              {
+                "title": "Udemy – Power BI, the complete introduction. . If you are a beginner, this is the best course which will guide you to master power BI.",
+                "url": "https://bit.ly/3N3iEmV"
+              }
+            ],
+            "books": [
+              {
+                "title": "Business Intelligence Guidebook: From Data Integration to Analytics",
+                "url": "https://www.scribd.com/book/245641852/Business-Intelligence-Guidebook-From-Data-Integration-to-Analytics?utm_medium=cpc&utm_source=google_search&utm_campaign=3Q_Google_DSA_NB_RoW&utm_term=&utm_device=c&gclid=Cj0KCQjw2MWVBhCQARIsAIjbwoOR9igDSADq3UaxgxCOU6LBiiNcY18I5lqpQY9NiBrPy3eGiRJlDZMaAtuSEALw_wcB"
+              },
+              {
+                "title": "Performance Dashboards: Measuring, Monitoring, and Managing Your Business",
+                "url": "https://www.wiley.com/en-us/Performance+Dashboards:+Measuring,+Monitoring,+and+Managing+Your+Business,+2nd+Edition-p-9780470589830"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Programming Language",
+        "title": "Languages",
+        "image": "",
+        "description": "Yes, having a good hold on one or more programming languages will be very helpful for you. Though some of the firms don’t care much about a programming language for analyst roles, having good knowledge of them will be handy.\n\nI strongly recommend learning Python and R for the same. Both languages offer robust libraries such as numpy, pandas, and mat plot lib in python and dplyr, ggplot in R.\n",
+        "steps": [
+          {
+            "id": "Top Certifications",
+            "name": "Top Certifications",
+            "courses": [
+              {
+                "title": "IBM Data analytics professional certificate can be the best course to master Python and R for analytics respectively. The former will focus more on python and later focus more on R.\n",
+                "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
+              },
+              {
+                "title": "Google’s data analytics professional certificate can be the best course to master Python and R for analytics respectively. The former will focus more on python and later focus more on R.\n",
+                "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+              },
+              {
+                "title": "Free code camp – Data analysis using Python. This course will teach you all the libraries and methods for data analysis using python.\n",
+                "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Python for Data analysis 2nd edition (Oreilly)",
+                "url": "https://www.oreilly.com/library/view/python-for-data/9781491957653/"
+              },
+              {
+                "title": "Data Analytics with R",
+                "url": "https://www.wileyindia.com/data-analytics-with-r.html"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Portfolio and Resume",
+        "title": "Portfolio and Resume",
+        "image": "",
+        "description": "Upon learning all the skills, the final shot should be on your portfolio and resume. One should always work on some real-world projects which require all your acquired skills to play.",
+        "steps": [
+          {
+            "id": "For Resume",
+            "name": "For Resume",
+            "courses": [
+              {
+                "title": "Data camp – Tips to build your resume for data science and analytics.",
+                "url": "https://www.datacamp.com/blog/tips-to-build-your-data-scientist-resume"
+              }
+            ],
+            "books": [
+              {
+                "title": "(PDF) Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion eBook Available Full Color Inside BOOKS FOR PROFESSIONALS BY PROFESSIONALS Beginning Blender: Open Source 3D Modeling, Animation, and Game Design | Sam Bossa - Academia.edu",
+                "url": "https://www.academia.edu/7984869/Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design_Companion_eBook_Available_Full_Color_Inside_BOOKS_FOR_PROFESSIONALS_BY_PROFESSIONALS_Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design"
+              },
+              {
+                "title": "3D Modeling For Beginners - Danan Thilakanathan.pdf - PDFCOFFEE.COM",
+                "url": "https://pdfcoffee.com/3d-modeling-for-beginners-danan-thilakanathanpdf-pdf-free.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
-
 ]

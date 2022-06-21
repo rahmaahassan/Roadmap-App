@@ -17,7 +17,7 @@ class _SearchTextFieldState extends State<SearchTextField> {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         width: 370.w,
-        height: 57.h,
+        height: 50.h,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(25.r),
             color: ApplicationColor.searchBorderColor),
