@@ -21,11 +21,11 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: ApplicationColor.navDisActiveBottom,
-          elevation: 0,
-          automaticallyImplyLeading:false,
-        ),
+        // appBar: AppBar(
+        //   backgroundColor: ApplicationColor.navDisActiveBottom,
+        //   elevation: 0,
+        //   automaticallyImplyLeading:false,
+        // ),
         body: Column(
           children: [
             const ProfileHeader(),
