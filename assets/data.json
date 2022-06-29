@@ -1,16 +1,16 @@
 [
   {
-    "id": "1",
+    "id": "Programming Languages",
     "title": "Programming Languages",
     "courses": [
       {
-        "id": "1",
+        "id": "Python",
         "title": "Python",
         "image": "https://drive.google.com/uc?export=view&id=1L3Wd3eBqXPfNMR5UCv2mKOaE-vWcmUJ0",
         "description": "Python is a general-purpose coding language — which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development.",
         "steps": [
           {
-            "id": "1",
+            "id": "Beginner Level",
             "name": "Beginner in Python",
             "courses": [
               {
@@ -30,20 +30,76 @@
               {
                 "title": "Python for Beginners",
                 "url": "https://www.ubuy.com.eg/en/product/3NONM4S2G-python-for-beginners-a-crash-course-to-learn-python-programming-in-1-week?gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_L-s4CwI1VMSthiTjXlAXi1rRiNaxAVP4sYB7SpXiXVJ67MJXI5KRwaApqPEALw_wcB"
+              },
+              {
+                "title": "Automate the Boring Stuff with Python",
+                "url": "https://automatetheboringstuff.com/"
+              }
+            ]
+          },
+          {
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
+            "courses": [
+              {
+                "title": "Intermediate Python Tutorials",
+                "url": "https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv"
+              },
+              {
+                "title": "Intermediate Python Indian",
+                "url": "https://www.youtube.com/watch?v=JtKOP-ThcbU&list=PLyb_C2HpOQSDJnnaz7vA8s5ssW7LjcWuH&index=1"
+              }
+            ],
+            "books": [
+              {
+                "title": "Python 201 Intermediate",
+                "url": "https://freepdf-books.com/python-201-intermediate-python/"
+              },
+              {
+                "title": "Python Tips",
+                "url": "https://buildmedia.readthedocs.org/media/pdf/intermediatepythongithubio/latest/intermediatepythongithubio.pdf"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "Mastering Python",
+                "url": "https://www.youtube.com/watch?v=mvZHDpCHphk&list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs"
+              },
+              {
+                "title": "Advanced Python - Complete Course",
+                "url": "https://www.youtube.com/watch?v=QLTdOEn79Rc&list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2"
+              },
+              {
+                "title": "Python Advanced Tutorials",
+                "url": "https://www.youtube.com/watch?v=KSiRzuSx120&list=PL7yh-TELLS1FuqLSjl5bgiQIEH25VEmIc"
+              }
+            ],
+            "books": [
+              {
+                "title": "Advanced Python Programming",
+                "url": "https://www.pdfdrive.com/advanced-python-programming-e6641979.html"
+              },
+              {
+                "title": "Advanced Guide to Python 3 Programming",
+                "url": "https://warin.ca/ressources/books/2019_Book_AdvancedGuideToPython3Programm.pdf"
               }
             ]
           }
         ]
       },
       {
-        "id": "2",
+        "id": "Java",
         "title": "Java",
         "image": "https://drive.google.com/uc?export=view&id=1XhDkA3dnHUzmlUbWxsIbtfF5t53WXE7d",
         "description": "Java is a widely used object-oriented programming language and software platform\n that runs on billions of devices, including notebook computers, mobile devices,\n gaming consoles, medical devices and many others. The rules and syntax of Java are based\n on the C and C++ languages",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in Java",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
                 "title": "java  for Beginners - Youtube",
@@ -63,8 +119,8 @@
             ]
           },
           {
-            "id": "2",
-            "name": "Intermediate  in Java",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
               {
                 "title": "java  for Intermediate  - Youtube",
@@ -84,8 +140,8 @@
             ]
           },
           {
-            "id": "3",
-            "name": "Advanced in Java",
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
               {
                 "title": "java  for Advanced - Youtube",
@@ -107,14 +163,14 @@
         ]
       },
       {
-        "id": "3",
+        "id": "C#",
         "title": "C#",
         "image": "https://drive.google.com/uc?export=view&id=1wgSAkSoAhodpCHH564LeOMzce01KeGAf",
         "description": "C# is a simple, modern, object-oriented, and type-safe programming language.\n Its roots in the C family of languages makes C# immediately familiar to C, C++, Java, and JavaScript programmers.",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in c#",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
                 "title": "C# Course Level 1 (Basics) - youtube",
@@ -128,14 +184,22 @@
             ],
             "books": [
               {
-                "title":  "c# for Beginners",
+                "title": "c# for Beginners",
                 "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
+              },
+              {
+                "title": "Fundamentals of Computer Programming with C#",
+                "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
+              },
+              {
+                "title": "The C# Programing Language Fourth Edition",
+                "url": "http://www.computo-visual.org/Videojuegos/Libros/ProgramacionC%23.pdf"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "Intermediate  in c#",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
 
               {
@@ -148,12 +212,16 @@
               {
                 "title":  "c# -Intermediate ",
                 "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
+              },
+              {
+                "title": "Getting Started with C#",
+                "url": "https://freepdf-books.com/downloaddirect/?file=14865"
               }
             ]
           },
           {
-            "id": "3",
-            "name": "advanced in c#",
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
               {
                 "title": "Advanced C#- youtube",
@@ -162,27 +230,34 @@
               {
                 "title": "C# Advanced Topics: Prepare for Technical Interviews- udemy",
                 "url": "https://www.udemy.com/course/csharp-advanced/ "
+              },
+              {
+                "title": "Advanced C# 6 Course",
+                "url": "https://www.youtube.com/watch?v=RyxgHQdVCj0&list=PLtP8SprU2HkMHGV6juF1ON2nkxzef3Mbg"
               }
-
             ],
             "books": [
               {
-                "title":  " c# for Beginners",
+                "title":  "Advanced C#",
                 "url": "https://cs.wmich.edu/~alfuqaha/summer13/cs5950/lectures/CSAdvanced-rev3.pdf"
+              },
+              {
+                "title":  "Gray Hat C# A Hacker’s Guide To Creating And Automating Security Tools Book Of 2017",
+                "url": "https://freepdf-books.com/gray-hat-c-a-hackers-guide-to-creating-and-automating-security-tools-book-of-2017/"
               }
             ]
           }
         ]
       },
       {
-        "id": "4",
+        "id": "C",
         "title": "C",
         "image": "",
         "description": "C is a general-purpose programming language that is extremely popular, simple, and flexible to use. It is a structured programming language that is machine-independent and extensively used to write various applications, Operating Systems like Windows, and many other complex programs like Oracle database, Git, Python interpreter, and more.\n",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in c",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
                 "title": "C Programming - youtube",
@@ -196,14 +271,42 @@
             ],
             "books": [
               {
-                "title":  " c for Beginners",
+                "title":  "C for Beginner",
                 "url": "https://www.unf.edu/~wkloster/2220/ppts/cprogramming_tutorial.pdf"
+              },
+              {
+                "title":  "Learn to Program with C",
+                "url": "https://www.pdfdrive.com/learn-to-program-with-c-learn-to-program-using-the-popular-c-programming-language-e166650744.html"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "advanced in c",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
+            "courses": [
+              {
+                "title": "Intermediate C Programming - Youtube",
+                "url": "https://www.youtube.com/watch?v=2D5sJyvEdeE&list=PLS4rjSTdolLUHAAIa5Pc-E5092UvvFlG-"
+              },
+              {
+                "title": "C/C++ for Intermediate Students - Udemy",
+                "url": "https://www.udemy.com/course/gnu-cpp-2000/"
+              }
+            ],
+            "books": [
+              {
+                "title":  "C Programming :: The Ultimate Way to Learn The Fundamentals of The C Language.",
+                "url": "https://www.pdfdrive.com/c-programming-the-ultimate-way-to-learn-the-fundamentals-of-the-c-language-e187584209.html"
+              },
+              {
+                "title":  "Expert C Programming: Deep C Secrets",
+                "url": "https://progforperf.github.io/Expert_C_Programming.pdf"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
 
               {
@@ -220,6 +323,10 @@
               {
                 "title":  " c - advanced ",
                 "url": "http://englishonlineclub.com/pdf/Advanced%20C%20[EnglishOnlineClub.com].pdf"
+              },
+              {
+                "title":  "Advanced Topics in C",
+                "url": "https://www.pdfdrive.com/advanced-topics-in-c-e24573968.html"
               }
             ]
           }
@@ -227,22 +334,21 @@
         ]
       },
       {
-        "id": "5",
-        "title": "c++",
+        "id": "C++",
+        "title": "C++",
         "image": "",
         "description": "Java is a widely used object-oriented programming language and software platform\nthat runs on billions of devices, including notebook computers, mobile devices,\ngaming consoles, medical devices and many others. The rules and syntax of Java are based\non the C and C++ languages.",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in C++",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
                 "title": "C++ for Beginners - Youtube",
                 "url": " https://www.youtube.com/playlist?list=PL1DUmTEdeA6IUD9Gt5rZlQfbZyAWXd-oD"
               },
               {
-                "title": "C++ For Programmers - udemy",
-
+                "title": "C++ For Programmers - Udemy",
                 "url": "https://www.udacity.com/course/c-for-programmers--ud210"
               }
 
@@ -251,66 +357,138 @@
               {
                 "title": "C++ for Beginners",
                 "url": "https://www.cplusplus.com/files/tutorial.pdf"
+              },
+              {
+                "title": "Beginning C++ Programming",
+                "url": "https://notalentgeek.github.io/note/note/project/project-independent/pi-brp-beginning-c-programming/document/20170807-1504-cet-1-book-and-source-1.pdf"
+              },
+              {
+                "title": "Learn C++ Programming - Tutorials Point",
+                "url": "https://www.tutorialspoint.com/cplusplus/cpp_tutorial.pdf"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "Intermediate  in C++",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
-
               {
-                "title": "Become a C++ Developer - udemy",
-                "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjB2OuKqO73AhUQz3cKHQLQDIkYABABGgJlZg&ohost=www.google.com&cid=CAESbeD2Bepc4ZrNRmRpnm2I2700ZlsMDJzU325nrnvIl9m5M9BDFYRlfNMaixLWkaUUQWOPLPrU_sfopNBStcucrLBeEohsy60B_VLUlRRFEAtEb86vJST6CT_IJqjb4eZ7cVoPlUJvQiDcDn92hKE&sig=AOD64_3yW7aSapAq4Fh57ZC6HlcEIDxWmg&q&adurl&ved=2ahUKEwjMjOWKqO73AhWYs6QKHcoxCdQQ0Qx6BAgDEAE"
+                "title": "Become a C++ Developer - Udacity",
+                "url": "https://www.udacity.com/course/c-plus-plus-nanodegree--nd213?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12908932988_c_individuals&utm_term=124509202271&utm_keyword=%2Budacity%20%2Bc%2B%2B_b"
+              },
+              {
+                "title": "Intermediate C++ Programming - Youtube",
+                "url": "https://www.youtube.com/watch?v=cQrU6ahZP0Y&list=PL7Sp69foM4tsgkgZ71LW-SuAAtzjQr5XX"
               }
-
             ],
             "books": [
               {
                 "title": "C++ for Intermediate",
                 "url": "https://faculty.ksu.edu.sa/sites/default/files/ObjectOrientedProgramminginC4thEdition.pdf"
+              },
+              {
+                "title": "Thinking in C++, Volume 1, 2nd Edition",
+                "url": "https://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf"
               }
             ]
           },
           {
-            "id": "3",
-            "name": "Advanced in c++",
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
               {
-                "title": "c++ for Advanced - Youtube",
+                "title": "C++ for Advanced - Youtube",
                 "url": "https://www.youtube.com/playlist?list=PLE28375D4AC946CC3"
+              },
+              {
+                "title": "Learn Advanced C++ Programming - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PL6tEaVUU83w2__ngt9Ier5vAM1b9ZJgQi"
+              },
+              {
+                "title": "Advanced C++ Programming - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLqCJpWy5Fohd6Hg5BW8eAjo5SzQQYl43S"
               }
-
-
             ],
             "books": [
               {
-                "title": "c++ for Advanced",
+                "title": "C++ for Advanced",
                 "url": "https://faculty.ksu.edu.sa/sites/default/files/ObjectOrientedProgramminginC4thEdition.pdf"
+              },
+              {
+                "title": "Advanced Metaprogramming in Classic C++",
+                "url": "https://freepdf-books.com/download/2016/0316/020316/cat-pdf/Advanced%20Metaprogramming%20In%20Classic%20Cpp.pdf"
               }
             ]
           }
         ]
       },
       {
-        "id": "6",
+        "id": "Dart",
         "title": "Dart",
         "image": "https://drive.google.com/uc?export=view&id=1TtJnFr_4-v4wDG71NUx93wVhiBND0D8V",
         "description": "Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.\nLanguages are defined by their technical envelope — the choices made during development that shape the capabilities and strengths of a language. Dart is designed for a technical envelope that is particularly suited to client development, prioritizing both development (sub-second stateful hot reload) and high-quality production experiences across a wide variety of compilation targets (web, mobile, and desktop).\nDart also forms the foundation of Flutter. Dart provides the language and runtimes that power Flutter apps, but Dart also supports many core developer tasks like formatting, analyzing, and testing code.",
         "steps": [
           {
-            "id": "1",
-            "name": "Dart",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
-                "title": "Dart Tutorial for Beginners: Basics and Fundamentals for Flutter - YouTube",
+                "title": "Dart Tutorial for Beginners - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q"
+              },
+              {
+                "title": "Dart - Beginners Course - Udemy",
+                "url": "https://www.udemy.com/course/dart-beginners-course/"
               }
             ],
             "books": [
               {
                 "title": "Dart Programming Tutorial",
                 "url": "https://www.tutorialspoint.com/dart_programming/dart_programming_tutorial.pdf"
+              },
+              {
+                "title": "Dart",
+                "url": "https://riptutorial.com/Download/dart.pdf"
+              }
+            ]
+          },
+          {
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
+            "courses": [
+              {
+                "title": "Dart - Intermediate Course - Udemy",
+                "url": "https://www.udemy.com/course/dart-intermediate-course/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Essential Dart",
+                "url": "https://www.programming-books.io/essential/dart/"
+              },
+              {
+                "title": "Quick Start Guide to Dart Programming",
+                "url": "https://link.springer.com/book/10.1007/978-1-4842-5562-9#book-header"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "Advanced Dart Tutorials in Arabic",
+                "url": "https://www.youtube.com/watch?v=qnNvWsimpn8&list=PLClgJfKTCMEjJpAaxOZSLs3JbybxINRO4"
+              },
+              {
+                "title": "Dart - Advanced Course - Udemy",
+                "url": "https://www.udemy.com/course/dart-advanced-course/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Dart By Example",
+                "url": "https://www.pdfdrive.com/dart-by-example-d185087239.html"
               }
             ]
           }
@@ -319,162 +497,235 @@
     ]
   },
   {
-    "id": "2",
+    "id": "Scripting Languages",
     "title": "Scripting Languages",
     "courses": [
       {
-        "id": "1",
+        "id": "HTML",
         "title": "HTML",
         "image": "https://drive.google.com/uc?export=view&id=1jWrvyq5akA1oLkByC78TasTVH8mfleon",
         "description": "HTML stands for Hyper Text Markup Language\n        HTML is the standard markup language for creating Web pages\n        HTML describes the structure of a Web page\n        HTML consists of a series of elements\n        HTML elements tell the browser how to display the content\n        .",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in HTML",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
-                "title": "Intro to HTML and CSS - udemy",
+                "title": "Intro to HTML and CSS - Udemy",
                 "url": "https://www.udacity.com/course/intro-to-html-and-css--ud001"
               },
               {
-                "title": "HTML course - youtube",
+                "title": "HTML Course - Youtube",
                 "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji "
               }
-
             ],
             "books": [
               {
                 "title": "HTML for Beginners",
                 "url": "https://books.goalkicker.com/HTML5Book/HTML5NotesForProfessionals.pdf"
+              },
+              {
+                "title": "HTML: A Beginner’s Guide Fourth Edition",
+                "url": "https://www.snggdcg.ac.in/pdf/study-material/computer-science/0071611436%20HTML.pdf"
+              },
+              {
+                "title": "HTML & CSS: The Complete Reference, Fifth Edition",
+                "url": "https://www.dcpehvpm.org/E-Content/BCA/BCA-II/Web%20Technology/the-complete-reference-html-css-fifth-edition.pdf"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "advanced in HTML",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
-
+              {
+                "title": "HTML, CSS and JavaScript for Intermediate - Movie Website",
+                "url": "https://www.udemy.com/course/html-css-and-javascript-for-intermediate/"
+              }
+            ],
+            "books": [
+              {
+                "title": "HTML5 Notes for Professionals book",
+                "url": "https://goalkicker.com/HTML5Book/"
+              },
+              {
+                "title": "HTML & Web Design Tips & Techniques",
+                "url": "https://www.pdfdrive.com/html-web-design-tips-techniques-e159056101.html"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
               {
                 "title": "The Advanced HTML 5 Course - udemy",
                 "url": "https://www.udemy.com/course/advanced-css-3-practical-course-2020/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_597440503813_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_9112404_._pd__._&matchtype=&gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_IJTOsTYSMpZ1x6qYaH_MZ6m0F8D-ccN6AhfLDmwenSrdXTs2_EIjcaAjQiEALw_wcB"
               }
-
             ],
             "books": [
               {
-                "title": "Advanced HTML5 ",
+                "title": "Advanced HTML5",
                 "url": "https://www.ciwcertified.com/resources/documents/sample-chapter/CCT02CDHTCSCK1405.PDF"
+              },
+              {
+                "title": "HTML, CSS & JavaScript Web Publishing in One Hour a Day",
+                "url": "https://www.pdfdrive.com/html-css-javascript-web-publishing-in-one-hour-a-day-e166664324.html"
               }
             ]
           }
         ]
       },
       {
-        "id": "2",
-        "title": "css",
-        "image": "https://drive.google.com/uc?export=view&id=1l6NCZ00lcgsoAbUqPE8Z2YKMGB3YRfvW\n",
-        "description": "CSS stands for Cascading Style Sheets\n        CSS describes how HTML elements are to be displayed on screen, paper, or in other media\n        CSS saves a lot of work. It can control the layout of multiple web pages all at once\n        External stylesheets are stored in CSS files\n        .",
+        "id": "CSS",
+        "title": "CSS",
+        "image": "https://drive.google.com/uc?export=view&id=1l6NCZ00lcgsoAbUqPE8Z2YKMGB3YRfvW",
+        "description": "CSS stands for Cascading Style Sheets\nCSS describes how HTML elements are to be displayed on screen, paper, or in other media\n        CSS saves a lot of work. It can control the layout of multiple web pages all at once\n        External stylesheets are stored in CSS files.",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in css",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
-                "title": "Intro  CSS - youtube",
+                "title": "Intro  CSS - Youtube",
                 "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe"
               },
               {
-                "title": "css course - udemy",
+                "title": "CSS Course - Udemy",
                 "url": "https://www.udemy.com/course/refactoru-intro-to-css/"
               }
-
             ],
             "books": [
               {
-                "title": "css for Beginners",
+                "title": "CSS for Beginners",
                 "url": "https://matfuvit.github.io/UVIT/predavanja/literatura/TutorialsPoint%20CSS.pdf"
+              },
+              {
+                "title": "Learn CSS in One Day and Learn It Well (Includes HTML5)",
+                "url": "https://www.pdfdrive.com/learn-css-in-one-day-and-learn-it-well-includes-html5-css-for-beginners-with-hands-on-project-the-only-book-you-need-to-start-coding-in-css-coding-fast-with-hands-on-project-volume-2-e196802719.html"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "advanced in css",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
-
               {
-                "title": "The Advanced css Course - udemy",
-                "url": "https://www.udemy.com/course/refactoru-advanced-css-development/ "
+                "title": "Intermediate CSS",
+                "url": "https://www.youtube.com/playlist?list=PLOCBdiBQPLL88nciVBrzFM7Z7NcvfEUgo"
+              },
+              {
+                "title": "Intermediate CSS with Kyle from Web Dev Simplified",
+                "url": "https://www.youtube.com/watch?v=IyYC-hSFEFQ"
               }
-
             ],
             "books": [
               {
-                "title": "Advanced css",
+                "title": "CSS Mastery",
+                "url": "https://www.pdfdrive.com/css-mastery-e158067722.html"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "The Advanced CSS Course - Udemy",
+                "url": "https://www.udemy.com/course/refactoru-advanced-css-development/ "
+              },
+              {
+                "title": "CSS Advanced Tutorial in Hindi 2020",
+                "url": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp2JYAoNE_-7sSWcIeO1A-xi"
+              }
+            ],
+            "books": [
+              {
+                "title": "Advanced HTML5 and CSS3 Specialist",
                 "url": "https://www.ciwcertified.com/resources/documents/sample-chapter/CCT02CDHTCSCK1405.PDF"
+              },
+              {
+                "title": "AdvancED CSS",
+                "url": "https://freepdf-books.com/download/?file=1734"
               }
             ]
           }
         ]
       },
       {
-        "id": "3",
-        "title": "php",
+        "id": "PHP",
+        "title": "PHP",
         "image": "https://drive.google.com/uc?export=view&id=1Qkr0g9uHMzPCjBgkPYuHslJxA2R63iYU",
-        "description": "PHP (recursive acronym for PHP: Hypertext Preprocessor)\n        is a widely-used open source general-purpose scripting language that is\n        especially suited for web development and can be embedded into HTML.\n",
+        "description": "PHP (recursive acronym for PHP: Hypertext Preprocessor)\n is a widely-used open source general-purpose scripting language that is\n        especially suited for web development and can be embedded into HTML.\n",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in php",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
-                "title": "Intro  php - youtube",
+                "title": "Intro  PHP - Youtube",
                 "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM"
               },
               {
-                "title": "php course - udemy",
+                "title": "PHP Course - Udemy",
                 "url": "https://www.udemy.com/course/learn-php-programming-for-beginners/"
               }
-
             ],
             "books": [
               {
-                "title": "php for Beginners",
+                "title": "PHP for Beginners",
                 "url": "https://books.goalkicker.com/PHPBook/PHPNotesForProfessionals.pdf"
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "name": "intermediate in php",
-            "courses": [
-
+              },
               {
-                "title": "The intermediate php Course - coursera",
-                "url": "https://www.coursera.org/learn/web-applications-php"
-              }
-
-            ],
-            "books": [
-              {
-                "title": "intermediate php book",
+                "title": "PHP Programming Cookbook",
                 "url": "https://assets.ctfassets.net/nkydfjx48olf/5qFMF3mvitLMahX67i7iOb/028229996c13cbc27a0538f055a41b46/php_cookbook.pdf"
               }
-
             ]
           },
           {
-            "id": "3",
-            "name": "advanced in php",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
               {
-                "title": "php course - udemy",
-                "url": "https://www.udemy.com/course/learn-advanced-php-programming/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282061_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_9112404_._pd__._&matchtype=&gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_Ik642W4_fEqI1fQMADUI7Ts3crF9iZQG5MPTZHr3QJO0_Holk3DckaAq0_EALw_wcB"
+                "title": "The Intermediate PHP Course - Coursera",
+                "url": "https://www.coursera.org/learn/web-applications-php"
+              },
+              {
+                "title": "PHP from intermediate to advanced - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLBEpR3pmwCazOsFp0xI3keBq7SoqDnxM7"
               }
-
             ],
             "books": [
               {
-                "title": "advanced php book",
+                "title": "Intermediate PHP Book",
+                "url": "https://assets.ctfassets.net/nkydfjx48olf/5qFMF3mvitLMahX67i7iOb/028229996c13cbc27a0538f055a41b46/php_cookbook.pdf"
+              },
+              {
+                "title": "PHP 7: Real World Application Development",
+                "url": "https://dark-wind.github.io/books/Packt.PHP.7.Real.World.Application.Development.9781787129009.pdf"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "Learn Advanced PHP Programming",
+                "url": "https://www.udemy.com/course/learn-advanced-php-programming/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282061_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_9112404_._pd__._&matchtype=&gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_Ik642W4_fEqI1fQMADUI7Ts3crF9iZQG5MPTZHr3QJO0_Holk3DckaAq0_EALw_wcB"
+              },
+              {
+                "title": "Advance PHP (Hindi)",
+                "url": "https://www.youtube.com/playlist?list=PLbGui_ZYuhiiaWMoOK7LXB0GeLsYCiyz5"
+              },
+              {
+                "title": "Advanced PHP",
+                "url": "https://www.youtube.com/playlist?list=PLu4-mSyb4l4SlKcO51aLtyiuOmlEuojvZ"
+              }
+            ],
+            "books": [
+              {
+                "title": "Advanced PHP Programming",
                 "url": "https://ptgmedia.pearsoncmg.com/images/9780672325618/samplepages/0672325616.pdf"
               }
             ]
@@ -484,47 +735,81 @@
     ]
   },
   {
-    "id" : "3",
+    "id" : "Mobile Development",
     "title": "Mobile Development",
     "courses": [
       {
-        "id": "1",
-        "title": "Android",
+        "id": "Android Developer",
+        "title": "Android Developer",
         "image": "https://drive.google.com/uc?export=view&id=1h7o8Yepw75ZvmdZqUoZUwa_RBWgybCy7",
         "description" : "Android is an operating system and programming platform developed by Google \nfor mobile phones and other mobile devices, such as tablets. It can run on many different \ndevices from many different manufacturers. Android includes a software development kit \n(SDK) that helps you write original code and assemble software modules to create apps\n for Android users. Android also provides a marketplace to distribute apps. All together, \nAndroid represents an ecosystem for mobile apps.",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner in Android",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
                 "title": "Android User Interface: Android Basics | Udacity Free Courses",
                 "url": "https://www.udacity.com/course/android-basics-user-interface--ud834"
+              },
+              {
+                "title": "Android From Zero - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLQYjhn7xrRna6k47sEYUq2alw9Jtu-Tmz"
+              },
+              {
+                "title": "Android for Beginners - Udemy",
+                "url": "https://www.udemy.com/course/s2k-android-beginners/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Android Programming Cookbook",
+                "url": "https://enos.itcollege.ee/~jpoial/allalaadimised/reading/Android-Programming-Cookbook.pdf"
+              },
+              {
+                "title": "Android Programming with Kotlin for Beginners",
+                "url": "https://sd.blackball.lv/library/android_programming_with_kotlin_for_beginners_(2019).pdf"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "Intermediate in Android",
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
             "courses": [
               {
                 "title": "Android App Development | Udacity Free Courses",
                 "url": "https://www.udacity.com/course/new-android-fundamentals--ud851 "
+              },
+              {
+                "title": "The Complete Intermediate Android Masterclass",
+                "url": "https://www.udemy.com/course/android-intermediate-android-masterclass/"
+              }
+            ],
+            "books": [
+              {
+                "title": "AndroidTM A Programmer’s Guide",
+                "url": "https://everythingcomputerscience.com/books/Android_-_a_programmers_guide.pdf"
               }
             ]
           },
           {
-            "id": "3",
-            "name": "Advanced in Android",
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
               {
                 "title": "Advanced Android App Development | Udacity Free Courses",
                 "url": "https://www.udacity.com/course/advanced-android-app-development--ud855"
               }
+            ],
+            "books": [
+              {
+                "title": "The Busy Coder's Guide to Advanced Android Development",
+                "url": "https://commonsware.com/AdvAndroid/AdvAndroid-1_9_2-CC.pdf"
+              }
             ]
           },
           {
-            "id": "4",
+            "id": "Kotlin",
             "name": "Kotlin",
             "courses": [
               {
@@ -534,7 +819,7 @@
             ]
           },
           {
-            "id": "5",
+            "id": "UI",
             "name": "UI",
             "courses": [
               {
@@ -546,22 +831,88 @@
         ]
       },
       {
-        "id": "2",
-        "title": "Flutter",
+        "id": "Flutter Developer",
+        "title": "Flutter Developer",
         "image": "https://drive.google.com/uc?export=view&id=14w4ayK-QvQiGGbfweEIwACZq7G5T7ipY",
         "description": "Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.",
         "steps": [
           {
-            "id": "1",
-            "name": "Flutter",
+            "id": "Prepare of Installation",
+            "name": "Prepare of Installation",
             "courses": [
               {
-                "title": "Mobile android and ios Development Tutorials by Flutter - YouTube",
+                "title": "Windows Installation",
+                "url": "https://youtube.com/playlist?list=PL82uaKJraAIJ0g3z076X2Gb2or05_xGAZ"
+              },
+              {
+                "title": "Mac Installation",
+                "url": "https://youtube.com/playlist?list=PL82uaKJraAII8HJjA98l-M6qb_teI97kW"
+              }
+            ],
+            "books": [
+              {
+                "title": "Installation Flutter",
+                "url": "https://www.tutorialspoint.com/flutter/flutter_tutorial.pdf"
+              }
+            ]
+          },
+          {
+            "id": "Beginner Level",
+            "name": "Beginner Level",
+            "courses": [
+              {
+                "title": "Flutter Tutorial for Beginners - 2021 - Full Flutter Tutorial Series",
+                "url": "https://www.youtube.com/playlist?list=PL82uaKJraAIJgB8SMOknKQHOnMomaM7Fc"
+              },
+              {
+                "title": "Flutter Tutorial For Beginners - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PL82uaKJraAILQVZ0PJQ__jEArFEoKCihr"
+              },
+              {
+                "title": "Flutter - Beginners Course - Udemy",
+                "url": "https://www.udemy.com/course/flutters-beginners-course/"
+              }
+            ]
+          },
+          {
+            "id": "Intermediate Level",
+            "name": "Intermediate Level",
+            "courses": [
+              {
+                "title": "Flutter Tutorials | Intermediate Level",
+                "url": "https://www.youtube.com/playlist?list=PL3wGb9_yWsvKdT0VWQ5AmsdmqctpV7TfK"
+              },
+              {
+                "title": "Flutter - Intermediate - Udemy",
+                "url": "https://www.udemy.com/course/flutter-intermediate/"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "Flutter - Advanced Course - Udemy",
+                "url": "https://www.udemy.com/course/flutter-advanced-course/"
+              }
+            ]
+          },
+          {
+            "id": "Full guide Course from beginner to advanced",
+            "name": "Full guide Course from beginner to advanced",
+            "courses": [
+              {
+                "title": "Mobile android and ios Development Tutorials by Flutter 1 - Arabic - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwQSrjaK2zpggw2uhf4VrLtI"
               },
               {
-                "title": "Mobile android and ios Development Tutorials by Flutter - YouTube",
+                "title": "Mobile android and ios Development Tutorials by Flutter 2 - Arabic - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwTL7odos9XfqRPDCKc0q3t3"
+              },
+              {
+                "title": "Learn Flutter from zero to hero course",
+                "url": "https://www.youtube.com/playlist?list=PL93xoMrxRJItdRumqolHX0UT-LHK8_39N"
               }
             ],
             "books": [
@@ -576,56 +927,76 @@
     ]
   },
   {
-    "id": "4",
-    "title": "Backend",
+    "id": "Backend Developer",
+    "title": "Backend Developer",
     "courses": [
       {
-        "id": "1",
+        "id": "Backend",
         "title": "Backend",
         "image": "https://drive.google.com/uc?export=view&id=1bW6O4mJC_Du4GUdzMlbujNCnr6i8Vi1l",
         "description": "Web development activities that are done at the back end of programs are referred to\n as back end development. Back-end development covers server-side web application\n logic and integration and activities, like writing APIs, creating libraries,\n and working with system components instead of frontend development, \nwhich focuses on customer-facing services and programs.\n Backend developers build code that allows a database and an application\n to communicate with one another. Backend developers take care and maintain the back-end \nof a website, Including databases, servers, and apps, and they control what you don't see.",
         "steps": [
           {
-            "id": "1",
-            "name": "basics of Data Structures & Algorithm",
+            "id": "Basics of Data Structures & Algorithm",
+            "name": "Basics of Data Structures & Algorithm",
             "courses": [
               {
-                "title": "(272) Data Structures Full Course In Arabic - Youtube",
+                "title": "Data Structures Full Course In Arabic - Youtube",
                 "url": "https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp"
               },
               {
-                "title": "Data structure tutorial",
+                "title": "Data Structure Tutorial",
                 "url": "https://www.w3schools.blog/data-structure-tutorial "
+              }
+            ],
+            "books": [
+              {
+                "title": "Data Structures in Java, for the Principled Programmer",
+                "url": "http://dept.cs.williams.edu/~bailey/JavaStructures/Book.html"
               }
             ]
           },
           {
-            "id": "2",
+            "id": "Basics of Databases",
             "name": "Basics of Databases",
             "courses": [
               {
-                "title": "(272) Database 1 - المقرر النظرى - Fundamentals of Database Systems - YouTube",
+                "title": "Database 1 - Fundamentals of Database Systems - YouTube",
                 "url": "youtube.com/playlist?list=PL37D52B7714788190"
               }
             ]
           },
           {
-            "id": "3",
-            "name": "Beginner",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
-                "title": "Introduction to Backend Development | Udacity Free Courses",
+                "title": "Introduction to Backend Development | Udacity",
                 "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK2IHUue73AhUY_7sIHcDlBiUQFnoECAsQAQ&url=https%3A%2F%2Fwww.udacity.com%2Fcourse%2Fintro-to-backend--ud171&usg=AOvVaw2hurB13Yn_LL18xCQ_bdUW"
+              },
+              {
+                "title": "Backend Development with express",
+                "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEnK1q9tuVrrORqKBexcE_J"
               }
             ]
           },
           {
-            "id": "4",
-            "name": "Advanced",
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
               {
                 "title": "Free Web Development Tutorial - Advanced Backend Web Development | Udemy",
                 "url": "https://www.udemy.com/course/refactoru-adv-backend-dev/ "
+              },
+              {
+                "title": "PHP Back-End Developer",
+                "url": "https://elzero.org/tracks/php-web-developer/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Eloquent JavaScript",
+                "url": "https://eloquentjavascript.net"
               }
             ]
           }
@@ -634,32 +1005,50 @@
     ]
   },
   {
-    "id": "5",
-    "title": "Frontend",
+    "id": "Front-End Developer",
+    "title": "Front-End Developer",
     "courses": [
       {
-        "id": "1",
-        "title": "Frontend",
+        "id": "Front-End",
+        "title": "Front-End",
         "image": "https://drive.google.com/uc?export=view&id=1AtVdvexkiDmMjkV3lJuVpGt_Xrtbt4MQ",
         "description": "What is Front End Development?\nEverything you see on a website, like buttons, links, animations, and more, \nwere created by a front end web developer. It is the front end developer's job \nto take the vision and design concept from the client and implement it through code.\nEverything on the page from the logo to the search bar, buttons, overall layout and how\n the user interacts with the page was created by a front end developer. Front end developers \nare in charge of the look and feel of the website.\n\nFront end developers also have to make sure the website looks good on\n all devices (phones, tablets, and computer screens).\n",
         "steps": [
           {
-            "id": "1",
-            "name": "Beginner",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
                 "title": "Introduction to Frontend Web Development For  Beginners | Udemy",
                 "url": "https://www.udemy.com/course/programming-for-web-development-from-scratch/"
+              },
+              {
+                "title": "Front-End Tutorials - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAycCXz5d9WvqlmykUIys5e8"
+              }
+            ],
+            "books": [
+              {
+                "title": "Front-end Developer Handbook",
+                "url": "https://frontendmasters.com/guides/front-end-handbook/2019/"
+              },
+              {
+                "title": "Front-End Fundamentals: A practical guide to front-end web development",
+                "url": "https://www.pdfdrive.com/front-end-fundamentals-a-practical-guide-to-front-end-web-development-e184572347.html"
               }
             ]
           },
           {
-            "id": "2",
-            "name": "Advanced",
+            "id": "Advanced Level",
+            "name": "Advanced Level",
             "courses": [
               {
                 "title": "Become a Front End Web Developer",
                 "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001 "
+              },
+              {
+                "title": "Front-End Developer",
+                "url": "https://elzero.org/tracks/front-end/"
               }
             ]
           }
@@ -668,7 +1057,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "Network",
     "title": "Network",
     "courses": [
       {
@@ -770,21 +1159,21 @@
     ]
   },
   {
-    "id": "7",
-    "title": "Machine Learning",
+    "id": "ML Development Life Cycle",
+    "title": "ML Development Life Cycle",
     "courses": [
       {
-        "id": "1",
+        "id": "Python",
         "title": "Python",
         "image": "",
         "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.",
         "steps": [
           {
-            "id": "1",
-            "name": "Python Machine Learning",
+            "id": "Python for Machine Learning",
+            "name": "Python for Machine Learning",
             "courses": [
               {
-                "title": "(272) دورة تعلم بايثون من الصفر كاملة للمبتدئين - Master Python from Beginner to Advanced in Arabic - YouTube",
+                "title": "Master Python from Beginner to Advanced in Arabic - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ"
               },
               {
@@ -812,9 +1201,9 @@
             ]
           },
           {
-            "id": "2",
-            "name": "Python for data analysis",
-            "'courses":[
+            "id": "Python for Data Analysis",
+            "name": "Python for Data Analysis",
+            "courses":[
               {
                 "title": "Python for Data Analysis - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLiC1doDIe9rCYWmH9wIEYEXXaJ4KAi3jc"
@@ -824,35 +1213,41 @@
         ]
       },
       {
-        "id": "2",
+        "id": "Linux",
         "title": "Linux",
         "image": "",
         "description": "Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.",
         "steps": [
           {
-            "id": "1",
-            "name": "Linux",
+            "id": "Beginner Level",
+            "name": "Beginner Level",
             "courses": [
               {
-                "title": "(272) Linux Commands for Beginners - YouTube",
+                "title": "Linux Commands for Beginners - YouTube",
                 "url": "https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ"
+              }
+            ],
+            "books": [
+              {
+                "title": "Introduction to Linux",
+                "url": "https://tldp.org/LDP/intro-linux/intro-linux.pdf"
               }
             ]
           }
         ]
       },
       {
-        "id": "3",
-        "title": "Sql Server",
+        "id": "SQL Server",
+        "title": "SQL Server",
         "image": "",
         "description": "SQL Server is a relational database management system (RDBMS) developed and marketed by Microsoft. As a database server, the primary function of the SQL Server is to store and retrieve data used by other applications\n",
         "steps": [
           {
-            "id": "1",
-            "name": "Sql Server",
+            "id": "SQL Server",
+            "name": "SQL Server",
             "courses": [
               {
-                "title": "(272) Sql Server Course شرح بالعربي - YouTube",
+                "title": "SQL Server Course - YouTube",
                 "url": "https://youtube.com/playlist?list=PLv3VqjyehAoTPEc-D3RsgjuemwfZeX3uf"
               }
             ]
@@ -860,27 +1255,27 @@
         ]
       },
       {
-        "id": "4",
+        "id": "ML",
         "title": "ML",
         "image": "",
-        "description": "Machine learning is a method of data analysis that automates\nanalytical model building. It is a branch of artificial intelligence based\non the idea that systems can learn from data, identify patterns and \nmake decisions with minimal human intervention.\n",
+        "description": "Machine learning is a Method of data analysis that automates\nanalytical model building. It is a branch of artificial intelligence based\non the idea that systems can learn from data, identify patterns and \nmake decisions with minimal human intervention.\n",
         "steps": [
           {
-            "id": "1",
+            "id": "Machine Learning",
             "name": "Machine Learning",
             "courses": [
               {
-                "title": "(272) Machine Learning — Andrew Ng, Stanford University [FULL COURSE] - YouTube",
+                "title": "Machine Learning — Andrew Ng, Stanford University [FULL COURSE] - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
               },
               {
-                "title": "(272) Machine Learning | بالعربي - YouTube",
+                "title": "Machine Learning - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLH2enzYTUDTuWsXCqwBzfDC3sLn39QxEN"
               }
             ],
             "books": [
               {
-                "title": "understanding-machine-learning-theory-algorithms.pdf",
+                "title": "Understanding Machine Learning Theory Algorithms",
                 "url": "https://www.cs.huji.ac.il/w~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf"
               }
             ]
@@ -888,23 +1283,23 @@
         ]
       },
       {
-        "id": "5",
+        "id": "Deep learning",
         "title": "Deep learning",
         "image": "",
         "description": "Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.",
         "steps": [
           {
-            "id": "1",
+            "id": "Deep Learning",
             "name": "Deep Learning",
             "courses": [
               {
-                "title": "(272) Deep Learning Fundamentals - Intro to Neural Networks - YouTube",
+                "title": "Deep Learning Fundamentals - Intro to Neural Networks - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU"
               }
             ],
             "books": [
               {
-                "title": "978-3-319-94463-0.pdf",
+                "title": "Neural Networks and Deep Learning",
                 "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-94463-0.pdf"
               }
             ]
@@ -912,17 +1307,17 @@
         ]
       },
       {
-        "id": "6",
+        "id": "Tensorflow",
         "title": "Tensorflow",
         "image": "",
         "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
         "steps": [
           {
-            "id": "1",
+            "id": "Deep Learning",
             "name": "Deep Learning",
             "courses": [
               {
-                "title": "(272) TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - YouTube",
+                "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - YouTube",
                 "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk"
               }
             ]
@@ -932,18 +1327,18 @@
     ]
   },
   {
-    "id": "8",
-    "title": "3d Modeling",
+    "id": "3D Modeling",
+    "title": "3D Modeling",
     "courses": [
       {
-        "id": "1",
-        "title": "3d Modeling",
+        "id": "3D Modeling",
+        "title": "3D Modeling",
         "image": "",
         "description": "3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object (inanimate or living) in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.\n\nThree-dimensional (3D) models represent a physical body using a collection of points in 3D space, connected by various geometric entities such as triangles, lines, curved surfaces, etc.[4] Being a collection of data (points and other information), 3D models can be created manually, algorithmically (procedural modeling), or by scanning.Their surfaces may be further defined with texture mapping.",
         "steps": [
           {
-            "id": "1",
-            "name": "3d Modeling",
+            "id": "3D Modeling",
+            "name": "3D Modeling",
             "courses": [
               {
                 "title": "Free Blender Tutorial - Free Blender Crash Course! | Udemy",
@@ -952,11 +1347,11 @@
             ],
             "books": [
               {
-                "title": "(PDF) Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion eBook Available Full Color Inside BOOKS FOR PROFESSIONALS BY PROFESSIONALS Beginning Blender: Open Source 3D Modeling, Animation, and Game Design | Sam Bossa - Academia.edu",
+                "title": "Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion",
                 "url": "https://www.academia.edu/7984869/Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design_Companion_eBook_Available_Full_Color_Inside_BOOKS_FOR_PROFESSIONALS_BY_PROFESSIONALS_Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design"
               },
               {
-                "title": "3D Modeling For Beginners - Danan Thilakanathan.pdf - PDFCOFFEE.COM",
+                "title": "3D Modeling For Beginners - Danan Thilakanathan",
                 "url": "https://pdfcoffee.com/3d-modeling-for-beginners-danan-thilakanathanpdf-pdf-free.html"
               }
             ]
@@ -966,7 +1361,7 @@
     ]
   },
   {
-    "id": "9",
+    "id": "Become a Data Analyst",
     "title": "Become a Data Analyst",
     "courses": [
       {
@@ -976,7 +1371,7 @@
         "description": "For every data professional, stats and maths are the must-haves. Because, without the knowledge of stats and probability, one cannot interpret the data effectively.\n",
         "steps": [
           {
-            "id": "1",
+            "id": "Top Certifications",
             "name": "Top Certifications",
             "courses": [
               {
@@ -986,7 +1381,7 @@
             ],
             "books": [
               {
-                "title": "Practical stats for Data science and Naked Statistics.\n",
+                "title": "Practical stats for Data science and Naked Statistics.",
                 "url": "https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/"
               }
             ]
@@ -1118,28 +1513,18 @@
         ]
       },
       {
-        "id": "Portfolio and Resume",
-        "title": "Portfolio and Resume",
+        "id": "Resume",
+        "title": "Resume",
         "image": "",
         "description": "Upon learning all the skills, the final shot should be on your portfolio and resume. One should always work on some real-world projects which require all your acquired skills to play.",
         "steps": [
           {
-            "id": "For Resume",
-            "name": "For Resume",
+            "id": "Resume",
+            "name": "Resume",
             "courses": [
               {
                 "title": "Data camp – Tips to build your resume for data science and analytics.",
                 "url": "https://www.datacamp.com/blog/tips-to-build-your-data-scientist-resume"
-              }
-            ],
-            "books": [
-              {
-                "title": "(PDF) Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion eBook Available Full Color Inside BOOKS FOR PROFESSIONALS BY PROFESSIONALS Beginning Blender: Open Source 3D Modeling, Animation, and Game Design | Sam Bossa - Academia.edu",
-                "url": "https://www.academia.edu/7984869/Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design_Companion_eBook_Available_Full_Color_Inside_BOOKS_FOR_PROFESSIONALS_BY_PROFESSIONALS_Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design"
-              },
-              {
-                "title": "3D Modeling For Beginners - Danan Thilakanathan.pdf - PDFCOFFEE.COM",
-                "url": "https://pdfcoffee.com/3d-modeling-for-beginners-danan-thilakanathanpdf-pdf-free.html"
               }
             ]
           }
