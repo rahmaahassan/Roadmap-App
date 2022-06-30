@@ -41,6 +41,7 @@ class TileList extends StatelessWidget {
                   fontSize: 22.sp,
                   fontWeight: ApplicationFont.bold,
                   color: ApplicationColor.textTitleColor,
+                  height: 1.2
                 ),
               ),
               children: [
@@ -86,11 +87,9 @@ class TileList extends StatelessWidget {
                                                     fontSize: 12.sp,
                                                     fontWeight: ApplicationFont
                                                         .regular,
-                                                    decoration: TextDecoration
-                                                        .underline,
                                                     color: ApplicationColor
                                                         .textSubTitleColor,
-                                                    height: 2
+                                                    height: 3
                                                   ),
                                                 ),
                                               ),
@@ -145,11 +144,9 @@ class TileList extends StatelessWidget {
                                               fontSize: 12.sp,
                                               fontWeight: ApplicationFont
                                                   .regular,
-                                              decoration: TextDecoration
-                                                  .underline,
                                               color: ApplicationColor
                                                   .textSubTitleColor,
-                                              height: 2
+                                              height: 3
                                           ),
                                         ),
                                       ),

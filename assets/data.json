@@ -1225,12 +1225,20 @@
               {
                 "title": "Linux Commands for Beginners - YouTube",
                 "url": "https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ"
+              },
+              {
+                "title": "Introduction to Linux",
+                "url": "https://www.edx.org/course/introduction-to-linux"
               }
             ],
             "books": [
               {
                 "title": "Introduction to Linux",
                 "url": "https://tldp.org/LDP/intro-linux/intro-linux.pdf"
+              },
+              {
+                "title": "Linux Fundamentals",
+                "url": "http://linux-training.be/linuxfun.pdf"
               }
             ]
           }
@@ -1250,6 +1258,20 @@
                 "title": "SQL Server Course - YouTube",
                 "url": "https://youtube.com/playlist?list=PLv3VqjyehAoTPEc-D3RsgjuemwfZeX3uf"
               }
+            ],
+            "books": [
+              {
+                "title": "SQL: Easy SQL Programming & Database Management For Beginners",
+                "url": "https://www.pdfdrive.com/sql-easy-sql-programming-database-management-for-beginners-your-step-by-step-guide-to-learning-the-sql-database-d184313816.html"
+              },
+              {
+                "title": "SQL Indexing and Tuning e-Book",
+                "url": "https://use-the-index-luke.com"
+              },
+              {
+                "title": "SQL: with practice exercises, Learn SQL Fast",
+                "url": "https://www.pdfdrive.com/sql-with-practice-exercises-learn-sql-fast-d186477551.html"
+              }
             ]
           }
         ]
@@ -1261,15 +1283,19 @@
         "description": "Machine learning is a Method of data analysis that automates\nanalytical model building. It is a branch of artificial intelligence based\non the idea that systems can learn from data, identify patterns and \nmake decisions with minimal human intervention.\n",
         "steps": [
           {
-            "id": "Machine Learning",
-            "name": "Machine Learning",
+            "id": "Complete Course",
+            "name": "Complete Course",
             "courses": [
               {
                 "title": "Machine Learning — Andrew Ng, Stanford University [FULL COURSE] - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
               },
               {
-                "title": "Machine Learning - YouTube",
+                "title": "Complete Machine Learning & Data Science Bootcamp 2022",
+                "url": "https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/"
+              },
+              {
+                "title": "Machine Learning - Arabic- YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLH2enzYTUDTuWsXCqwBzfDC3sLn39QxEN"
               }
             ],
@@ -1289,12 +1315,20 @@
         "description": "Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.",
         "steps": [
           {
-            "id": "Deep Learning",
-            "name": "Deep Learning",
+            "id": "Complete Course",
+            "name": "Complete Course",
             "courses": [
               {
                 "title": "Deep Learning Fundamentals - Intro to Neural Networks - YouTube",
                 "url": "https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU"
+              },
+              {
+                "title": "Deep Learning A-Z™: Hands-On Artificial Neural Networks",
+                "url": "https://www.udemy.com/course/deeplearning/"
+              },
+              {
+                "title": "Machine Learning, Data Science and Deep Learning with Python",
+                "url": "https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/"
               }
             ],
             "books": [
@@ -1313,8 +1347,8 @@
         "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
         "steps": [
           {
-            "id": "Deep Learning",
-            "name": "Deep Learning",
+            "id": "Complete Course",
+            "name": "Complete Course",
             "courses": [
               {
                 "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - YouTube",
@@ -1525,6 +1559,206 @@
               {
                 "title": "Data camp – Tips to build your resume for data science and analytics.",
                 "url": "https://www.datacamp.com/blog/tips-to-build-your-data-scientist-resume"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Become a Web Developer",
+    "title": "Become a Web Developer",
+    "courses": [
+      {
+        "id": "Backend",
+        "title": "Backend",
+        "image": "https://drive.google.com/uc?export=view&id=1bW6O4mJC_Du4GUdzMlbujNCnr6i8Vi1l",
+        "description": "Web development activities that are done at the back end of programs are referred to\n as back end development. Back-end development covers server-side web application\n logic and integration and activities, like writing APIs, creating libraries,\n and working with system components instead of frontend development, \nwhich focuses on customer-facing services and programs.\n Backend developers build code that allows a database and an application\n to communicate with one another. Backend developers take care and maintain the back-end \nof a website, Including databases, servers, and apps, and they control what you don't see.",
+        "steps": [
+          {
+            "id": "Basics of Data Structures & Algorithm",
+            "name": "Basics of Data Structures & Algorithm",
+            "courses": [
+              {
+                "title": "Data Structures Full Course In Arabic - Youtube",
+                "url": "https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp"
+              },
+              {
+                "title": "Data Structure Tutorial",
+                "url": "https://www.w3schools.blog/data-structure-tutorial "
+              }
+            ],
+            "books": [
+              {
+                "title": "Data Structures in Java, for the Principled Programmer",
+                "url": "http://dept.cs.williams.edu/~bailey/JavaStructures/Book.html"
+              }
+            ]
+          },
+          {
+            "id": "Basics of Databases",
+            "name": "Basics of Databases",
+            "courses": [
+              {
+                "title": "Database 1 - Fundamentals of Database Systems - YouTube",
+                "url": "youtube.com/playlist?list=PL37D52B7714788190"
+              }
+            ]
+          },
+          {
+            "id": "Beginner Level",
+            "name": "Beginner Level",
+            "courses": [
+              {
+                "title": "Introduction to Backend Development | Udacity",
+                "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK2IHUue73AhUY_7sIHcDlBiUQFnoECAsQAQ&url=https%3A%2F%2Fwww.udacity.com%2Fcourse%2Fintro-to-backend--ud171&usg=AOvVaw2hurB13Yn_LL18xCQ_bdUW"
+              },
+              {
+                "title": "Backend Development with express",
+                "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEnK1q9tuVrrORqKBexcE_J"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "Free Web Development Tutorial - Advanced Backend Web Development | Udemy",
+                "url": "https://www.udemy.com/course/refactoru-adv-backend-dev/ "
+              },
+              {
+                "title": "PHP Back-End Developer",
+                "url": "https://elzero.org/tracks/php-web-developer/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Eloquent JavaScript",
+                "url": "https://eloquentjavascript.net"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Front-End",
+        "title": "Front-End",
+        "image": "https://drive.google.com/uc?export=view&id=1AtVdvexkiDmMjkV3lJuVpGt_Xrtbt4MQ",
+        "description": "What is Front End Development?\nEverything you see on a website, like buttons, links, animations, and more, \nwere created by a front end web developer. It is the front end developer's job \nto take the vision and design concept from the client and implement it through code.\nEverything on the page from the logo to the search bar, buttons, overall layout and how\n the user interacts with the page was created by a front end developer. Front end developers \nare in charge of the look and feel of the website.\n\nFront end developers also have to make sure the website looks good on\n all devices (phones, tablets, and computer screens).\n",
+        "steps": [
+          {
+            "id": "Beginner Level",
+            "name": "Beginner Level",
+            "courses": [
+              {
+                "title": "Introduction to Frontend Web Development For  Beginners | Udemy",
+                "url": "https://www.udemy.com/course/programming-for-web-development-from-scratch/"
+              },
+              {
+                "title": "Front-End Tutorials - Youtube",
+                "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAycCXz5d9WvqlmykUIys5e8"
+              }
+            ],
+            "books": [
+              {
+                "title": "Front-end Developer Handbook",
+                "url": "https://frontendmasters.com/guides/front-end-handbook/2019/"
+              },
+              {
+                "title": "Front-End Fundamentals: A practical guide to front-end web development",
+                "url": "https://www.pdfdrive.com/front-end-fundamentals-a-practical-guide-to-front-end-web-development-e184572347.html"
+              }
+            ]
+          },
+          {
+            "id": "Advanced Level",
+            "name": "Advanced Level",
+            "courses": [
+              {
+                "title": "Become a Front End Web Developer",
+                "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001 "
+              },
+              {
+                "title": "Front-End Developer",
+                "url": "https://elzero.org/tracks/front-end/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Full Stack",
+        "title": "Full Stack",
+        "image": "",
+        "description": "A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application. In this sense, they provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.",
+        "steps": [
+          {
+            "id": "Complete Course",
+            "name": "Complete Course",
+            "courses": [
+              {
+                "title": "The Ultimate 2022 Fullstack Web Development Bootcamp",
+                "url": "https://www.udemy.com/course/the-ultimate-fullstack-web-development-bootcamp/"
+              },
+              {
+                "title": "Full Stack Website Development : Technologies All in One",
+                "url": "https://www.udemy.com/course/full-stack-website-development-technologies/"
+              },
+              {
+                "title": "Full Stack Series",
+                "url": "https://www.udemy.com/course/fsd-part1-free-segment/"
+              }
+            ],
+            "books": [
+              {
+                "title": "The Full Stack Developer",
+                "url": "https://www.pdfdrive.com/the-full-stack-developer-your-essential-guide-to-the-everyday-skills-expected-of-a-modern-full-stack-web-developer-d187214497.html"
+              },
+              {
+                "title": "Full Stack AngularJS for Java Developers",
+                "url": "https://www.pdfdrive.com/full-stack-angularjs-for-java-developers-build-a-full-featured-web-application-from-scratch-using-angularjs-with-spring-restful-d158323677.html"
+              },
+              {
+                "title": "Full Stack JavaScript, 2nd Edition",
+                "url": "https://www.pdfdrive.com/full-stack-javascript-2nd-edition-d100463070.html"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Webmasters",
+        "title": "Webmasters",
+        "image": "",
+        "description": "A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application. In this sense, they provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.",
+        "steps": [
+          {
+            "id": "Complete Course",
+            "name": "Complete Course",
+            "courses": [
+              {
+                "title": "How to become a webmaster?",
+                "url": "https://www.youtube.com/watch?v=bu_XbpNwZsc"
+              },
+              {
+                "title": "Essential Webmaster Skills",
+                "url": "https://www.udemy.com/course/essential-webmaster-skills/"
+              },
+              {
+                "title": "Google Webmaster Guidelines & Search Console Training",
+                "url": "https://www.udemy.com/course/google-webmaster-guidelines-search-console-training/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Webmastering",
+                "url": "https://www.pdfdrive.com/webmastering-d26423476.html"
+              },
+              {
+                "title": "The Webmaster Business Master Course",
+                "url": "https://www.free-ebooks.net/career/The-Webmaster-Business-Master-Course/pdf/preview"
               }
             ]
           }

@@ -2,6 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:road_map_project/domain/category_model.dart';
 
+import '../../infrastructure/local/manager.dart';
 import '../../infrastructure/remote/caegories/firebase_category_facade.dart';
 import 'categories_states.dart';
 
@@ -10,6 +11,10 @@ class CategoriesCubit extends Cubit<CategoriesStates> {
   final FirebaseCategoriesFacade _iCategoriesFacade;
 
   CategoriesCubit(this._iCategoriesFacade) : super(CategoriesInitialState());
+
+  void applicationStarted()async{
+    LocalDatabaseManager.setIsFirstTime(true);
+  }
 
   void getCategories() async{
     emit(CategoriesLoadingState());

@@ -9,12 +9,12 @@ class LocalDatabaseManager{
 
   }
 
-  // static Future<void> setFunc(T value) async {
-  //   SharedPreferenceUtils.setBool(SharedPreferenceKeys.XX_XX, value);
-  // }
+  static Future<void> setIsFirstTime(bool val) async {
+    await SharedPreferenceUtils.setBool(SharedPreferenceKeys.FIRST_TIME, val);
+  }
 
-  // static Future<T> getFunc() async {
-  //   return SharedPreferenceUtils.getT(SharedPreferenceKeys.XX_XX);
-  // }
+  static Future<bool> getIsFirstTime() async {
+    return await SharedPreferenceUtils.getBool(SharedPreferenceKeys.FIRST_TIME);
+  }
 
 }

@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../application/categories/categories_cubit.dart';
 import '../../theme/colors.dart';
 import '../../pages/navigation_bar_home/navigation_bar_home.dart';
 import 'widgets/widgets.dart';
@@ -36,6 +38,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   }
 
   void submit() {
+    context.read<CategoriesCubit>().applicationStarted();
     Navigator.pushNamed(context, NavigationBarHome.routeName);
   }
 }
