@@ -1,8 +1,13 @@
 part of 'widgets.dart';
 
-class NotificationBottom extends StatelessWidget {
+class NotificationBottom extends StatefulWidget {
   const NotificationBottom({Key? key}) : super(key: key);
 
+  @override
+  State<NotificationBottom> createState() => _NotificationBottomState();
+}
+
+class _NotificationBottomState extends State<NotificationBottom> {
   final bool _notificationsEnabled = false;
 
   @override
@@ -19,9 +24,14 @@ class NotificationBottom extends StatelessWidget {
         ),
         value: _notificationsEnabled,
         onChanged: (bool value) {
-          // setState(() {
-          //   _notificationsEnabled = value;
-          // });
+          setState(() {
+            NotificationApi.showNotification(
+              title: 'roadMap App',
+              body: 'Let\'s learn some code',
+              payload: 'roadMap.app'
+            );
+            value = true;
+          });
         },
         activeColor: ApplicationColor.authIconColor,
         secondary: const Icon(Icons.notifications_active_rounded,

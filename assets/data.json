@@ -109,7 +109,6 @@
                 "title": "Java for Complete Beginners: Become Junior Java Developer - udemy",
                 "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjZ5__2pe73AhXB4ncKHXvlCCEYABACGgJlZg&ohost=www.google.com&cid=CAESbeD2EIEprQH_ue92qkpp8kL7vSXcvzvsWZInTxQFQSNPCqyZhoYcsBkBAsuzrJVtgKiKM6Ouu0dMA-IHef-oeJAmfQR2oR5VFUpU3uW5AQykH8eCdHWeDfbckvN7CTo21AP1QbAqFWs776dh5oc&sig=AOD64_0qK67WUrdpC2vJWK0-xDhNLXu8oQ&q&adurl&ved=2ahUKEwj-pvj2pe73AhU5i_0HHfWwDZgQ0Qx6BAgCEAE"
               }
-
             ],
             "books": [
               {
@@ -130,7 +129,6 @@
                 "title": "Intermediate & Advanced Java Programming - udemy",
                 "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjzms_Wpu73AhWK13cKHRN0BAwYABAAGgJlZg&ohost=www.google.com&cid=CAESbeD2VPEGALdgRt3NkixKvGclF_X0VR1jogR4pK-sHyb_JYNB7WMq40DnKzrynoy-svVXDkxvNGNdsORHCEQjD3hqxCMfXfGqgWjJMRZGVQCLsvuJXI9IrgUUkPob_lun_RmGEkN0avmFo3OX-jo&sig=AOD64_026B0qziVBa-ruUiJ9NEzCvgwtwg&q&adurl&ved=2ahUKEwjo08fWpu73AhUE7rsIHacHAG0Q0Qx6BAgCEAE"
               }
-
             ],
             "books": [
               {
@@ -151,7 +149,6 @@
                 "title": "Advanced Java Programming - udemy",
                 "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjb8KL7pu73AhUChtUKHeqIAK8YABAAGgJ3cw&ohost=www.google.com&cid=CAESbeD2u_RjtnpLj4gr6CLeUa6F9uiBk8msp0rALXu64vJBxcPfV9oM6PkNieO0p0ugipk66g2bzFo_-9P1Mj-jaDw9pghJZZRZwWQveh4LoMXTWW6Q6xLxXz2b27b_tJ89l_tqD__3q9sjE3IN_n8&sig=AOD64_1k5zqnxC8yCFSAYvF3fsU7-AO4-g&q&adurl&ved=2ahUKEwjxupv7pu73AhUzRuUKHS9xDEcQ0Qx6BAgCEAE"
               }
-
             ],
             "books": [
               {
@@ -180,7 +177,6 @@
                 "title": "Introduction to Basic C# - udemy",
                 "url": "https://www.udemy.com/course/introduction-to-basic-c-sharp/"
               }
-
             ],
             "books": [
               {
@@ -201,16 +197,14 @@
             "id": "Intermediate Level",
             "name": "Intermediate Level",
             "courses": [
-
               {
                 "title": "C# Intermediate: Classes, Interfaces and OOP- udemy",
                 "url": "https://www.udemy.com/course/csharp-intermediate-classes-interfaces-and-oop/"
               }
-
             ],
             "books": [
               {
-                "title":  "c# -Intermediate ",
+                "title": "c# -Intermediate ",
                 "url": "https://introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
               },
               {
@@ -238,11 +232,11 @@
             ],
             "books": [
               {
-                "title":  "Advanced C#",
+                "title": "Advanced C#",
                 "url": "https://cs.wmich.edu/~alfuqaha/summer13/cs5950/lectures/CSAdvanced-rev3.pdf"
               },
               {
-                "title":  "Gray Hat C# A Hacker’s Guide To Creating And Automating Security Tools Book Of 2017",
+                "title": "Gray Hat C# A Hacker’s Guide To Creating And Automating Security Tools Book Of 2017",
                 "url": "https://freepdf-books.com/gray-hat-c-a-hackers-guide-to-creating-and-automating-security-tools-book-of-2017/"
               }
             ]
@@ -267,15 +261,14 @@
                 "title": "C Programming For Beginners - Master the C Language - udemy",
                 "url": "https://www.udemy.com/course/c-programming-for-beginners-/ "
               }
-
             ],
             "books": [
               {
-                "title":  "C for Beginner",
+                "title": "C for Beginner",
                 "url": "https://www.unf.edu/~wkloster/2220/ppts/cprogramming_tutorial.pdf"
               },
               {
-                "title":  "Learn to Program with C",
+                "title": "Learn to Program with C",
                 "url": "https://www.pdfdrive.com/learn-to-program-with-c-learn-to-program-using-the-popular-c-programming-language-e166650744.html"
               }
             ]
@@ -295,11 +288,11 @@
             ],
             "books": [
               {
-                "title":  "C Programming :: The Ultimate Way to Learn The Fundamentals of The C Language.",
+                "title": "C Programming :: The Ultimate Way to Learn The Fundamentals of The C Language.",
                 "url": "https://www.pdfdrive.com/c-programming-the-ultimate-way-to-learn-the-fundamentals-of-the-c-language-e187584209.html"
               },
               {
-                "title":  "Expert C Programming: Deep C Secrets",
+                "title": "Expert C Programming: Deep C Secrets",
                 "url": "https://progforperf.github.io/Expert_C_Programming.pdf"
               }
             ]
@@ -308,7 +301,6 @@
             "id": "Advanced Level",
             "name": "Advanced Level",
             "courses": [
-
               {
                 "title": "Advanced C Programming Course- udemy",
                 "url": "https://www.udemy.com/course/advanced-c-programming-course/ "
@@ -317,20 +309,18 @@
                 "title": "Advanced C Programming- youtube",
                 "url": "https://www.youtube.com/playlist?list=PL7CZ_Xc0qgmJFqNWEt4LIhAPTlT0sCW4C"
               }
-
             ],
             "books": [
               {
-                "title":  " c - advanced ",
+                "title": " c - advanced ",
                 "url": "http://englishonlineclub.com/pdf/Advanced%20C%20[EnglishOnlineClub.com].pdf"
               },
               {
-                "title":  "Advanced Topics in C",
+                "title": "Advanced Topics in C",
                 "url": "https://www.pdfdrive.com/advanced-topics-in-c-e24573968.html"
               }
             ]
           }
-
         ]
       },
       {
@@ -351,7 +341,6 @@
                 "title": "C++ For Programmers - Udemy",
                 "url": "https://www.udacity.com/course/c-for-programmers--ud210"
               }
-
             ],
             "books": [
               {
@@ -735,14 +724,14 @@
     ]
   },
   {
-    "id" : "Mobile Development",
+    "id": "Mobile Development",
     "title": "Mobile Development",
     "courses": [
       {
         "id": "Android Developer",
         "title": "Android Developer",
         "image": "https://drive.google.com/uc?export=view&id=1h7o8Yepw75ZvmdZqUoZUwa_RBWgybCy7",
-        "description" : "Android is an operating system and programming platform developed by Google \nfor mobile phones and other mobile devices, such as tablets. It can run on many different \ndevices from many different manufacturers. Android includes a software development kit \n(SDK) that helps you write original code and assemble software modules to create apps\n for Android users. Android also provides a marketplace to distribute apps. All together, \nAndroid represents an ecosystem for mobile apps.",
+        "description": "Android is an operating system and programming platform developed by Google \nfor mobile phones and other mobile devices, such as tablets. It can run on many different \ndevices from many different manufacturers. Android includes a software development kit \n(SDK) that helps you write original code and assemble software modules to create apps\n for Android users. Android also provides a marketplace to distribute apps. All together, \nAndroid represents an ecosystem for mobile apps.",
         "steps": [
           {
             "id": "Beginner Level",
@@ -919,474 +908,6 @@
               {
                 "title": "Modern App Development with Dart and Flutter 2: A Comprehensive Introduction to Flutter.pdf - Google Drive",
                 "url": "https://drive.google.com/file/d/1p3Wd4qXBzFs3YXcTdx0CJIkHT242Nc77/view"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Backend Developer",
-    "title": "Backend Developer",
-    "courses": [
-      {
-        "id": "Backend",
-        "title": "Backend",
-        "image": "https://drive.google.com/uc?export=view&id=1bW6O4mJC_Du4GUdzMlbujNCnr6i8Vi1l",
-        "description": "Web development activities that are done at the back end of programs are referred to\n as back end development. Back-end development covers server-side web application\n logic and integration and activities, like writing APIs, creating libraries,\n and working with system components instead of frontend development, \nwhich focuses on customer-facing services and programs.\n Backend developers build code that allows a database and an application\n to communicate with one another. Backend developers take care and maintain the back-end \nof a website, Including databases, servers, and apps, and they control what you don't see.",
-        "steps": [
-          {
-            "id": "Basics of Data Structures & Algorithm",
-            "name": "Basics of Data Structures & Algorithm",
-            "courses": [
-              {
-                "title": "Data Structures Full Course In Arabic - Youtube",
-                "url": "https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp"
-              },
-              {
-                "title": "Data Structure Tutorial",
-                "url": "https://www.w3schools.blog/data-structure-tutorial "
-              }
-            ],
-            "books": [
-              {
-                "title": "Data Structures in Java, for the Principled Programmer",
-                "url": "http://dept.cs.williams.edu/~bailey/JavaStructures/Book.html"
-              }
-            ]
-          },
-          {
-            "id": "Basics of Databases",
-            "name": "Basics of Databases",
-            "courses": [
-              {
-                "title": "Database 1 - Fundamentals of Database Systems - YouTube",
-                "url": "youtube.com/playlist?list=PL37D52B7714788190"
-              }
-            ]
-          },
-          {
-            "id": "Beginner Level",
-            "name": "Beginner Level",
-            "courses": [
-              {
-                "title": "Introduction to Backend Development | Udacity",
-                "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjK2IHUue73AhUY_7sIHcDlBiUQFnoECAsQAQ&url=https%3A%2F%2Fwww.udacity.com%2Fcourse%2Fintro-to-backend--ud171&usg=AOvVaw2hurB13Yn_LL18xCQ_bdUW"
-              },
-              {
-                "title": "Backend Development with express",
-                "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEnK1q9tuVrrORqKBexcE_J"
-              }
-            ]
-          },
-          {
-            "id": "Advanced Level",
-            "name": "Advanced Level",
-            "courses": [
-              {
-                "title": "Free Web Development Tutorial - Advanced Backend Web Development | Udemy",
-                "url": "https://www.udemy.com/course/refactoru-adv-backend-dev/ "
-              },
-              {
-                "title": "PHP Back-End Developer",
-                "url": "https://elzero.org/tracks/php-web-developer/"
-              }
-            ],
-            "books": [
-              {
-                "title": "Eloquent JavaScript",
-                "url": "https://eloquentjavascript.net"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Front-End Developer",
-    "title": "Front-End Developer",
-    "courses": [
-      {
-        "id": "Front-End",
-        "title": "Front-End",
-        "image": "https://drive.google.com/uc?export=view&id=1AtVdvexkiDmMjkV3lJuVpGt_Xrtbt4MQ",
-        "description": "What is Front End Development?\nEverything you see on a website, like buttons, links, animations, and more, \nwere created by a front end web developer. It is the front end developer's job \nto take the vision and design concept from the client and implement it through code.\nEverything on the page from the logo to the search bar, buttons, overall layout and how\n the user interacts with the page was created by a front end developer. Front end developers \nare in charge of the look and feel of the website.\n\nFront end developers also have to make sure the website looks good on\n all devices (phones, tablets, and computer screens).\n",
-        "steps": [
-          {
-            "id": "Beginner Level",
-            "name": "Beginner Level",
-            "courses": [
-              {
-                "title": "Introduction to Frontend Web Development For  Beginners | Udemy",
-                "url": "https://www.udemy.com/course/programming-for-web-development-from-scratch/"
-              },
-              {
-                "title": "Front-End Tutorials - Youtube",
-                "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAycCXz5d9WvqlmykUIys5e8"
-              }
-            ],
-            "books": [
-              {
-                "title": "Front-end Developer Handbook",
-                "url": "https://frontendmasters.com/guides/front-end-handbook/2019/"
-              },
-              {
-                "title": "Front-End Fundamentals: A practical guide to front-end web development",
-                "url": "https://www.pdfdrive.com/front-end-fundamentals-a-practical-guide-to-front-end-web-development-e184572347.html"
-              }
-            ]
-          },
-          {
-            "id": "Advanced Level",
-            "name": "Advanced Level",
-            "courses": [
-              {
-                "title": "Become a Front End Web Developer",
-                "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001 "
-              },
-              {
-                "title": "Front-End Developer",
-                "url": "https://elzero.org/tracks/front-end/"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Network",
-    "title": "Network",
-    "courses": [
-      {
-        "id": "1",
-        "title": "N+",
-        "image": "",
-        "description": "A certification by CompTIA, Network+, or N+, helps demonstrate a person's knowledge in TCP/IP, \nmanaging a network, network operating systems, and installing and upgrading networks.\n It's often recommended that users with little or no network experience complete a Network+\n certification before moving onto their MCSE or CNE certification.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "N+",
-            "courses": [
-              {
-                "title": "(272) CompTIA N10-008 Network+ Training Course - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G"
-              }
-            ],
-            "books": [
-              {
-                "title": "CompTIA Network+ N10-007 Cert Guide",
-                "url": "https://www.rcboe.org/cms/lib/GA01903614/Centricity/Domain/4399/Network%20n10-007.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "CCNA",
-        "image": "",
-        "description": "The CCNA—which stands for Cisco Certified Network Associate—is\n an entry-level information technology (IT) certification issued by networking hardware company Cisco.\n The CCNA is designed to validate your knowledge on fundamental networking concepts often\n requested in networking roles in IT positions.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "CCNA",
-            "courses": [
-              {
-                "title": "(272) Free CCNA 200-301 | Complete Course 2022 - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ"
-              }
-            ],
-            "books": [
-              {
-                "title": "CCNA Cisco Certified Network Associate Study Guide, (Includes CD-ROM)",
-                "url": "http://www.innos.in/downloads/CISCO%20-%20640-802-ccna.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "title": "CCNP",
-        "image": "",
-        "description": "Cisco Certified Network Professional (CCNP) Routing and Switching certification validates\n that you have the ability to plan, implement, verify and troubleshoot local and wide area enterprise\n networks and that you can work collaboratively with specialists on advanced security, voice, wireless \nand video solutions.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "CCNP",
-            "courses": [
-              {
-                "title": "(272) Free CCNP 350-401 ENCOR Complete Course - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKPM3poHlHLpw-b6cigthng2"
-              }
-            ],
-            "books": [
-              {
-                "title": "CCNP Routing and Switching SWITCH 300-115 Official Cert Guide",
-                "url": "https://arjang.ac.ir/downloads/Landings/hamedbanifatemi/CCNP_Routing_and_Switching_SWITCH.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "4",
-        "title": "MCSA",
-        "image": "",
-        "description": "MCSA (Microsoft Certified Solutions Associate) is a certification program intended for people who seek \nentry-level jobs in an information technology (IT) environment. This certification, which is being retired on Jan.\n 31, 2021, is a prerequisite for more advanced Microsoft certifications. The MCSA credential currently \nsupplants the defunct Microsoft Certified Systems Administrator certification.",
-        "steps": [
-          {
-            "id": "1",
-            "name": "MCSA",
-            "courses": [
-              {
-                "title": "(272) MCSA 2016 Course By Eng.Mahdi Hussein Yasin | Arabic - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLYLBa8L8nMEX-61XoNed5iQvGmY6SPFZV"
-              }
-            ],
-            "books": [
-              {
-                "title": "MCSA Windows Server 2016 Study Guide: Exam 70-740",
-                "url": "https://bmansoori.ir/book/MCSA%20windows%20server%202016-bmansoori.ir.pdf"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ML Development Life Cycle",
-    "title": "ML Development Life Cycle",
-    "courses": [
-      {
-        "id": "Python",
-        "title": "Python",
-        "image": "",
-        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.",
-        "steps": [
-          {
-            "id": "Python for Machine Learning",
-            "name": "Python for Machine Learning",
-            "courses": [
-              {
-                "title": "Master Python from Beginner to Advanced in Arabic - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ"
-              },
-              {
-                "title": "Python Programming Course Level 1 Basic By Arabic - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwR1X4imwck6n1Pc0uXpToDn"
-              },
-              {
-                "title": "Python Programming Course Level 2 Function and Object Oriented Programming By Arabic - YouTube",
-                "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwQvoI1O-2_e5UcGux1oN6Mh"
-              },
-              {
-                "title": "Python Programming Course Level 3 Connect Database and Python By Arabic - YouTube",
-                "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwTpy2iVUmTe9oXokzJfgBxe"
-              },
-              {
-                "title": "Python Programming Course Level 4 Graphic User Interface By Arabic - YouTube - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwRTfD0_fpfx0VC4VvIN1vGi"
-              }
-            ],
-            "books": [
-              {
-                "title": "Python Machine Learning - Sebastian Raschka - Google",
-                "url": "https://books.google.com.eg/books?id=GOVOCwAAQBAJ&lpg=PP1&ots=NdcxObQSXK&dq=python%20machine%20learning&lr&hl=ar&pg=PP1#v=onepage&q=python%20machine%20learning&f=false"
-              }
-            ]
-          },
-          {
-            "id": "Python for Data Analysis",
-            "name": "Python for Data Analysis",
-            "courses":[
-              {
-                "title": "Python for Data Analysis - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLiC1doDIe9rCYWmH9wIEYEXXaJ4KAi3jc"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Linux",
-        "title": "Linux",
-        "image": "",
-        "description": "Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.",
-        "steps": [
-          {
-            "id": "Beginner Level",
-            "name": "Beginner Level",
-            "courses": [
-              {
-                "title": "Linux Commands for Beginners - YouTube",
-                "url": "https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ"
-              },
-              {
-                "title": "Introduction to Linux",
-                "url": "https://www.edx.org/course/introduction-to-linux"
-              }
-            ],
-            "books": [
-              {
-                "title": "Introduction to Linux",
-                "url": "https://tldp.org/LDP/intro-linux/intro-linux.pdf"
-              },
-              {
-                "title": "Linux Fundamentals",
-                "url": "http://linux-training.be/linuxfun.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "SQL Server",
-        "title": "SQL Server",
-        "image": "",
-        "description": "SQL Server is a relational database management system (RDBMS) developed and marketed by Microsoft. As a database server, the primary function of the SQL Server is to store and retrieve data used by other applications\n",
-        "steps": [
-          {
-            "id": "SQL Server",
-            "name": "SQL Server",
-            "courses": [
-              {
-                "title": "SQL Server Course - YouTube",
-                "url": "https://youtube.com/playlist?list=PLv3VqjyehAoTPEc-D3RsgjuemwfZeX3uf"
-              }
-            ],
-            "books": [
-              {
-                "title": "SQL: Easy SQL Programming & Database Management For Beginners",
-                "url": "https://www.pdfdrive.com/sql-easy-sql-programming-database-management-for-beginners-your-step-by-step-guide-to-learning-the-sql-database-d184313816.html"
-              },
-              {
-                "title": "SQL Indexing and Tuning e-Book",
-                "url": "https://use-the-index-luke.com"
-              },
-              {
-                "title": "SQL: with practice exercises, Learn SQL Fast",
-                "url": "https://www.pdfdrive.com/sql-with-practice-exercises-learn-sql-fast-d186477551.html"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "ML",
-        "title": "ML",
-        "image": "",
-        "description": "Machine learning is a Method of data analysis that automates\nanalytical model building. It is a branch of artificial intelligence based\non the idea that systems can learn from data, identify patterns and \nmake decisions with minimal human intervention.\n",
-        "steps": [
-          {
-            "id": "Complete Course",
-            "name": "Complete Course",
-            "courses": [
-              {
-                "title": "Machine Learning — Andrew Ng, Stanford University [FULL COURSE] - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
-              },
-              {
-                "title": "Complete Machine Learning & Data Science Bootcamp 2022",
-                "url": "https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/"
-              },
-              {
-                "title": "Machine Learning - Arabic- YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLH2enzYTUDTuWsXCqwBzfDC3sLn39QxEN"
-              }
-            ],
-            "books": [
-              {
-                "title": "Understanding Machine Learning Theory Algorithms",
-                "url": "https://www.cs.huji.ac.il/w~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Deep learning",
-        "title": "Deep learning",
-        "image": "",
-        "description": "Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.",
-        "steps": [
-          {
-            "id": "Complete Course",
-            "name": "Complete Course",
-            "courses": [
-              {
-                "title": "Deep Learning Fundamentals - Intro to Neural Networks - YouTube",
-                "url": "https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU"
-              },
-              {
-                "title": "Deep Learning A-Z™: Hands-On Artificial Neural Networks",
-                "url": "https://www.udemy.com/course/deeplearning/"
-              },
-              {
-                "title": "Machine Learning, Data Science and Deep Learning with Python",
-                "url": "https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/"
-              }
-            ],
-            "books": [
-              {
-                "title": "Neural Networks and Deep Learning",
-                "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-94463-0.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Tensorflow",
-        "title": "Tensorflow",
-        "image": "",
-        "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
-        "steps": [
-          {
-            "id": "Complete Course",
-            "name": "Complete Course",
-            "courses": [
-              {
-                "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - YouTube",
-                "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "3D Modeling",
-    "title": "3D Modeling",
-    "courses": [
-      {
-        "id": "3D Modeling",
-        "title": "3D Modeling",
-        "image": "",
-        "description": "3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object (inanimate or living) in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.\n\nThree-dimensional (3D) models represent a physical body using a collection of points in 3D space, connected by various geometric entities such as triangles, lines, curved surfaces, etc.[4] Being a collection of data (points and other information), 3D models can be created manually, algorithmically (procedural modeling), or by scanning.Their surfaces may be further defined with texture mapping.",
-        "steps": [
-          {
-            "id": "3D Modeling",
-            "name": "3D Modeling",
-            "courses": [
-              {
-                "title": "Free Blender Tutorial - Free Blender Crash Course! | Udemy",
-                "url": "https://www.udemy.com/course/blender-crash-course/"
-              }
-            ],
-            "books": [
-              {
-                "title": "Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion",
-                "url": "https://www.academia.edu/7984869/Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design_Companion_eBook_Available_Full_Color_Inside_BOOKS_FOR_PROFESSIONALS_BY_PROFESSIONALS_Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design"
-              },
-              {
-                "title": "3D Modeling For Beginners - Danan Thilakanathan",
-                "url": "https://pdfcoffee.com/3d-modeling-for-beginners-danan-thilakanathanpdf-pdf-free.html"
               }
             ]
           }
@@ -1732,7 +1253,7 @@
         "id": "Webmasters",
         "title": "Webmasters",
         "image": "",
-        "description": "A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application. In this sense, they provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.",
+        "description": "The Webmaster serves as the primary contact for all aspects of the organizations website(s), handling a range of responsibilities that may include web design and development, routine site and content maintenance, and various updates to ensure sites align with the goals and objectives of the company.",
         "steps": [
           {
             "id": "Complete Course",
@@ -1759,6 +1280,344 @@
               {
                 "title": "The Webmaster Business Master Course",
                 "url": "https://www.free-ebooks.net/career/The-Webmaster-Business-Master-Course/pdf/preview"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ML Development Life Cycle",
+    "title": "ML Development Life Cycle",
+    "courses": [
+      {
+        "id": "Python",
+        "title": "Python",
+        "image": "",
+        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.",
+        "steps": [
+          {
+            "id": "Python for Machine Learning",
+            "name": "Python for Machine Learning",
+            "courses": [
+              {
+                "title": "Master Python from Beginner to Advanced in Arabic - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ"
+              },
+              {
+                "title": "Python Programming Course Level 1 Basic By Arabic - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwR1X4imwck6n1Pc0uXpToDn"
+              },
+              {
+                "title": "Python Programming Course Level 2 Function and Object Oriented Programming By Arabic - YouTube",
+                "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwQvoI1O-2_e5UcGux1oN6Mh"
+              },
+              {
+                "title": "Python Programming Course Level 3 Connect Database and Python By Arabic - YouTube",
+                "url": "https://youtube.com/playlist?list=PLnzqK5HvcpwTpy2iVUmTe9oXokzJfgBxe"
+              },
+              {
+                "title": "Python Programming Course Level 4 Graphic User Interface By Arabic - YouTube - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwRTfD0_fpfx0VC4VvIN1vGi"
+              }
+            ],
+            "books": [
+              {
+                "title": "Python Machine Learning - Sebastian Raschka - Google",
+                "url": "https://books.google.com.eg/books?id=GOVOCwAAQBAJ&lpg=PP1&ots=NdcxObQSXK&dq=python%20machine%20learning&lr&hl=ar&pg=PP1#v=onepage&q=python%20machine%20learning&f=false"
+              }
+            ]
+          },
+          {
+            "id": "Python for Data Analysis",
+            "name": "Python for Data Analysis",
+            "courses": [
+              {
+                "title": "Python for Data Analysis - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLiC1doDIe9rCYWmH9wIEYEXXaJ4KAi3jc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Linux",
+        "title": "Linux",
+        "image": "",
+        "description": "Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.",
+        "steps": [
+          {
+            "id": "Beginner Level",
+            "name": "Beginner Level",
+            "courses": [
+              {
+                "title": "Linux Commands for Beginners - YouTube",
+                "url": "https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ"
+              },
+              {
+                "title": "Introduction to Linux",
+                "url": "https://www.edx.org/course/introduction-to-linux"
+              }
+            ],
+            "books": [
+              {
+                "title": "Introduction to Linux",
+                "url": "https://tldp.org/LDP/intro-linux/intro-linux.pdf"
+              },
+              {
+                "title": "Linux Fundamentals",
+                "url": "http://linux-training.be/linuxfun.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SQL Server",
+        "title": "SQL Server",
+        "image": "",
+        "description": "SQL Server is a relational database management system (RDBMS) developed and marketed by Microsoft. As a database server, the primary function of the SQL Server is to store and retrieve data used by other applications\n",
+        "steps": [
+          {
+            "id": "SQL Server",
+            "name": "SQL Server",
+            "courses": [
+              {
+                "title": "SQL Server Course - YouTube",
+                "url": "https://youtube.com/playlist?list=PLv3VqjyehAoTPEc-D3RsgjuemwfZeX3uf"
+              }
+            ],
+            "books": [
+              {
+                "title": "SQL: Easy SQL Programming & Database Management For Beginners",
+                "url": "https://www.pdfdrive.com/sql-easy-sql-programming-database-management-for-beginners-your-step-by-step-guide-to-learning-the-sql-database-d184313816.html"
+              },
+              {
+                "title": "SQL Indexing and Tuning e-Book",
+                "url": "https://use-the-index-luke.com"
+              },
+              {
+                "title": "SQL: with practice exercises, Learn SQL Fast",
+                "url": "https://www.pdfdrive.com/sql-with-practice-exercises-learn-sql-fast-d186477551.html"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ML",
+        "title": "ML",
+        "image": "",
+        "description": "Machine learning is a Method of data analysis that automates\nanalytical model building. It is a branch of artificial intelligence based\non the idea that systems can learn from data, identify patterns and \nmake decisions with minimal human intervention.\n",
+        "steps": [
+          {
+            "id": "Complete Course",
+            "name": "Complete Course",
+            "courses": [
+              {
+                "title": "Machine Learning — Andrew Ng, Stanford University [FULL COURSE] - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+              },
+              {
+                "title": "Complete Machine Learning & Data Science Bootcamp 2022",
+                "url": "https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/"
+              },
+              {
+                "title": "Machine Learning - Arabic- YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLH2enzYTUDTuWsXCqwBzfDC3sLn39QxEN"
+              }
+            ],
+            "books": [
+              {
+                "title": "Understanding Machine Learning Theory Algorithms",
+                "url": "https://www.cs.huji.ac.il/w~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Deep learning",
+        "title": "Deep learning",
+        "image": "",
+        "description": "Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.",
+        "steps": [
+          {
+            "id": "Complete Course",
+            "name": "Complete Course",
+            "courses": [
+              {
+                "title": "Deep Learning Fundamentals - Intro to Neural Networks - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU"
+              },
+              {
+                "title": "Deep Learning A-Z™: Hands-On Artificial Neural Networks",
+                "url": "https://www.udemy.com/course/deeplearning/"
+              },
+              {
+                "title": "Machine Learning, Data Science and Deep Learning with Python",
+                "url": "https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Neural Networks and Deep Learning",
+                "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-94463-0.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Tensorflow",
+        "title": "Tensorflow",
+        "image": "",
+        "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
+        "steps": [
+          {
+            "id": "Complete Course",
+            "name": "Complete Course",
+            "courses": [
+              {
+                "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - YouTube",
+                "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Network",
+    "title": "Network",
+    "courses": [
+      {
+        "id": "1",
+        "title": "N+",
+        "image": "",
+        "description": "A certification by CompTIA, Network+, or N+, helps demonstrate a person's knowledge in TCP/IP, \nmanaging a network, network operating systems, and installing and upgrading networks.\n It's often recommended that users with little or no network experience complete a Network+\n certification before moving onto their MCSE or CNE certification.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "N+",
+            "courses": [
+              {
+                "title": "(272) CompTIA N10-008 Network+ Training Course - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G"
+              }
+            ],
+            "books": [
+              {
+                "title": "CompTIA Network+ N10-007 Cert Guide",
+                "url": "https://www.rcboe.org/cms/lib/GA01903614/Centricity/Domain/4399/Network%20n10-007.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "CCNA",
+        "image": "",
+        "description": "The CCNA—which stands for Cisco Certified Network Associate—is\n an entry-level information technology (IT) certification issued by networking hardware company Cisco.\n The CCNA is designed to validate your knowledge on fundamental networking concepts often\n requested in networking roles in IT positions.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "CCNA",
+            "courses": [
+              {
+                "title": "(272) Free CCNA 200-301 | Complete Course 2022 - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ"
+              }
+            ],
+            "books": [
+              {
+                "title": "CCNA Cisco Certified Network Associate Study Guide, (Includes CD-ROM)",
+                "url": "http://www.innos.in/downloads/CISCO%20-%20640-802-ccna.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "CCNP",
+        "image": "",
+        "description": "Cisco Certified Network Professional (CCNP) Routing and Switching certification validates\n that you have the ability to plan, implement, verify and troubleshoot local and wide area enterprise\n networks and that you can work collaboratively with specialists on advanced security, voice, wireless \nand video solutions.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "CCNP",
+            "courses": [
+              {
+                "title": "(272) Free CCNP 350-401 ENCOR Complete Course - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKPM3poHlHLpw-b6cigthng2"
+              }
+            ],
+            "books": [
+              {
+                "title": "CCNP Routing and Switching SWITCH 300-115 Official Cert Guide",
+                "url": "https://arjang.ac.ir/downloads/Landings/hamedbanifatemi/CCNP_Routing_and_Switching_SWITCH.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "MCSA",
+        "image": "",
+        "description": "MCSA (Microsoft Certified Solutions Associate) is a certification program intended for people who seek \nentry-level jobs in an information technology (IT) environment. This certification, which is being retired on Jan.\n 31, 2021, is a prerequisite for more advanced Microsoft certifications. The MCSA credential currently \nsupplants the defunct Microsoft Certified Systems Administrator certification.",
+        "steps": [
+          {
+            "id": "1",
+            "name": "MCSA",
+            "courses": [
+              {
+                "title": "(272) MCSA 2016 Course By Eng.Mahdi Hussein Yasin | Arabic - YouTube",
+                "url": "https://www.youtube.com/playlist?list=PLYLBa8L8nMEX-61XoNed5iQvGmY6SPFZV"
+              }
+            ],
+            "books": [
+              {
+                "title": "MCSA Windows Server 2016 Study Guide: Exam 70-740",
+                "url": "https://bmansoori.ir/book/MCSA%20windows%20server%202016-bmansoori.ir.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3D Modeling",
+    "title": "3D Modeling",
+    "courses": [
+      {
+        "id": "3D Modeling",
+        "title": "3D Modeling",
+        "image": "",
+        "description": "3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object (inanimate or living) in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.\n\nThree-dimensional (3D) models represent a physical body using a collection of points in 3D space, connected by various geometric entities such as triangles, lines, curved surfaces, etc.[4] Being a collection of data (points and other information), 3D models can be created manually, algorithmically (procedural modeling), or by scanning.Their surfaces may be further defined with texture mapping.",
+        "steps": [
+          {
+            "id": "3D Modeling",
+            "name": "3D Modeling",
+            "courses": [
+              {
+                "title": "Free Blender Tutorial - Free Blender Crash Course! | Udemy",
+                "url": "https://www.udemy.com/course/blender-crash-course/"
+              }
+            ],
+            "books": [
+              {
+                "title": "Beginning Blender Open Source 3D Modeling, Animation, and Game Design Companion",
+                "url": "https://www.academia.edu/7984869/Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design_Companion_eBook_Available_Full_Color_Inside_BOOKS_FOR_PROFESSIONALS_BY_PROFESSIONALS_Beginning_Blender_Open_Source_3D_Modeling_Animation_and_Game_Design"
+              },
+              {
+                "title": "3D Modeling For Beginners - Danan Thilakanathan",
+                "url": "https://pdfcoffee.com/3d-modeling-for-beginners-danan-thilakanathanpdf-pdf-free.html"
               }
             ]
           }

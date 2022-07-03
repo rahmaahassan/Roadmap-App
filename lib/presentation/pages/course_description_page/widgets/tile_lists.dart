@@ -75,8 +75,9 @@ class TileList extends StatelessWidget {
                                             children: steps[index].courses.map<Widget>((stepCourse) => InkWell(
                                               onTap: () async {
                                                 if (!await launchUrl(Uri.parse(steps[index].courses[index].url))) {
-                                                  throw 'Could not launch book link';
+                                                  throw 'Could not launch course link';
                                                 }
+                                                print(steps[index].courses[index].url);
                                               },
                                               child: Align(
                                                 alignment: Alignment.bottomLeft,
@@ -134,6 +135,7 @@ class TileList extends StatelessWidget {
                                         if (!await launchUrl(Uri.parse(steps[index].books[index].url))) {
                                           throw 'Could not launch book link';
                                         }
+                                        print(steps[index].books[index].url);
                                       },
                                       child: Align(
                                         alignment: Alignment.bottomLeft,
@@ -168,10 +170,6 @@ class TileList extends StatelessWidget {
       itemCount: steps.length,
     );
   }
-
-void onBookTapped() {}
-
-  /// TODO
 
 
 }
