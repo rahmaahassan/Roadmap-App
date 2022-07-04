@@ -8,7 +8,7 @@ class NotificationBottom extends StatefulWidget {
 }
 
 class _NotificationBottomState extends State<NotificationBottom> {
-  final bool _notificationsEnabled = false;
+   bool _notificationsEnabled = false;
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class _NotificationBottomState extends State<NotificationBottom> {
               body: 'Let\'s learn some code',
               payload: 'roadMap.app'
             );
-            value = _notificationsEnabled;
+            _notificationsEnabled = value;
           });
         },
         activeColor: ApplicationColor.authIconColor,

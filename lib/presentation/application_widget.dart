@@ -5,8 +5,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:road_map_project/presentation/pages/on_boarding/on_boarding_screen.dart';
 
-import '../application/auth/login/cubit/cubit.dart';
-import '../application/auth/login/cubit/states.dart';
 import '../application/categories/categories_cubit.dart';
 import '../application/categories/categories_states.dart';
 import 'helpers/presentation_helpers.dart';
