@@ -30,7 +30,7 @@ class _NotificationBottomState extends State<NotificationBottom> {
               body: 'Let\'s learn some code',
               payload: 'roadMap.app'
             );
-            value = true;
+            value = _notificationsEnabled;
           });
         },
         activeColor: ApplicationColor.authIconColor,
