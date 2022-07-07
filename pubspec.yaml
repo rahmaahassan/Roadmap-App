@@ -42,7 +42,7 @@ dependencies:
 #  android: true
 #  ios: true
 #  color: "#195860"
-#  image_path: "assets/icons/launcher_icon.png"
+#  image_path: "assets/icons/app_icon.png"
 #  remove_alpha_ios: true
 
 #flutter_native_splash:

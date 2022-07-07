@@ -11,5 +11,8 @@ import Firebase
     GeneratedPluginRegistrant.register(with: self)
 //     FirebaseApp.configure()
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+    if #available(iOS 10.0, *) {
+      UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate
+    }
   }
 }
