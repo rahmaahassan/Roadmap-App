@@ -8,11 +8,24 @@ class NotificationBottom extends StatefulWidget {
 }
 
 class _NotificationBottomState extends State<NotificationBottom> {
-   bool _notificationsEnabled = false;
+  bool _notificationsEnabled = false;
+
+  @override
+  void initState() {
+    super.initState();
+    NotificationApi.init();
+    listenNotification();
+  }
+
+  void listenNotification() =>
+      NotificationApi.onNotifications.stream.listen(onClickedNotification);
+
+  void onClickedNotification(String? payload) =>
+      Navigator.pushNamed(context, NavigationBarHome.routeName);
 
   @override
   Widget build(BuildContext context) {
-    return  Padding(
+    return Padding(
       padding: EdgeInsets.only(left: 13.h),
       child: SwitchListTile(
         title: Text(
@@ -26,15 +39,15 @@ class _NotificationBottomState extends State<NotificationBottom> {
         onChanged: (bool value) {
           setState(() {
             NotificationApi.showNotification(
-              title: 'roadMap App',
-              body: 'Let\'s learn some code',
-              payload: 'roadMap.app'
-            );
+                title: 'roadMap App',
+                body: 'Let\'s learn some code',
+                payload: 'roadMap.app');
             _notificationsEnabled = value;
           });
         },
         activeColor: ApplicationColor.authIconColor,
-        secondary: const Icon(Icons.notifications_active_rounded,
+        secondary: const Icon(
+          Icons.notifications_active_rounded,
           color: ApplicationColor.textSubTitleColor,
         ),
       ),
