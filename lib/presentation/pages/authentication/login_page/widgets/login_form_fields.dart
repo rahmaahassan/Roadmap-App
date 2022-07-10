@@ -19,7 +19,24 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
     return BlocProvider(
       create: (BuildContext context) => AppLoginCubit(),
       child: BlocConsumer<AppLoginCubit, AppLoginStates>(
-          listener: (context, state) {},
+          listener: (context, state) {
+            if (state is AppLoginErrorState) {
+              showToast(
+                text: state.error,
+                state: ToastStates.ERROR,
+              );
+            }
+            if(state is AppLoginSuccessState)
+            {
+              SharedPreferenceUtils.saveData(
+                key: 'uId',
+                value: state.uId,
+              ).then((value)
+              {
+                Navigator.pushNamed(context, NavigationBarHome.routeName);
+              });
+            }
+          },
           builder: (context, state) {
             return Form(
               key: formKey,
@@ -29,65 +46,100 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     defaultFormField(
-                      controller: emailController,
-                      type: TextInputType.emailAddress,
-                      validate: (value) {
-                        if (value.isEmpty) {
-                          return 'please enter your email address';
-                        }
-                        return null;
-                      },
-                      label: 'Email',
-                      prefix: Icons.email_outlined
-                    ),
+                        controller: emailController,
+                        type: TextInputType.emailAddress,
+                        validate: (value) {
+                          if (value.isEmpty) {
+                            return 'please enter your email address';
+                          }
+                          return null;
+                        },
+                        label: 'Email',
+                        prefix: Icons.email_outlined),
                     SizedBox(
-                      height: 26.h,
+                      height: 25.h,
                     ),
                     defaultFormField(
-                      controller: passwordController,
-                      type: TextInputType.visiblePassword,
-                      suffix: AppLoginCubit.get(context).suffix,
-                      isPassword: AppLoginCubit.get(context).isPassword,
-                      suffixPressed: () {
-                        AppLoginCubit.get(context).changePasswordVisibility();
-                      },
-                      validate: (value) {
-                        if (value.isEmpty) {
-                          return 'please enter your password';
-                        }
-                        return null;
-                      },
-                      label: 'Password',
-                      prefix: Icons.lock_outline_rounded
+                        controller: passwordController,
+                        type: TextInputType.visiblePassword,
+                        suffix: AppLoginCubit.get(context).suffix,
+                        isPassword: AppLoginCubit.get(context).isPassword,
+                        suffixPressed: () {
+                          AppLoginCubit.get(context).changePasswordVisibility();
+                        },
+                        validate: (value) {
+                          if (value.isEmpty) {
+                            return 'please enter your password';
+                          }
+                          return null;
+                        },
+                        label: 'Password',
+                        prefix: Icons.lock_outline_rounded),
+                    SizedBox(
+                      height: 5.h,
+                    ),
+                    Align(
+                      alignment: Alignment.bottomRight,
+                      child: TextButton(
+                        onPressed: () => onTappedForgotBottom(context),
+                        child: Text(
+                          ApplicationTextValue.FOGOT_PASSWORD,
+                          style: TextStyle(
+                            fontWeight: ApplicationFont.bold,
+                            fontSize: 15.sp,
+                            color: ApplicationColor.white,
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
-                      height: 20.h,
+                      height: 25.h,
                     ),
                     InkWell(
-                      onTap: onTappedLoginWithGoogle,
+                      onTap: onTappedLoginBottom,
                       child: Container(
                         height: 66.h,
                         width: 342.w,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(4.r),
                             color: ApplicationColor.borderLoginColor),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            const FaIcon(
-                              FontAwesomeIcons.google,
-                              color: ApplicationColor.white,
-                            ),
-                            SizedBox(
-                              width: 14.h,
-                            ),
-                            const Text(
-                              ApplicationTextValue.LOGIN_WITH_GOOGLE,
-                              style: TextStyle(color: ApplicationColor.white),
-                            )
-                          ],
+                        child: const Center(
+                          child: Text(
+                            ApplicationTextValue.LOGIN_TAB,
+                            style: TextStyle(
+                                color: ApplicationColor.white,
+                                fontWeight: ApplicationFont.bold),
+                          ),
                         ),
                       ),
+                    ),
+                    SizedBox(
+                      height: 20.h,
+                    ),
+                    const Center(
+                        child: Text(
+                      ApplicationTextValue.OR_WITH_GOOGLE,
+                      style: TextStyle(color: Colors.grey),
+                    )),
+                    SizedBox(
+                      height: 20.h,
+                    ),
+                    FutureBuilder(
+                      future: AuthWithGoogle.initializeFirebase(),
+                      builder: (context, snapshot) {
+                        if (snapshot.hasError) {
+                          return const Text('Error initializing Firebase');
+                        } else if (snapshot.connectionState == ConnectionState.done) {
+                          return const Google_Bottom();
+                        }
+                        return const Center(
+                          child:  CircularProgressIndicator(
+                            valueColor: AlwaysStoppedAnimation<Color>(
+                              Colors.orange,
+                            ),
+                          ),
+                        );
+                      },
                     ),
                   ],
                 ),
@@ -97,7 +149,56 @@ class _LoginInFormFieldsState extends State<LoginInFormFields> {
     );
   }
 
+  void onTappedForgotBottom(BuildContext context) {
+    Navigator.pushNamed(context, ResetPasswordPage.routeName);
+  }
+
+  void onTappedLoginBottom() {
+    if (formKey.currentState!.validate()) {
+      AppLoginCubit.get(context).userLogin(
+        email: emailController.text,
+        password: passwordController.text,
+      );
+    }
+  }
+
   void onTappedLoginWithGoogle() {
     /// TODO
   }
+
+}
+
+
+void showToast({
+  required String text,
+  required ToastStates state,
+}) =>
+    Fluttertoast.showToast(
+      msg: text,
+      toastLength: Toast.LENGTH_LONG,
+      gravity: ToastGravity.BOTTOM,
+      timeInSecForIosWeb: 5,
+      backgroundColor: chooseToastColor(state),
+      textColor: Colors.white,
+      fontSize: 16.0,
+    );
+
+enum ToastStates { SUCCESS, ERROR, WARNING }
+
+Color chooseToastColor(ToastStates state) {
+  Color color;
+
+  switch (state) {
+    case ToastStates.SUCCESS:
+      color = Colors.green;
+      break;
+    case ToastStates.ERROR:
+      color = Colors.red;
+      break;
+    case ToastStates.WARNING:
+      color = Colors.amber;
+      break;
+  }
+
+  return color;
 }

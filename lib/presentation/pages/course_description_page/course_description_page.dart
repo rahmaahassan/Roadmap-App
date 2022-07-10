@@ -32,6 +32,13 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
             arrowColor: ApplicationColor.primaryColor,
           ),
         ),
+        widgets: [
+          IconButton(
+              onPressed: () {
+                print(course.id);
+              },
+              icon: const Icon(Icons.star_border))
+        ],
       ),
       body: Padding(
         padding: EdgeInsets.all(15.r),
@@ -58,7 +65,7 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
     );
   }
 
-  void initializeArguments(){
+  void initializeArguments() {
     final arguments = ModalRoute.of(context)!.settings.arguments as CourseModel;
     course = arguments;
   }

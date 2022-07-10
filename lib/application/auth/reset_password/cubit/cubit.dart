@@ -15,7 +15,6 @@ class ResetPasswordCubit extends Cubit<ResetPasswordStates> {
     required String repeatPassword,
 }) {
     emit(ResetPasswordLoadingState());
-
   }
 
   IconData suffix = Icons.visibility_off_outlined;

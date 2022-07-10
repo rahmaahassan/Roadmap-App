@@ -12,4 +12,13 @@ class AppSignUpErrorState extends AppSignUpStates {
   AppSignUpErrorState(this.error);
 }
 
+class CreateUserSuccessState extends AppSignUpStates {}
+
+class CreateUserErrorState extends AppSignUpStates
+{
+  final String error;
+
+  CreateUserErrorState(this.error);
+}
+
 class AppChangePasswordVisibilityState extends AppSignUpStates {}

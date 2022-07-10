@@ -49,6 +49,7 @@ android {
         applicationId "com.example.road_map_project"
         minSdkVersion 21
         targetSdkVersion 32
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }

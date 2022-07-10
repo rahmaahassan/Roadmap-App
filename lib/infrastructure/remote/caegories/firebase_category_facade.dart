@@ -63,6 +63,4 @@ class FirebaseCategoriesFacade implements ICategoryFacade {
       return List.empty(growable: true);
     }
   }
-
-
 }

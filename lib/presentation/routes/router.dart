@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:road_map_project/presentation/favorite_page/favorite_page.dart';
 import 'package:road_map_project/presentation/pages/authentication/auth_tab_bar.dart';
 import 'package:road_map_project/presentation/pages/on_boarding/on_boarding_screen.dart';
 import 'package:road_map_project/presentation/pages/splash_page/splash_page.dart';
@@ -19,6 +20,7 @@ class AppRouter {
     AuthTabBar.routeName: (context) => AuthTabBar(),
     SplashPage.routeName: (context) => const SplashPage(),
     AboutApplicationPage.routeName: (context) => const AboutApplicationPage(),
+    FavoritePage.routeName: (context) => const FavoritePage(),
     ResetPasswordPage.routeName: (context) => const ResetPasswordPage(),
     CourseDescriptionPage.routeName: (context) => const CourseDescriptionPage(),
     ArticleDetails.routeName: (context) => const ArticleDetails(),

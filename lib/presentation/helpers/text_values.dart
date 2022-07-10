@@ -39,33 +39,27 @@ class ApplicationTextValue{
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
-  /// ///////    Home Page    //////////////
-  static const String DESCRIPTION_APPBAR= '';
-
-  /// //////////////////////////////////////////
-  /// ////////////////////////////////////////
   /// ///////    Profile Page    //////////////
   static const String USER_NAME = 'Your Name';
   static const String RECEVIED_NOTIFICATION = 'Received Notification';
   static const String ABOUT_APP = 'About App';
   static const String LOGIN = 'Login';
+  static const String FAVORITE = 'Favorites';
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
   /// ///////    Log In Page    //////////////
-  static const String LOGIN_TAB = 'LOG IN';
+  static const String LOGIN_TAB = 'LOGIN';
   static const String SIGNUP_TAB = 'SIGN UP';
-  static const String LOGIN_HEADER = 'Log In to Account';
-  static const String LOGIN_WITH_GOOGLE = 'Log In with Google';
-  static const String LOGIN_WITH_FACEBOOK = 'Log In with Facebook';
+  static const String SIGNUP_BOTTOM = 'CREATE';
+  static const String LOGIN_HEADER = 'Login to Account';
   static const String FOGOT_PASSWORD = 'Forgot Password?';
+  static const String OR_WITH_GOOGLE = 'Or connect using';
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
   /// ///////    Sign Up Page    //////////////
   static const String SIGNUP_HEADER = 'Create Account';
-  static const String SIGNUP_WITH_GOOGLE = 'Sign Up with Google';
-  static const String SIGNUP_WITH_FACEBOOK = 'Sign Up with Facebook';
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
@@ -81,6 +75,11 @@ class ApplicationTextValue{
   /// ////////////////////////////////////////
   /// ///////    News Page    //////////////
   static const String NEWS_TITLE = 'News';
+
+  /// //////////////////////////////////////////
+  /// ////////////////////////////////////////
+  /// ///////    Favorite Page    //////////////
+  static const String FAVORITE_TITLE = 'Favorites';
 
   /// //////////////////////////////////////////
   /// /////////////////////////////////////////

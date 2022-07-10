@@ -25,7 +25,7 @@ class AboutApplicationPage extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: EdgeInsets.all(16.r),
+        padding: EdgeInsets.all(15.r),
         child: Column(
           children: [
             Text(

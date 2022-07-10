@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:road_map_project/presentation/favorite_page/favorite_page.dart';
 import 'package:road_map_project/presentation/pages/authentication/auth_tab_bar.dart';
 import 'package:road_map_project/presentation/theme/colors.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
@@ -16,7 +17,6 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -32,9 +32,9 @@ class _ProfilePageState extends State<ProfilePage> {
             SizedBox(
               height: 123.h,
             ),
-           const NotificationBottom(),
+            const NotificationBottom(),
             SizedBox(
-              height: 10.h,
+              height: 8.h,
             ),
             Padding(
               padding: EdgeInsets.only(left: 28.h),
@@ -59,7 +59,32 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),
             SizedBox(
-              height: 10.h,
+              height: 8.h,
+            ),
+            Padding(
+              padding: EdgeInsets.only(left: 28.h),
+              child: Row(
+                children: [
+                  const Icon(
+                    Icons.star_border,
+                    color: ApplicationColor.textSubTitleColor,
+                  ),
+                  SizedBox(width: 25.w),
+                  TextButton(
+                    child: Text(
+                      ApplicationTextValue.FAVORITE,
+                      style: TextStyle(
+                          color: ApplicationColor.textSubTitleColor,
+                          fontSize: 24.sp,
+                          fontWeight: ApplicationFont.regular),
+                    ),
+                    onPressed: onTappedFavoriteBottom,
+                  )
+                ],
+              ),
+            ),
+            SizedBox(
+              height: 8.h,
             ),
             Padding(
               padding: EdgeInsets.only(left: 28.h),
@@ -89,11 +114,15 @@ class _ProfilePageState extends State<ProfilePage> {
     );
   }
 
-   void onTappedAboutAppBottom() {
-     Navigator.pushNamed(context, AboutApplicationPage.routeName);
+  void onTappedAboutAppBottom() {
+    Navigator.pushNamed(context, AboutApplicationPage.routeName);
   }
 
   void onTappedLoginBottom() {
     Navigator.pushNamed(context, AuthTabBar.routeName);
+  }
+
+  void onTappedFavoriteBottom() {
+    Navigator.pushNamed(context, FavoritePage.routeName);
   }
 }

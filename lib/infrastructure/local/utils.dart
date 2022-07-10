@@ -32,4 +32,15 @@ class SharedPreferenceUtils {
 
   static Future<double> getDouble(String key) async =>
       (await getSharePref).getDouble(key) ?? 0.0;
+
+  static Future<bool> saveData({
+    required String key,
+    required dynamic value,
+  }) async {
+    if (value is String) return (await getSharePref).setString(key, value);
+    if (value is int) return (await getSharePref).setInt(key, value);
+    if (value is bool) return (await getSharePref).setBool(key, value);
+
+    return (await getSharePref).setDouble(key, value);
+  }
 }
