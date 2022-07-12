@@ -6,7 +6,7 @@
       {
         "id": "Python",
         "title": "Python",
-        "image": "https://drive.google.com/uc?export=view&id=1L3Wd3eBqXPfNMR5UCv2mKOaE-vWcmUJ0",
+        "image": "https://drive.google.com/uc?export=view&id=1gyDjbj1bBwOgYKd7ACt5Oj2bjzTu_L7J",
         "description": "Python is a general-purpose coding language — which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development.",
         "steps": [
           {
@@ -94,7 +94,7 @@
       {
         "id": "Java",
         "title": "Java",
-        "image": "https://drive.google.com/uc?export=view&id=1XhDkA3dnHUzmlUbWxsIbtfF5t53WXE7d",
+        "image": "https://drive.google.com/uc?export=view&id=1PLFo5X4gHbOohF620ENIfzJZAvKD3Uw6",
         "description": "Java is a widely used object-oriented programming language and software platform\n that runs on billions of devices, including notebook computers, mobile devices,\n gaming consoles, medical devices and many others. The rules and syntax of Java are based\n on the C and C++ languages",
         "steps": [
           {
@@ -246,7 +246,7 @@
       {
         "id": "C",
         "title": "C",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1ucfSmZ1GtYgjk1cUO83IpObQfW7KoUWN",
         "description": "C is a general-purpose programming language that is extremely popular, simple, and flexible to use. It is a structured programming language that is machine-independent and extensively used to write various applications, Operating Systems like Windows, and many other complex programs like Oracle database, Git, Python interpreter, and more.\n",
         "steps": [
           {
@@ -326,7 +326,7 @@
       {
         "id": "C++",
         "title": "C++",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1Y_aw4L2NJrfbnb4-C-6zIteQWlzz2Upv",
         "description": "Java is a widely used object-oriented programming language and software platform\nthat runs on billions of devices, including notebook computers, mobile devices,\ngaming consoles, medical devices and many others. The rules and syntax of Java are based\non the C and C++ languages.",
         "steps": [
           {
@@ -946,7 +946,7 @@
       {
         "id": "Excel",
         "title": "Excel",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1wi9O_19mgIauI_dJL9pDd552pzvcBlcM",
         "description": "Excel is one of the widely used tools for data processing and analysis by data analysts. We may have many other tools to work with data, but to date, Excel has its importance.\n",
         "steps": [
           {
@@ -978,7 +978,7 @@
       {
         "id": "SQL",
         "title": "SQL",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1EvtK0ezGReIuPYcg0G-KiVEP66QRtyQ2",
         "description": "No one other than a working data analyst can tell us more about the importance of using SQL in the analysis. As an analyst, you should be also familiar with databases and their management. You have to perform the CRUD operations on the company’s database. For this purpose, there is no other tool as flexible and scalable as SQL.\n",
         "steps": [
           {
@@ -1002,7 +1002,7 @@
       {
         "id": "Business Intelligence Tools",
         "title": "BI tools",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1JymZnzWJ0GC3InSufoM9g0busyNMmwru",
         "description": "Business intelligence or BI tools are the most used tools for business analysts and data analysts. You can work on them using Python, R, and SQL as well.\n\nThe BI is mostly used for dashboarding, report making, and for data visualisation. Some of the top BI tools for you in 2022 are Tableau, PowerBL, and Looker.\n",
         "steps": [
           {
@@ -1294,7 +1294,7 @@
       {
         "id": "Python",
         "title": "Python",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1gyDjbj1bBwOgYKd7ACt5Oj2bjzTu_L7J",
         "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.",
         "steps": [
           {
@@ -1344,7 +1344,7 @@
       {
         "id": "Linux",
         "title": "Linux",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1TyxN2zogkQCI65ahxDtglQcZCqQ1lX50",
         "description": "Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.",
         "steps": [
           {
@@ -1472,7 +1472,7 @@
       {
         "id": "Tensorflow",
         "title": "Tensorflow",
-        "image": "",
+        "image": "https://drive.google.com/uc?export=view&id=1LDc8nBVpjTRpR9Qvc3UYWi3FMfLWYVMG",
         "description": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor- Flow uses data flow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous “parameter server” designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research.",
         "steps": [
           {

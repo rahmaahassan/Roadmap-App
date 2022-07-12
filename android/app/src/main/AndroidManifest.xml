@@ -23,7 +23,7 @@
         </intent>
     </queries>
    <application
-        android:label="roadmap"
+        android:label="Roadmap"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
