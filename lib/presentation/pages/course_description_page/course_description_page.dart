@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:road_map_project/domain/course_model.dart';
+import 'package:road_map_project/infrastructure/local/manager.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
 
+import '../../../application/categories/categories_cubit.dart';
 import '../../theme/colors.dart';
 import '../shared_widgets/shared_widgets.dart';
 import 'widgets/widgets.dart';
 
 class CourseDescriptionPage extends StatefulWidget {
   static const routeName = '/course-description-page';
+  CourseModel? course;
+  Function? callBack;
 
-  const CourseDescriptionPage({Key? key}) : super(key: key);
+   CourseDescriptionPage({Key? key, this.callBack, this.course}) : super(key: key);
 
   @override
   State<CourseDescriptionPage> createState() => _CourseDescriptionPageState();
@@ -18,6 +23,7 @@ class CourseDescriptionPage extends StatefulWidget {
 
 class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
   late CourseModel course;
+  Function? callBack;
 
   @override
   Widget build(BuildContext context) {
@@ -34,10 +40,21 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
         ),
         widgets: [
           IconButton(
-              onPressed: () {
-                print(course.id);
+              onPressed: () async {
+                if(LocalDatabaseManager.favoriteCourses
+                    .any((element) => element.id == course.id)) {
+                 await context.read<CategoriesCubit>().removeCourseFromFavorites(course.id);
+                } else {
+                  await context.read<CategoriesCubit>().addCourseToFavorites(course);
+                }
+                setState((){
+                  widget.callBack;
+                });
               },
-              icon: const Icon(Icons.star_border))
+              icon: LocalDatabaseManager.favoriteCourses
+                      .any((element) => element.id == course.id)
+                  ? const Icon(Icons.star)
+                  : const Icon(Icons.star_border))
         ],
       ),
       body: Padding(
@@ -66,7 +83,12 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
   }
 
   void initializeArguments() {
-    final arguments = ModalRoute.of(context)!.settings.arguments as CourseModel;
-    course = arguments;
+    final arguments = ModalRoute.of(context)!.settings.arguments as Map;
+
+    if(arguments.isEmpty){
+      course = widget.course!;
+    }
+    course = arguments["course"];
+    callBack = arguments["callBack"];
   }
 }

@@ -116,7 +116,7 @@ class _AuthFormFieldsState extends State<SignupFormFields> {
                         if (snapshot.hasError) {
                           return const Text('Error initializing Firebase');
                         } else if (snapshot.connectionState == ConnectionState.done) {
-                          return const Google_Bottom();
+                          return const GoogleBottom();
                         }
                         return const Center(
                           child:  CircularProgressIndicator(

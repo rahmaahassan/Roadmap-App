@@ -20,9 +20,9 @@ class AppRouter {
     AuthTabBar.routeName: (context) => AuthTabBar(),
     SplashPage.routeName: (context) => const SplashPage(),
     AboutApplicationPage.routeName: (context) => const AboutApplicationPage(),
-    FavoritePage.routeName: (context) => const FavoritePage(),
+    FavoritePage.routeName: (context) =>  FavoritePage(),
     ResetPasswordPage.routeName: (context) => const ResetPasswordPage(),
-    CourseDescriptionPage.routeName: (context) => const CourseDescriptionPage(),
+    CourseDescriptionPage.routeName: (context) => CourseDescriptionPage(),
     ArticleDetails.routeName: (context) => const ArticleDetails(),
     NavigationBarHome.routeName: (context) => const NavigationBarHome(),
   };

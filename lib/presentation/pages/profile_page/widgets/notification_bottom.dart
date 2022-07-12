@@ -15,6 +15,7 @@ class _NotificationBottomState extends State<NotificationBottom> {
     super.initState();
     NotificationApi.init();
     listenNotification();
+    _notificationsEnabled = LocalDatabaseManager.notificationBottomValue;
   }
 
   void listenNotification() =>
@@ -36,13 +37,16 @@ class _NotificationBottomState extends State<NotificationBottom> {
               fontWeight: ApplicationFont.regular),
         ),
         value: _notificationsEnabled,
-        onChanged: (bool value) {
+        onChanged: (bool value) async {
+
+         await LocalDatabaseManager.setNotificationBottomValue(value);
+
+          if(value) {
+            NotificationApi.activateDailyNotification();
+          }
+          _notificationsEnabled = value;
           setState(() {
-            NotificationApi.showNotification(
-                title: 'roadMap App',
-                body: 'Let\'s learn some code',
-                payload: 'roadMap.app');
-            _notificationsEnabled = value;
+
           });
         },
         activeColor: ApplicationColor.authIconColor,

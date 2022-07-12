@@ -1,13 +1,13 @@
 part of '../../presentation/pages/authentication/sign_up_page/widgets/widgets.dart';
 
-class Google_Bottom extends StatefulWidget {
-  const Google_Bottom({Key? key}) : super(key: key);
+class GoogleBottom extends StatefulWidget {
+  const GoogleBottom({Key? key}) : super(key: key);
 
   @override
-  State<Google_Bottom> createState() => _Google_BottomState();
+  State<GoogleBottom> createState() => _GoogleBottomState();
 }
 
-class _Google_BottomState extends State<Google_Bottom> {
+class _GoogleBottomState extends State<GoogleBottom> {
   bool _isSigningIn = false;
 
   @override

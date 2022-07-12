@@ -38,7 +38,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   }
 
   void submit() {
-    context.read<CategoriesCubit>().applicationStarted();
+    context.read<CategoriesCubit>().setIsFirstTime();
     Navigator.pushNamed(context, NavigationBarHome.routeName);
   }
 }

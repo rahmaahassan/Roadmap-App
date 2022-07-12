@@ -26,10 +26,10 @@ class CourseModel {
   }
 
   factory CourseModel.fromJson(Map<String, dynamic> data) {
-    final String id = data['id'] as String;
-    final String title = data['title'] as String;
-    final String image = data['image'] as String;
-    final String description = data['description'] as String;
+    final String id = data['id'] ?? "";
+    final String title = data['title'] ?? "";
+    final String image = data['image'] ?? "";
+    final String description = data['description'] ?? "";
     final List<StepModel> steps = data['steps']
         .map<StepModel>((step) => StepModel.fromJson(step))
         .toList() as List<StepModel>;

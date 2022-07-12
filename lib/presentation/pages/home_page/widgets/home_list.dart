@@ -29,8 +29,11 @@ class HomeList extends StatelessWidget {
                           itemBuilder: (context, courseIndex) => InkWell(
                             onTap: () => Navigator.pushNamed(
                                 context, CourseDescriptionPage.routeName,
-                                arguments: state.categories[categoryIndex]
-                                    .courses[courseIndex]),
+                                arguments: {
+                                 "course": state.categories[categoryIndex]
+                                    .courses[courseIndex],
+                                }
+                            ),
                             borderRadius: BorderRadius.circular(25.r),
                             child: Padding(
                               padding: EdgeInsets.all(8.r),

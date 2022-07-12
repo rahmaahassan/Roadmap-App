@@ -69,7 +69,7 @@ class _SearchPageState extends State<SearchPage> {
                             onTap: () =>
                                 Navigator.pushNamed(
                                     context, CourseDescriptionPage.routeName,
-                                    arguments: course),
+                                    arguments: {"course": course}),
                             customBorder: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(25.r),
                             ),
@@ -96,61 +96,6 @@ class _SearchPageState extends State<SearchPage> {
             );
           }
         }
-        // List<Widget?>? searchData = courses.map<Widget?>((course) {
-        //   return searchString.isNotEmpty &&
-        //           course.title
-        //               .toLowerCase()
-        //               .contains(searchString.toLowerCase())
-        //       ? Padding(
-        //           padding: EdgeInsets.only(top: 20.r, right: 20.w, left: 20.w),
-        //           child: Container(
-        //               width: 369.w,
-        //               height: 60.h,
-        //               decoration: BoxDecoration(
-        //                   borderRadius: BorderRadius.circular(25.r),
-        //                   border: Border.all(
-        //                       color: ApplicationColor.navDisActiveBottom)),
-        //               child: Row(
-        //                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        //                 crossAxisAlignment: CrossAxisAlignment.center,
-        //                 children: [
-        //                   Padding(
-        //                     padding: EdgeInsets.only(left: 18.w),
-        //                     child: Text(course.title,
-        //                         style: TextStyle(
-        //                             color: ApplicationColor.textSubTitleColor,
-        //                             fontWeight: ApplicationFont.regular,
-        //                             fontSize: 23.sp)),
-        //                   ),
-        //                   InkWell(
-        //                     onTap: () => Navigator.pushNamed(
-        //                         context, CourseDescriptionPage.routeName,
-        //                         arguments: course),
-        //                     customBorder: RoundedRectangleBorder(
-        //                       borderRadius: BorderRadius.circular(25.r),
-        //                     ),
-        //                     child: Padding(
-        //                       padding: EdgeInsets.all(14.r),
-        //                       child: Container(
-        //                           width: 30.w,
-        //                           height: 30.h,
-        //                           decoration: BoxDecoration(
-        //                             borderRadius: BorderRadius.circular(25.r),
-        //                             color: ApplicationColor.textSubTitleColor,
-        //                           ),
-        //                           child: Center(
-        //                               child: Icon(
-        //                             Icons.arrow_forward_rounded,
-        //                             color: ApplicationColor.primaryColor,
-        //                             size: 30.r,
-        //                           ))),
-        //                     ),
-        //                   )
-        //                 ],
-        //               )),
-        //         )
-        //       : null;
-        // }).toList();
         return SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.only(

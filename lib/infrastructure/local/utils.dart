@@ -20,7 +20,6 @@ class SharedPreferenceUtils {
 
   static Future<String> getString(
     String key,
-    dynamic value,
   ) async =>
       (await getSharePref).getString(key) ?? "";
 
