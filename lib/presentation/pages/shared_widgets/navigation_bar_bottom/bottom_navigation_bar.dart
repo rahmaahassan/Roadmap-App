@@ -36,7 +36,7 @@ class AppBottomNavigationBar extends StatelessWidget {
                 icon: Icon(Icons.search),
                 label: ApplicationTextValue.NAVIGATION_BAR_SEARCH_LABEL),
             BottomNavigationBarItem(
-                icon: Icon(Icons.account_circle_sharp),
+                icon: Icon(Icons.settings),
                 label: ApplicationTextValue.NAVIGATION_BAR_PROFILE_LABEL),
           ],
         ),

@@ -14,7 +14,8 @@ class HomeList extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(state.categories[categoryIndex].title,
+                      Text(
+                          state.categories[categoryIndex].title,
                           style: TextStyle(
                               color: ApplicationColor.textSubTitleColor,
                               fontWeight: ApplicationFont.bold,

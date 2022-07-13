@@ -17,7 +17,7 @@ class CourseModel {
   Map<String, dynamic> toJson() {
     Map<String, dynamic> data = {
       "id": id,
-      "name": title,
+      "title": title,
       "image": image,
       "description": description,
       "steps": steps.map<Map<String, dynamic>>((step) => step.toJson()).toList(),

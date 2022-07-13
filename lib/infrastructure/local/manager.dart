@@ -16,6 +16,8 @@ class LocalDatabaseManager {
     favoriteCourses = await getFavoriteCourses();
     notificationBottomValue = await getNotificationBottomValue();
     // SharedPreferenceUtils.clearData();
+    // print(favoriteCourses.toString());
+    // print(favoriteCourses.first.toJson());
   }
 
   static Future<void> setIsFirstTime(bool val) async {
@@ -39,7 +41,7 @@ class LocalDatabaseManager {
 
   static Future<void> setFavoriteCourses(
       List<CourseModel> favoritesCourses) async {
-    favoriteCourses = favoritesCourses;
+    // favoriteCourses = favoritesCourses;
     String encodedList =
         json.encode(favoritesCourses.map((course) => course.toJson()).toList());
     await SharedPreferenceUtils.setString(
@@ -55,11 +57,11 @@ class LocalDatabaseManager {
 
     List<dynamic> decodedList = json.decode(x) as List<dynamic>;
 
-    List<CourseModel> favoriteCourses = List.empty(growable: true);
-    favoriteCourses.addAll(decodedList
+    List<CourseModel> favCourses = List.empty(growable: true);
+    favCourses.addAll(decodedList
         .map<CourseModel>((course) => CourseModel.fromJson(course))
         .toList());
 
-    return favoriteCourses;
+    return favCourses;
   }
 }

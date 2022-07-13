@@ -63,4 +63,34 @@ class FirebaseCategoriesFacade implements ICategoryFacade {
       return List.empty(growable: true);
     }
   }
+
+  @override
+  Future<Either<String, List<CategoryModel>>> get getCategoriesFirebase async{
+    List<CategoryModel>? categories = List.empty(growable: true);
+    try {
+
+      QuerySnapshot querySnapshot = await _firebaseFirestore.collection('categories').get();
+
+      // Get data from docs and convert map to List
+      final List<Map<String, dynamic>> allData = querySnapshot.docs.map(
+              (doc) => doc.data() as Map<String, dynamic>
+      ).toList();
+
+      categories.addAll(
+          allData.map(
+                  (category) => CategoryModel.fromJson(category)
+          )
+      );
+
+      categories.sort((a, b) {
+        bool comp = a.courses.length < b.courses.length;
+        return comp == true ? 1 : 0;
+      });
+
+      return right(categories);
+    }catch(e){
+      print('Err ${e.toString()}');
+      return left(e.toString());
+    }
+  }
 }

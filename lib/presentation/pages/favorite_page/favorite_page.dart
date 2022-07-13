@@ -5,9 +5,10 @@ import 'package:road_map_project/infrastructure/local/manager.dart';
 import 'package:road_map_project/presentation/helpers/presentation_helpers.dart';
 import 'package:road_map_project/presentation/pages/shared_widgets/shared_widgets.dart';
 
-import '../pages/course_description_page/course_description_page.dart';
-import '../theme/colors.dart';
-import '../theme/fonts.dart';
+import '../../theme/colors.dart';
+import '../../theme/fonts.dart';
+import '../course_description_page/course_description_page.dart';
+
 
 class FavoritePage extends StatefulWidget {
   static const routeName = '/favorite';
@@ -19,12 +20,6 @@ class FavoritePage extends StatefulWidget {
 }
 
 class _FavoritePageState extends State<FavoritePage> {
-
-  void callBack(){
-    print("xxxxxxxxxxxxxxxxxxxx");
-    setState((){
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,11 +35,11 @@ class _FavoritePageState extends State<FavoritePage> {
           ),
         ),
         body: LocalDatabaseManager.favoriteCourses.isNotEmpty
-            ? ListView.separated(
+            ? ListView.builder(
                 itemBuilder: (context, index) => Padding(
                   padding: EdgeInsets.only(right: 15.w, left: 15.w, top: 15.h),
                   child: GestureDetector(
-                    onTap: () {
+                    onTap: () async {
                       // Navigator.pushNamed(
                       //     context, CourseDescriptionPage.routeName,
                       //     arguments:
@@ -53,10 +48,11 @@ class _FavoritePageState extends State<FavoritePage> {
                       //     "callBack": ( ) => callBack(),
                       //     }
                       // );
-                      Navigator.push(context, MaterialPageRoute(builder: (_)=> CourseDescriptionPage(
-                        callBack: () => callBack(),
+                      await Navigator.push(context, MaterialPageRoute(builder: (_)=> CourseDescriptionPage(
                         course: LocalDatabaseManager.favoriteCourses[index],
                       )));
+
+                      setState((){});
                     },
                     child: Container(
                       height: 74.h,
@@ -74,7 +70,6 @@ class _FavoritePageState extends State<FavoritePage> {
                             imageUrl: LocalDatabaseManager
                                 .favoriteCourses[index].image,
 
-                            /// TODO
                             imageBuilder: (context, imageProvider) => Container(
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
@@ -160,9 +155,6 @@ class _FavoritePageState extends State<FavoritePage> {
                       ),
                     ),
                   ),
-                ),
-                separatorBuilder: (context, index) => SizedBox(
-                  height: 5.h,
                 ),
                 itemCount: LocalDatabaseManager.favoriteCourses.length,
               )

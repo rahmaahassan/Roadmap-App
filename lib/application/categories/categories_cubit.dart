@@ -20,7 +20,7 @@ class CategoriesCubit extends Cubit<CategoriesStates> {
     emit(CategoriesLoadingState());
 
     Either<String, List<CategoryModel>> failureOrSuccess =
-        await _iCategoriesFacade.getAllCategories;
+        await _iCategoriesFacade.getCategoriesFirebase;
 
     failureOrSuccess.fold(
       (err) => emit(CategoriesFailureState(err)), // ifLeft callback

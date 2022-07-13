@@ -17,7 +17,7 @@ class ApplicationTextValue{
   static const String NAVIGATION_BAR_HOME_LABEL = 'Home';
   static const String NAVIGATION_BAR_SEARCH_LABEL = 'Search';
   static const String NAVIGATION_BAR_NEWS_LABEL = 'News';
-  static const String NAVIGATION_BAR_PROFILE_LABEL = 'Profile';
+  static const String NAVIGATION_BAR_PROFILE_LABEL = 'Settings';
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////

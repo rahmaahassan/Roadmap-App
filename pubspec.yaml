@@ -46,37 +46,29 @@ dependencies:
 #  android: true
 #  ios: true
 #  color: "#195860"
-#  image_path: "assets/icons/app_icon.png"
+#  adaptive_icon_background: "#195860"
+#  adaptive_icon_foreground: "assets/icons/launcher_icon.png"
+#  image_path: "assets/icons/launcher_icon.png"
 #  remove_alpha_ios: true
 
+
 #flutter_native_splash:
-#  image: "assets/images/splash.png"
-#  android_12:
-#    image: "assets/images/splash.png"
 #  color: "#195860"
+#  image: assets/images/splash.png
+#  color_dark: "#195860"
+#  image_dark: assets/images/splash.png
+#
+#  android_12:
+#    image: assets/images/splash.png
+#    icon_background_color: "#195860"
+#    image_dark: assets/images/splash.png
+#    icon_background_color_dark: "#195860"
+#
+#  web: false
 #  android: true
 #  ios: true
 #  android_gravity: center
 #  fullscreen: true
-
-
-flutter_native_splash:
-  color: "#195860"
-  image: assets/images/splash.png
-  color_dark: "#195860"
-  image_dark: assets/images/splash.png
-
-  android_12:
-    image: assets/images/splash.png
-    icon_background_color: "#195860"
-    image_dark: assets/images/splash.png
-    icon_background_color_dark: "#195860"
-
-  web: false
-  android: true
-  ios: true
-  android_gravity: center
-  fullscreen: true
 
   cupertino_icons: ^1.0.2
 

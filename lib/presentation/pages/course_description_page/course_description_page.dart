@@ -83,12 +83,12 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
   }
 
   void initializeArguments() {
-    final arguments = ModalRoute.of(context)!.settings.arguments as Map;
+    final arguments = ModalRoute.of(context)!.settings.arguments as Map?;
 
-    if(arguments.isEmpty){
+    if(arguments == null){
       course = widget.course!;
+      return;
     }
     course = arguments["course"];
-    callBack = arguments["callBack"];
   }
 }
