@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.road_map_project">
+    package="com.rahma.road_map_project">
     <queries>
         <!-- If your app opens https URLs -->
         <intent>
@@ -22,6 +22,7 @@
             <data android:mimeType="*/*" />
         </intent>
     </queries>
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="Roadmap"
         android:name="${applicationName}"

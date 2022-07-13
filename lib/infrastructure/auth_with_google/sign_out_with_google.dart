@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../../presentation/pages/authentication/auth_tab_bar.dart';
-import '../../presentation/pages/authentication/sign_up_page/sign_up_page.dart';
 import 'auth_with_google.dart';
 
 class UserInfoScreen extends StatefulWidget {
