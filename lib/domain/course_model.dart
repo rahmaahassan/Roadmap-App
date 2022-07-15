@@ -1,3 +1,4 @@
+import 'mentor_model.dart';
 import 'step_model.dart';
 
 class CourseModel {
@@ -5,14 +6,16 @@ class CourseModel {
   final String title;
   final String image;
   final String description;
+  final MentorModel mentor;
   final List<StepModel> steps;
 
   CourseModel(
       {required this.id,
       required this.title,
       required this.image,
-       required this.description,
-       required this.steps});
+      required this.mentor,
+      required this.description,
+      required this.steps});
 
   Map<String, dynamic> toJson() {
     Map<String, dynamic> data = {
@@ -20,7 +23,9 @@ class CourseModel {
       "title": title,
       "image": image,
       "description": description,
-      "steps": steps.map<Map<String, dynamic>>((step) => step.toJson()).toList(),
+      "mentor": mentor.toJson(),
+      "steps":
+          steps.map<Map<String, dynamic>>((step) => step.toJson()).toList(),
     };
     return data;
   }
@@ -30,6 +35,7 @@ class CourseModel {
     final String title = data['title'] ?? "";
     final String image = data['image'] ?? "";
     final String description = data['description'] ?? "";
+    final MentorModel mentor = MentorModel.fromJson(data['mentor'] ?? {});
     final List<StepModel> steps = data['steps']
         .map<StepModel>((step) => StepModel.fromJson(step))
         .toList() as List<StepModel>;
@@ -39,6 +45,7 @@ class CourseModel {
       title: title,
       image: image,
       description: description,
+      mentor: mentor,
       steps: steps,
     );
   }

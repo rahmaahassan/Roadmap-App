@@ -68,8 +68,8 @@ class _FavoritePageState extends State<FavoritePage> {
                             height: 70.h,
                             width: 70.w,
                             imageUrl: LocalDatabaseManager
+                                .favoriteCourses[index].image.isEmpty ? "https://0.0.0.0/" : LocalDatabaseManager
                                 .favoriteCourses[index].image,
-
                             imageBuilder: (context, imageProvider) => Container(
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,

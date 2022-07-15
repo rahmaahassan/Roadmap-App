@@ -27,11 +27,12 @@ Widget buildArticleItem(NewsModel article, context) => InkWell(
             Hero(
               tag: article.image,
               child: CachedNetworkImage(
-                imageUrl: article.image,
+                imageUrl: article.image.isEmpty ? "https://0.0.0.0/" : article.image,
                 width: 120.w,
                 height: 120.h,
                 imageBuilder: (context, imageProvider) => Container(
                   decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10.r),
                     image: DecorationImage(
                       image: imageProvider,
                       //AssetImage(PresentationAssetPath.ACTIVITY_DEFAULT),

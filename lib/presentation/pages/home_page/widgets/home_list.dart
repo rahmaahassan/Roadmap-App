@@ -14,8 +14,7 @@ class HomeList extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                          state.categories[categoryIndex].title,
+                      Text(state.categories[categoryIndex].title,
                           style: TextStyle(
                               color: ApplicationColor.textSubTitleColor,
                               fontWeight: ApplicationFont.bold,
@@ -31,10 +30,9 @@ class HomeList extends StatelessWidget {
                             onTap: () => Navigator.pushNamed(
                                 context, CourseDescriptionPage.routeName,
                                 arguments: {
-                                 "course": state.categories[categoryIndex]
-                                    .courses[courseIndex],
-                                }
-                            ),
+                                  "course": state.categories[categoryIndex]
+                                      .courses[courseIndex],
+                                }),
                             borderRadius: BorderRadius.circular(25.r),
                             child: Padding(
                               padding: EdgeInsets.all(8.r),
@@ -44,6 +42,7 @@ class HomeList extends StatelessWidget {
                                     height: 70.h,
                                     width: 70.w,
                                     imageUrl: state.categories[categoryIndex]
+                                        .courses[courseIndex].image.isEmpty ? "https://0.0.0.0/" : state.categories[categoryIndex]
                                         .courses[courseIndex].image,
                                     imageBuilder: (context, imageProvider) =>
                                         Container(

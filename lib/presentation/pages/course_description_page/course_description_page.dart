@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:road_map_project/domain/course_model.dart';
 import 'package:road_map_project/infrastructure/local/manager.dart';
 import 'package:road_map_project/presentation/theme/fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../application/categories/categories_cubit.dart';
 import '../../theme/colors.dart';
@@ -15,7 +16,8 @@ class CourseDescriptionPage extends StatefulWidget {
   CourseModel? course;
   Function? callBack;
 
-   CourseDescriptionPage({Key? key, this.callBack, this.course}) : super(key: key);
+  CourseDescriptionPage({Key? key, this.callBack, this.course})
+      : super(key: key);
 
   @override
   State<CourseDescriptionPage> createState() => _CourseDescriptionPageState();
@@ -41,13 +43,17 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
         widgets: [
           IconButton(
               onPressed: () async {
-                if(LocalDatabaseManager.favoriteCourses
+                if (LocalDatabaseManager.favoriteCourses
                     .any((element) => element.id == course.id)) {
-                 await context.read<CategoriesCubit>().removeCourseFromFavorites(course.id);
+                  await context
+                      .read<CategoriesCubit>()
+                      .removeCourseFromFavorites(course.id);
                 } else {
-                  await context.read<CategoriesCubit>().addCourseToFavorites(course);
+                  await context
+                      .read<CategoriesCubit>()
+                      .addCourseToFavorites(course);
                 }
-                setState((){
+                setState(() {
                   widget.callBack;
                 });
               },
@@ -74,6 +80,39 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
               SizedBox(
                 height: 10.h,
               ),
+              course.mentor.url.isNotEmpty
+                  ? Padding(
+                    padding: EdgeInsets.only(bottom: 10.h),
+                    child: Row(
+                      children: [
+                        Text(
+                          "If you have any question you can ask ",
+                          style: TextStyle(
+                            fontSize: 16.sp,
+                            fontWeight: ApplicationFont.regular,
+                            color: ApplicationColor.textSubTitleColor,
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () async {
+                            if (!await launchUrl(Uri.parse(course.mentor.url))) {
+                              throw 'Could not launch book link';
+                            }
+                          },
+                          child: Text(
+                            course.mentor.name,
+                            style: TextStyle(
+                              fontSize: 16.sp,
+                              fontWeight: ApplicationFont.bold,
+                              color: ApplicationColor.white,
+                                decoration: TextDecoration.underline
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  )
+                  : Container(),
               TileList(steps: course.steps)
             ],
           ),
@@ -85,7 +124,7 @@ class _CourseDescriptionPageState extends State<CourseDescriptionPage> {
   void initializeArguments() {
     final arguments = ModalRoute.of(context)!.settings.arguments as Map?;
 
-    if(arguments == null){
+    if (arguments == null) {
       course = widget.course!;
       return;
     }

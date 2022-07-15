@@ -15,7 +15,6 @@ class PresentationAssetPath{
   static const String ARTICLE_DEFAULT = "assets/images/article.jpg";
 
   /// ///////        icons           ///////
-  static const String BACK_ICON = "assets/icons/back.svg";
   static const String PROFILE_AVATAR = "assets/icons/profile.svg";
   static const String ADD_PERSON_ICON = "assets/icons/add_person_icon.svg";
 
